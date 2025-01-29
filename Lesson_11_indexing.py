@@ -10,5 +10,8 @@ print(credit_number[5:]) # if we want to display the rest of the string, give on
 print(credit_number[-1]) # -1 means starting from the end
 print(credit_number[::2]) # print every 2nd character
 
-last_digits = credit_number[-4:]
+last_digits = credit_number[-4:] # displaying the last 4 digits using negative index
 print(f"XXXX-XXXX-XXXX-{last_digits}")
+
+credit_number = credit_number[::-1] # negative index as steps - displays string backwards
+print(credit_number)

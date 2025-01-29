@@ -13,8 +13,7 @@ phone_number = input("Enter your phone number: ")
 # name = name.lower() - all lower case characters
 # name.isdigit() - is the variable consist of all digits - return boolean
 # restult = name.isalpha() - return boolean depending if variable only consists of alphabetical char
+# result = phone_number.count("-") - counts characters
+# phone_number = phone_number.replace("-", " ") - replace characters with given alternatives
 
-result = phone_number.count("-")
-
-
-print(result)
+# print(help(str)) - lists all the string methods
