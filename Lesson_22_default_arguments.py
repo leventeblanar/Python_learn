@@ -13,10 +13,10 @@ def net_price(list_price, discount=0, tax=0.05):
 
 import time
 
-def count(start, end):
+def count(end, start=0):  # switched places because of the logical positioning
     for x in range(start, end+1):
         print(x)
         time.sleep(1)
     print("Done")
 
-count(0, 10)
+count(10)  # the problem is that default arguments have to be positioned at the end of the line as the input values would be overwriting them

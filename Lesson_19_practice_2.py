@@ -31,4 +31,4 @@ while playing:
     if not input("Play again? (y/n): ").lower() == "y":
         playing = False
 
-print("Thanks for playing")
+print("Thanks for playing!")

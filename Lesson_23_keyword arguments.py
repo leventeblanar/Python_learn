@@ -17,6 +17,6 @@ def hello(greeting, title, first, last):
 def get_phone(country, area, first, last):
     return f"{country}-{area}-{first}-{last}"
 
-phone_num = get_phone(country=+36, area=70, first=307, last=1340,)
+phone_num = get_phone(country=36, area=70, first=307, last=1340,)
 
 print(phone_num)
