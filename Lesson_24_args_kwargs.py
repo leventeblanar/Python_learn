@@ -51,6 +51,6 @@ shipping_label("Dr.", "Spongebob", "Harold", "Squarepants", "III",
                street="123 Fake street", 
                city="Detroit",
                apt="",
-               pobox="PO box #1001"
+               pobox="PO box #1001",
                state="MI", 
                zip="54123")
