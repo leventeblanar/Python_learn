@@ -13,11 +13,33 @@
 # else:
 #     print(f"{letter} was not found")
 
-students = {"Spongebob", "Patrick", "Sandy"}
+# students = {"Spongebob", "Patrick", "Sandy"}
 
-student = input("Enter the name of a student: ")
+# student = input("Enter the name of a student: ")
 
-if student in students:
-    print(f"{student} is a student")
+# if student in students:
+#     print(f"{student} is a student")
+# else:
+#     print(f"{student} was not found")
+
+# grades = {"Sandy": "A",
+#           "Squidward": "B",
+#          "Spongebob": "C",
+#          "Patric": "D"}
+#
+# student = input("Enter the name of a student: ")
+# 
+# if student in grades:
+#     print(f"{student}'s grade is {grades[student]}")
+# else:
+#     print(f"{student} was not found")
+
+
+
+email = "BroCode@gmail.com"
+
+if "@" in email and "." in email:
+    print("Valid email")
 else:
-    print(f"{student} was not found")
+    print("Invalid email")
+
