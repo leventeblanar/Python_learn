@@ -1,7 +1,7 @@
 import pandas as pd
 from sqlalchemy import create_engine, exc
 
-query = """SELECT * FROM album"""
+
 
 def get_engine():    
 
@@ -14,6 +14,8 @@ def get_engine():
         return None
 
 def run_query():
+
+    query = """SELECT * FROM album"""
 
     try:
         engine = get_engine()
@@ -43,18 +45,17 @@ def tasks():
         with engine.connect() as connection:
             df1 = pd.read_sql(df1_query, connection)
             df2 = pd.read_sql(df2_query, connection)
+        
+        num_customers = df2.groupby('support_rep_id', as_index=False)['customer_id'].count()
 
-            num_customers = df2.groupby('support_rep_id', as_index=False)['customer_id'].count()
+        merge_df = num_customers.merge(df1, left_on="support_rep_id", right_on="employee_id", how="inner")
 
-            merged_df = num_customers.merge(df1, left_on='support_rep_id', right_on='employee_id', how='inner')
+        most_clients_id = merge_df['customer_id'].idxmax()
+        most_clients = merge_df.loc[most_clients_id]
 
-            most_clients_id = merged_df['customer_id'].idxmax()
-            most_clients = merged_df.loc[most_clients_id]
+        full_name = f"{most_clients['first_name']} {most_clients['last_name']}"
 
-            full_name = f"{most_clients['first_name']} {most_clients['last_name']}"
-            total_spent = most_clients 
-
-            print(f"A legtöbbet dolgozó alkalmazott: {full_name} ({most_clients['customer_id']} ügyfél)")
+        print(f"A letöbbet dolgozó alkalmazott: {full_name} ({most_clients['customer_id']} ügyfél)")
 
 
 
@@ -94,3 +95,8 @@ if __name__ == '__main__':
             # print('Összes vásárlás országonként:')
             # print(df)
             #******************************************************************
+
+
+
+
+
