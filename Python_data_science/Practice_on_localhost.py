@@ -15,7 +15,7 @@ def get_engine():
 
 def run_query():
 
-    query = """SELECT * FROM album"""
+    query = """SELECT * FROM customer"""
 
     try:
         engine = get_engine()
@@ -32,30 +32,30 @@ def run_query():
         print(f"Nem sikerült az adat kinyerése. Hiba: {e}")
         return None
 
-def tasks():
+# def tasks():
 
-    df1_query = """SELECT * FROM employee"""
+#     df1_query = """SELECT * FROM employee"""
 
-    df2_query = """SELECT * FROM customer"""
+#     df2_query = """SELECT * FROM customer"""
 
 
-    try:
-        engine = get_engine()
+#     try:
+#         engine = get_engine()
 
-        with engine.connect() as connection:
-            df1 = pd.read_sql(df1_query, connection)
-            df2 = pd.read_sql(df2_query, connection)
+#         with engine.connect() as connection:
+#             df1 = pd.read_sql(df1_query, connection)
+#             df2 = pd.read_sql(df2_query, connection)
         
-        num_customers = df2.groupby('support_rep_id', as_index=False)['customer_id'].count()
+#         num_customers = df2.groupby('support_rep_id', as_index=False)['customer_id'].count()
 
-        merge_df = num_customers.merge(df1, left_on="support_rep_id", right_on="employee_id", how="inner")
+#         merge_df = num_customers.merge(df1, left_on="support_rep_id", right_on="employee_id", how="inner")
 
-        most_clients_id = merge_df['customer_id'].idxmax()
-        most_clients = merge_df.loc[most_clients_id]
+#         most_clients_id = merge_df['customer_id'].idxmax()
+#         most_clients = merge_df.loc[most_clients_id]
 
-        full_name = f"{most_clients['first_name']} {most_clients['last_name']}"
+#         full_name = f"{most_clients['first_name']} {most_clients['last_name']}"
 
-        print(f"A letöbbet dolgozó alkalmazott: {full_name} ({most_clients['customer_id']} ügyfél)")
+#         print(f"A letöbbet dolgozó alkalmazott: {full_name} ({most_clients['customer_id']} ügyfél)")
 
 
 
@@ -64,7 +64,8 @@ def tasks():
         return None
 
 def main():
-    tasks()
+    # tasks()
+    run_query()
 
 if __name__ == '__main__':
     main()
