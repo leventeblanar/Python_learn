@@ -5,18 +5,18 @@ import os
 
 
 def decrypt():
-    password = code.get()  # read pw
+    password = code.get()
 
     if password == "1234":  
-        screen2 = Toplevel(screen)  # new window
-        screen2.title("decryption")  # title of window
-        screen2.geometry("400x200")  # size of window
-        screen2.configure(bg="#00bd56")  # background color
+        screen2 = Toplevel(screen)
+        screen2.title("decryption")
+        screen2.geometry("400x200")
+        screen2.configure(bg="#00bd56")
 
-        message = text1.get(1.0, END)  # read text from text field
-        decode_message = message.encode("ascii")  # ascii character encoding
-        base64_bytes = base64.b64decode(decode_message)  # Base64 decode
-        decrypt = base64_bytes.decode("ascii")  # turning back to text
+        message = text1.get(1.0, END)
+        decode_message = message.encode("ascii")
+        base64_bytes = base64.b64decode(decode_message) 
+        decrypt = base64_bytes.decode("ascii") 
 
         Label(screen2, text="DECRYPT", font="arial", fg="white", bg="#00bd56").place(x=10, y=0)
         text2 = Text(screen2, font="Robote 10", bg="white", relief=GROOVE, wrap=WORD, bd=0)  # new text field
@@ -61,15 +61,15 @@ def main_screen():
     global code
     global text1
     
-    screen = Tk()  # main window initialization
-    screen.geometry("375x398")  # size of main window
-    screen.title("PctApp")  # title of window
+    screen = Tk()
+    screen.geometry("375x398")
+    screen.title("PctApp")
 
    
     image_icon = PhotoImage(file="C:/Users/diefi/Documents/GitHub/Python_learn/Exercises_Projects/key.png")
     screen.iconphoto(False, image_icon)
 
-    # function to delete the text field on request
+    #
     def reset():
         code.set("") 
         text1.delete(1.0, END)
@@ -80,7 +80,7 @@ def main_screen():
     
     Label(text="Enter secret key for encryption and decryption", fg="black", font=("calibri", 13)).place(x=10, y=170)  # Címke a jelszóhoz
     
-    code = StringVar()  # pw variable
+    code = StringVar()
     Entry(textvariable=code, width=19, bd=0, font=("arial", 25), show="*").place(x=10, y=200)  # pw field - displays *
     
     
