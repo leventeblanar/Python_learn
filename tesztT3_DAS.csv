@@ -1,0 +1,6 @@
+,ID,K_NAPLO_TIPUS,K_PROGRAM_STATUSZ,K_PROGRAM_ALSTATUSZ,MEGJEGYZES,LEIRAS
+0,10,20,Feldolgozás alatt,Hiba,nincs ára - 1122334455667,Második teszt érték
+1,9,20,Kész,Elfogadva,nincs ára - 9876543210123,Második teszt érték
+2,8,70,Feldolgozás alatt,Hiba,789432156789,Hetedik teszt érték
+3,7,70,Ellenőrzés alatt,Elfogadva,1234567890123,Hetedik teszt érték
+4,6,20,Kész,Elfogadva,nincs ára - 5556667778889,Második teszt érték

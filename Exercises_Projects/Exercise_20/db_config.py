@@ -2,9 +2,9 @@ from sqlalchemy import create_engine, exc
 import psycopg2
 
 DAS_DB_CONFIG = {
-    "user": "lblanar",
-    "password": "*",
-    "host": "*",  # Az összes DAS adatbázis ezen a szerveren van
+    "user": "postgres",
+    "password": "Brutal.shred01",
+    "host": "localhost",  # Az összes DAS adatbázis ezen a szerveren van
     "port": "5432"
 }
 
@@ -22,11 +22,11 @@ def get_engine(database_name):
 def get_hermes_connection():
     try:
         conn = psycopg2.connect(
-                user = "lblanar",
-                password = "*",
-                host = "*",
-                dbname = "hermes",
-                port = "5434"
+                user = "postgres",
+                password = "Brutal.shred01",
+                host = "localhost",
+                dbname = "postgres",
+                port = "5432"
             )
         return conn
     except psycopg2.Error as e:
