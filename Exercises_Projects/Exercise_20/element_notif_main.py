@@ -65,7 +65,7 @@ def load_sent_entries(database_name):
     conn = get_hermes_connection()
     cur = conn.cursor()
 
-    print(f"📥 DEBUG: `load_sent_entries` fut {database_name}-ra.")
+    print(f"DEBUG: `load_sent_entries` fut {database_name}-ra.")
 
     cur.execute("""
         SELECT id, env_name, vonalkod, cikkszam 
@@ -75,7 +75,7 @@ def load_sent_entries(database_name):
 
     rows = cur.fetchall()
 
-    print(f"📤 DEBUG: {database_name}-ból betöltött sorok: {rows}")
+    print(f"DEBUG: {database_name}-ból betöltött sorok: {rows}")
 
     sent_entries = set()
     for row in rows:
@@ -88,19 +88,19 @@ def load_sent_entries(database_name):
     cur.close()
     conn.close()
 
-    print(f"🔎 Debug - Betöltött bejegyzések ({database_name}): {sent_entries}")
+    print(f"Debug - Betöltött bejegyzések ({database_name}): {sent_entries}")
     return sent_entries
 
 
 # func for saving the ids and the environments linked to them
 def save_sent_entries(new_entries, database_name):
     if not new_entries:
-        print("⚠️ Nincsenek új bejegyzések!")
+        print("Nincsenek új bejegyzések!")
         return
     
-    print(f"🔎 Debug - Beérkező adatok ({database_name}):")
+    print(f"Debug - Beérkező adatok ({database_name}):")
     for entry in new_entries:
-        print(f"📌 {entry}")
+        print(f"{entry}")
 
     conn = get_hermes_connection()
     cur = conn.cursor()
@@ -114,7 +114,7 @@ def save_sent_entries(new_entries, database_name):
     for entry in new_entries:
         # Ellenőrizzük, hogy az adat helyes-e
         if not isinstance(entry, tuple) or len(entry) < 4:
-            print(f"❌ HIBÁS ADAT: {entry}")
+            print(f"HIBÁS ADAT: {entry}")
             continue
 
         naplo_id, env_name, vonalkod, cikkszam = entry
@@ -125,12 +125,12 @@ def save_sent_entries(new_entries, database_name):
 
         # Ha nem létezik, akkor beszúrjuk
         cur.execute(insert_query, (naplo_id, env_name, vonalkod, cikkszam))
-        print(f"🆕 Új adat beszúrva: ID={naplo_id}, env_name={env_name}, vonalkod={vonalkod}, cikkszam={cikkszam}")
+        print(f"Új adat beszúrva: ID={naplo_id}, env_name={env_name}, vonalkod={vonalkod}, cikkszam={cikkszam}")
 
     conn.commit()
     cur.close()
     conn.close()
-    print("✅ Minden adatfeldolgozás befejezve!")
+    print("Minden adatfeldolgozás befejezve!")
 
 
 # func for checking the Kassza naplo and Konstans table - in case of not empy new_rows - send matrix message
