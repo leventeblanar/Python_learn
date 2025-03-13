@@ -1,0 +1,39 @@
+This is a draft for the book "Automate the boring stuff" by Al Sweigart
+# I am mostly drafting the terminology here and some additional small exercises
+
+
+1. Python Basics
+- Interactive shell - (eg.MU editor): app that lets you write code and run it, get the results back immediately
+  REPL (Read - Evaulate - Print Loop)
+
+- Expression (eg. 2 + 2): the most basic kind of programming instruction in the language
+  Consists of: values(2) and operators(+ - * /) 
+  They can always EVALUATE(reduce) down to a single values
+  Order of operations is similar to mathematics
+
+- Error: programs will crash if they contain code the computer can't understand - Python shows an error message
+  This only means that the program stoppes running 
+
+- Data Types: a category for values and every value belongs to exactly one data Types (eg. Integer, Float, String, Boolean, etc.)
+  Integer: 42
+  Float: 3.14
+  Boolean: True
+  String "Fortytwo"
+
+- String Concatenation and Replication: meaning of an operator may change based on the data types of the balues next to it
+  eg. + in math = addition || + in text = joining strings
+  eg. * in math = multiplication || * in text = string replication (Alice * 5 = AliceAliceAliceAliceAlice)
+
+- Storing values in variables: variable is like a box in the computers memory to store a single value.
+  Expression results can be stored in variables.
+
+- Assignment Statements: consists of a variable name, an equal sign, and the value to be stored (eg. spam = 42)
+  A variable is initialized the first time a value is store din it - after that it can be used in Expressions
+  Overwriting a variable: after being initialized, assigning a new value by simply calling it again like: spam =56
+
+- Variable Names:
+  A good variable describes the data it contains
+  There are naming conventions like: current_balance, currentBalance, account4, _42, TOTAL_SUM, hello
+  Variable names are case-sensitive: spam, SPAM, Spam and sPaM are four different variables
+
+- Comments: python ignores comments (like any other programming language) - notes for ourselves on the functions and sections
