@@ -2,6 +2,7 @@ import pandas as pd
 from sqlalchemy import create_engine, exc
 from openpyxl import load_workbook
 from openpyxl.styles import Font, PatternFill
+from datetime import datetime
 
 def get_engine_local():
 
@@ -64,6 +65,11 @@ def format_excel(excel_path):
     for cell in ws[1]:
         cell.font = header_font
         cell.fill = header_fill
+
+    timestamp = datetime.now().strftime("%Y-%m-%d %H:%M")
+    last_row = ws.max_row + 1
+    ws[f"A{last_row}"] = f"Report generated: {timestamp}"
+    ws[f"A{last_row}"].font = Font(italic=True, color="808080")
 
     wb.save(excel_path)
     wb.close()
