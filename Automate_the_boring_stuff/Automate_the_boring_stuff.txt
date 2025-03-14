@@ -5,6 +5,7 @@ Link: https://automatetheboringstuff.com/2e/chapter1/
 
 
 1. Python Basics
+
 - Interactive shell - (eg.MU editor): app that lets you write code and run it, get the results back immediately
   REPL (Read - Evaulate - Print Loop)
 
@@ -39,3 +40,59 @@ Link: https://automatetheboringstuff.com/2e/chapter1/
   Variable names are case-sensitive: spam, SPAM, Spam and sPaM are four different variables
 
 - Comments: python ignores comments (like any other programming language) - notes for ourselves on the functions and sections
+
+- The print() function: diplays the string value iside it's parentheses on the screen
+  Between the parentheses we pass ARGUMENTS
+
+- The input() function: waits for the user to type some text on the keyboard and press enter
+  an expression that evaluates to whatever string the user typed in
+
+- The len() function: evaluates to the integer value of the number of charaters in that string
+
+- The str(), int(), and float() functions: typecast functions to turn certain values with a certain type to a different one
+  Meaning that if you have 29 as an integer, with str() you can turn this into '29' as a string
+
+- flow control: the mechanizm that determines how a program should run certain processes.
+  This means that the program not always runs things in a linear order, but determined by conditions, cycles and jumps
+
+
+
+
+
+2. Flow control
+
+- Boolean values: only has two types of values: True or False
+  They are used in expressions and can be sotred in variables just like the other values
+
+- Comparison operators: also called relational operators, compare two values and evaluate down to a signle Boolean value
+  Opreators: ==, !=, <, >, <=, >=
+  These evaluate to be true or False
+  Don't mix the == (equal to) = (assignment op)
+
+- Boolean operators: and, or, not 
+  compare Boolean values, like comaprison opreators and they evaluate these expressions down to a Boolean value
+
+- Binary Boolean Opreators: the 'and' and 'or' operators always take two Boolean values, so they are considered binary operators
+  and - evaluates an expression to true if both boolean values are true
+  or - evaluates an expression to true if one of the boolean values are true
+  
+- NOT Opeartor: opreators on only one Boolean value (this makes it a unary operator)
+  Simply evaluates to the opposite boolean value
+
+MIXING BOOLEAN AND COMPARISON operators
+
+- Since comparison opreators avaulate to Boolean values, you can use them in expression swith Boolean opreators
+  boolean operators (and, or, not) mixed with experessions (eg. 4 < 5)
+
+Elements of Flow control
+- Conditions: always evaluate dow to a boolean value, decides what to do based on whether its condition is true or false
+  almost every flow control statement uses a condition
+
+- Blocks of code: lines of code can be grouped together in Blocks
+  determine the start and end by the indentation of the code section
+  # Blocks begin when the indentation increases.
+  # Blocks can contain other blocks.
+  # Blocks end when the indentation decreases to zero or to a containing block’s indentation.
+
+- Program exectution
+  
