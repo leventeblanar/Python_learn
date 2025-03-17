@@ -94,5 +94,23 @@ Elements of Flow control
   # Blocks can contain other blocks.
   # Blocks end when the indentation decreases to zero or to a containing block’s indentation.
 
-- Program exectution
-  
+- Program exectution: is a term for the current instruction being executed. It is important that not every program executes from
+  top to bottom. 
+
+- Flow control Statements:
+        - If statements: will execute if the condition of the if statement is true, the clause is skipped if it is false
+                         consists of: if, a condition, a colon, indented block of code
+        - Else statements: if statements can be followed by else statements, only executed when if statement is false
+                            It does not have a condition as this is the last option after if
+        - Elif statements: Else if is the middle ground, has a condition and will be executed when if is false, but
+                            having a condition so can still evaluate as false, there can be as many elif statements as we wish
+                            It is important that the order of the elif statement is important
+                            
+        - while loop statements: make a code execute over and over, until the condition is True
+                                 Always has: while keyword, condition, colon, indented block of code
+
+        - for Loops and the range() Function: only executes a code a number of times (for i in range(5))
+                                              Always has: for keyword, a variable name, in keyword, range(), colon, idented block of code
+
+        - an equivalent while loop: we can set a while loop to do what a for loop does (While i < 5), this requires a variable that
+                                    can be overwriten so it once becames untrue for the condition
