@@ -114,3 +114,53 @@ Elements of Flow control
 
         - an equivalent while loop: we can set a while loop to do what a for loop does (While i < 5), this requires a variable that
                                     can be overwriten so it once becames untrue for the condition
+
+        - The Starting, Stopping, and Stepping Arguments to range(): some function can be called with multiple arguments separated by a comma,
+        range() is one of them - this lets you change the integer passed to range() to follow any sequence of integers, including starting at a number other then zero.
+        First arg.: where the for loop's variable starts
+        Second arg.: up to but not including the number to stop at
+        Third arg.: the step argument - the amount that the variable is increased by after each iteration
+
+Importing Modules:
+  - all python programs have built-in functions (eg. print(), input(), len()), python comes with standard library
+  - each module is a python program that contains a related group of functions that can be embeded in your programs (eg. math, random, time)
+  - to use these, we have to use the 'import' function on the beginning of our program
+
+  from import Statements: - this way we import only certain moduls from a library
+
+Ending a program early with the sys.exit() function
+  - program execution ends when it reaches the bottom of the isntructins
+  - we can end the program early with the sys.exit() function - we have to import the sys module for this one
+
+
+
+
+
+3. Function
+
+Functions are like mini programrs that an be compiled into a bigger, more complex one. We write functions and call them in the main() program
+to dictate the flow and direction of the program itself
+
+The process:
+  - def statement is the body of the function - this signes the definition of the program itself, when we call a program we only write the name of it
+  - when calling a function we write the name and a parentheses, and in the parentheses we can include arguments, that are received by the function
+  - when the program execuition reaches the call, it will jump tot the top line in the function
+  - MAIN GOAL of a function: group code that gets executed multiple times, without function you would need to copy and paste the program each time
+  - We have to avoid copying the code as if there is a change in it, you have to correct it in every place
+
+DEF statements with parameters: when we call functions we pass them values, called arguments
+  - parameters are variables that contain arguments, when a function is called with arg., the arg., stored in the parameters
+  - these values will be reset after the function is ended, program variables are gorgotten when the program terminates
+
+Define, Call, Pass, Argument, Parameters
+  - define: to create (eg. spam = 42)
+  - def sayHello() - the def defines the sayHello() function
+  - say Hello('Al') calls the now-created function
+  - ('Al') - passing the string value 'Al' to the function - Argument
+  - The argument 'Al' is assigned to a local variable named name. Variables that have arguments assigned to them are paramaters
+
+Return Values and Return Statements
+  - the value that a function call evaluates to is called the return value of the function
+  - we can specify what the return value should be within a function
+  - it consists of a 'return' keyword and the value or expression that the function should return
+  - 
