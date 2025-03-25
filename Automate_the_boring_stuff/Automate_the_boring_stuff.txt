@@ -1,7 +1,7 @@
 This is a draft for the book "Automate the boring stuff" by Al Sweigart
 # I am mostly drafting the terminology here and some additional small exercises
 
-Link: https://automatetheboringstuff.com/2e/chapter1/
+Link: https://automatetheboringstuff.com/2e/chapter3/
 
 
 1. Python Basics
@@ -163,4 +163,18 @@ Return Values and Return Statements
   - the value that a function call evaluates to is called the return value of the function
   - we can specify what the return value should be within a function
   - it consists of a 'return' keyword and the value or expression that the function should return
-  - 
+
+The None value
+  - represents the abscence of a value 
+  - the only balue of the NoneType data type
+  - helpful when you need to store something that won't be confsed for a real value in a variable
+  - one place where used is as the return value of print()
+  - Python adds 'return None' to the end of any function definition with no return statement
+  - if we use return statement without a value - None is returned
+
+KeyWord Arguments and the print() function:
+  - arguments are identified by their position in the function call
+    - random.randint(1, 10) - will return a random int between 1 - 10
+    - random.randint(10, 1) - error
+  - Keyword arguments identified by the keyword put before them in the function call
+  - often used for optional parameters (eg. print() - optinal parameters: end, sep)
