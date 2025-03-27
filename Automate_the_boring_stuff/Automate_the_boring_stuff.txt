@@ -204,3 +204,27 @@ Local and Global Scope
   - You can use the same name for different variables if they are in different scopes. 
   That is, there can be a local variable named spam and a global variable also named spam.
 
+  To sum it up:
+  - Local Variables Cannot Be Used in the Global Scope
+  - Local Scopes Cannot Use Variables in Other Local Scopes
+  - Global Variables Can Be Read from a Local Scope
+  - Local and Global Variables with the Same Name - can be done, but it is not adviseable
+
+The global Statement
+  - if we need to modify a global variable from within a function, we can use the 'global' statement
+  - having a line at the top of a function called 'global eggs' - means that in this function egg refers to the
+  global variable, so don't create a local variable with this name
+
+Functions as "Black Boxes"
+  - sometimes all we need to know about a function is its inputs(paramaters) and outputs
+  - treating a function like - "black box"
+  - this kind of means that in most cases we don't need to know how a function works if somebody else wrote it
+  we only need to know what we need to input into it, and what we get out of it
+
+Exception Handling
+  - running basic python programs - errors mean the program stops and crashes
+  - in complex programs we need this to be: detect error, handle, continue
+  - errors can be handled with TRY and EXCEPT statements - code with a potential error: in the try clause
+  Running into an error causes the program to look for the except clause and run that 
+      - for eg.: ZeroDivisionError - except clause: print('Error: Invalid argument.')
+      - after running into an error and moving to the except clause - the program will carry on and perform the next argument
