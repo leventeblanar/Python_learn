@@ -228,3 +228,6 @@ Exception Handling
   Running into an error causes the program to look for the except clause and run that 
       - for eg.: ZeroDivisionError - except clause: print('Error: Invalid argument.')
       - after running into an error and moving to the except clause - the program will carry on and perform the next argument
+
+A Short Program: Zigzag
+  
