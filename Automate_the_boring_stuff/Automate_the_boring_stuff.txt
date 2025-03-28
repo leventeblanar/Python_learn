@@ -229,5 +229,47 @@ Exception Handling
       - for eg.: ZeroDivisionError - except clause: print('Error: Invalid argument.')
       - after running into an error and moving to the except clause - the program will carry on and perform the next argument
 
-A Short Program: Zigzag
-  
+
+
+
+
+
+4. Lists
+
+The List Data Type
+  - A list is a value that contains multiple values in an ordered sequence
+  - list value: the list itself - not the values inside
+  - eg.: spam = ['cat', 'bat', 'rat', 'elephant']
+  - Values iside the list: items, separated by commas
+
+Getting Individual Values in a List with Indexes
+  - we store lists in variables 
+  - access the items in the lists by their indexes - meaning cat would be spam[0]
+  - Python will give us an error when the index is bigget then the actual number of items in a list
+
+Negative Indexes
+  - negative indexes start from the end of the list so -1 means the last items
+
+Getting a List from Another List with Slices
+  - a slice can get several values from a list in the form of a new list
+  - usage: typed between square brackets like and index but it has two integers separated by a colon
+
+Getting a List’s Length with the len() Function
+  - len() will return the number of values that in a list value passed to it
+  - eg.: spam = ['cat', 'dog', 'moose'] - len(spam)
+
+Changing Values in a List with Indexes
+  - we can use an index of a list to change the balue at that index
+  - reassiging goes like: spam[1] = 'aardvark' - we are changing the value at index 1 to aardvark
+
+List Concatenation and List Replication
+  - Lists can be concatenated and replicated just like strings. 
+  - Meaning that the + opreator combines two lists to create a new list value and the * opreator can be used with a list
+  and an integer value to replicate the list
+
+Removing Values from Lists with del Statements
+  - del statement will delete value at an index in a list
+  - all of the balues in the list after the deleted value will be moved up one index
+  - del spam[2]
+  - can also be used on a simple variable to delete it
+  - however we almost never need to delete simple variables - the del statement is mostly used for deleting itmes in lists
