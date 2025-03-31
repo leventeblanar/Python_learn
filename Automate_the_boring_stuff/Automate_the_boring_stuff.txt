@@ -320,4 +320,19 @@ Using the random.choice() and random.shuffle() Functions with Lists
 
 Augmented Assignment Operators
   - when assigning a value to a variable, you will frequently use the variable itself
+  - += (augmented assignment operator)
+  - spam = 42 / spam = spam +1 is the same as spam=42 / spam += 1
+  - we have these operators for all of the opreators like: +, -, *, / and %
+  - these can also do string and list concatenation and the *= opreator can do string and list replication
+
+Methods
+  - method is the same thing as a function, except it is "called on" a value
+  - for eg.: if a list value were stored in spam, you would call the index() list method
+  - the method part comes after the value, separated by a period
+  - each data type has its own set of methods - the list data type (eg.) has several useful ones like finding, adding, Removing
+
+Finding a Value in a List with the index() Method
+  - list values have an index() method that can be passed a value, and if that value exists in the list, the index of the value is returned
+  - if not in list - error: ValueError
+  - in case of duplicate list values: the index of its first appearance is returned
   
