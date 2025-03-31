@@ -273,3 +273,15 @@ Removing Values from Lists with del Statements
   - del spam[2]
   - can also be used on a simple variable to delete it
   - however we almost never need to delete simple variables - the del statement is mostly used for deleting itmes in lists
+
+  Working with Lists
+  - when working with lots of variables we stumble upon using a lot of similar ones
+  - eg. in book: having cats and defining the names foreach in separate variables is not something we want to do on the long run
+  - organizing these in lists is the way to go as a list named cat can store several items, elements
+  - the main advantage is that now our data is in a structure, which makes it way much easier to handle the data itself
+
+Using for Loops with Lists
+  - using a for loop on a list is a crucial part of structuring programs
+  - technically a for loop repears the code block once for each item in a list value
+  - this is because the return value from range(4) is a sequence value that Python considers similar to [0,1,2,3]
+  
