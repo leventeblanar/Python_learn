@@ -87,3 +87,15 @@ def format_excel():
         for i, col in enumerate(df.columns):
             max_length = max(df[col].astype(str).map(len).max(), len(col)) + 2
             worksheet.set_column(i, i, max_length)
+
+
+
+def check_json():
+
+    ## turning a json dict to Dataframe
+
+    with open(f'Bev_json/itemlist.json') as json_file:
+        bevetelezes_json = json.load(json_file)
+
+        bevetelezes_df = pd.DataFrame(bevetelezes_json['items'], columns=['qty', 'price', 'itemid'])
+        bevetelezes_df.columns = ['Quantity', 'Price', 'itemId']x
