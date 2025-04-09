@@ -1,5 +1,6 @@
 import pandas as pd
 import json
+import os
 
 def dict_to_json():
 
@@ -192,7 +193,7 @@ def join_national_dishtocombined4():
     for item in combined4_json:
         country = item.get('country')
         city = item.get('city')
-        currency_name = item.get('currency')
+        currency_name = item.get('currency_name')
         elevation = item.get('elevation')
         government = item.get('government')
         national_dish = item.get('national_dish')
@@ -213,7 +214,7 @@ def join_national_dishtocombined4():
         json.dump(combined_data5, f_out, indent=4, ensure_ascii=False)
 
 
-def format_to_Dataframe():
+def format_to_Dataframe_name_columns():
 
     with open('export/combined4_json.json', encoding='utf-8') as combined4:
         combined4_json = json.load(combined4)
@@ -223,5 +224,49 @@ def format_to_Dataframe():
 
     print(combined_df.head(10))
 
+def format_to_Dataframe_dynamic():
+
+    with open('export/combined5_json.json', encoding='utf-8') as combined5:
+        combined5_json = json.load(combined5)
+
+    combined_df = pd.DataFrame(combined5_json)
+
+    print(combined_df.head(10))
+
+
+def merge_json_files_atonce():  ### review this one!!!
+
+    mappa = 'src'
+
+    osszes_adat = {}
+
+    for file in os.listdir(mappa):
+        if file.endswith('.json'):
+            file_path = os.path.join(mappa,file)
+            with open(file_path, 'r', encoding='utf-8') as f:
+                adat = json.load(f)
+                
+                if isinstance(adat, list):
+                    for elem in adat:
+                        if 'country' in elem:
+                            country = elem['country']
+                            if country in osszes_adat:
+                                osszes_adat[country].update(elem)
+                            else:
+                                osszes_adat[country] = elem
+                        else:
+                            print(f'Hiba: nincs country kulcs ebben az elemben -> {file}')
+                elif isinstance(adat, dict):
+                    if country in osszes_adat:
+                        osszes_adat[country].update(adat)
+                    else:
+                        osszes_adat[country] = adat
+                else:
+                    print(f"Ismeretlen típusú adat a fájlban: {file}")
+    
+    with open('export/osszefuzott.json', 'w', encoding='utf-8') as outfile:
+        json.dump(osszes_adat, outfile, ensure_ascii=False, indent=2)
+    
+
 if __name__ == '__main__':
-    join_national_dishtocombined4()
+    merge_json_files_atonce()
