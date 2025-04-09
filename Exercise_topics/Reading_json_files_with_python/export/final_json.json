@@ -1,0 +1,1472 @@
+[
+    {
+        "country": "Afghanistan",
+        "city": "Kabul",
+        "currency_name": "Afghanistan Afghani",
+        "government": "Islamic Emirate"
+    },
+    {
+        "country": "Albania",
+        "city": "Tirana",
+        "currency_name": "Albanian Lek",
+        "government": "Republic"
+    },
+    {
+        "country": "Algeria",
+        "city": "Alger",
+        "currency_name": "Algerian Dinar",
+        "government": "Republic"
+    },
+    {
+        "country": "American Samoa",
+        "city": "Fagatogo",
+        "currency_name": "US Dollar",
+        "government": "US Territory"
+    },
+    {
+        "country": "Andorra",
+        "city": "Andorra la Vella",
+        "currency_name": "Euro",
+        "government": "Parliamentary Coprincipality"
+    },
+    {
+        "country": "Angola",
+        "city": "Luanda",
+        "currency_name": "Angolan Kwanza",
+        "government": "Republic"
+    },
+    {
+        "country": "Anguilla",
+        "city": "The Valley",
+        "currency_name": "East Caribbean Dollar",
+        "government": "Dependent Territory of the UK"
+    },
+    {
+        "country": "Antarctica",
+        "city": "",
+        "currency_name": "East Caribbean Dollar",
+        "government": "Co-administrated"
+    },
+    {
+        "country": "Antigua and Barbuda",
+        "city": "Saint John's",
+        "currency_name": "East Caribbean Dollar",
+        "government": "Constitutional Monarchy"
+    },
+    {
+        "country": "Argentina",
+        "city": "Buenos Aires",
+        "currency_name": "Argentine Peso",
+        "government": "Federal Republic"
+    },
+    {
+        "country": "Armenia",
+        "city": "Yerevan",
+        "currency_name": "Armenian Dram",
+        "government": "Republic"
+    },
+    {
+        "country": "Aruba",
+        "city": "Oranjestad",
+        "currency_name": "Aruban Guilder",
+        "government": "Nonmetropolitan Territory of The Netherlands"
+    },
+    {
+        "country": "Australia",
+        "city": "Canberra",
+        "currency_name": "Australian Dollar",
+        "government": "Federation Constitutional Monarchy"
+    },
+    {
+        "country": "Austria",
+        "city": "Wien",
+        "currency_name": "Euro",
+        "government": "Federal Republic"
+    },
+    {
+        "country": "Azerbaijan",
+        "city": "Baku",
+        "currency_name": "Azerbaijan New Manat",
+        "government": "Federal Republic"
+    },
+    {
+        "country": "Bahamas",
+        "city": "Nassau",
+        "currency_name": "Bahamian Dollar",
+        "government": "Constitutional Monarchy"
+    },
+    {
+        "country": "Bahrain",
+        "city": "al-Manama",
+        "currency_name": "Bahraini Dinar",
+        "government": "Monarchy (Emirate)"
+    },
+    {
+        "country": "Bangladesh",
+        "city": "Dhaka",
+        "currency_name": "Bangladeshi Taka",
+        "government": "Republic"
+    },
+    {
+        "country": "Barbados",
+        "city": "Bridgetown",
+        "currency_name": "Barbados Dollar",
+        "government": "Republic"
+    },
+    {
+        "country": "Belarus",
+        "city": "Minsk",
+        "currency_name": "Belarussian Ruble",
+        "government": "Republic"
+    },
+    {
+        "country": "Belgium",
+        "city": "Bruxelles [Brussel]",
+        "currency_name": "Euro",
+        "government": "Federation Constitutional Monarchy"
+    },
+    {
+        "country": "Belize",
+        "city": "Belmopan",
+        "currency_name": "Belize Dollar",
+        "government": "Constitutional Monarchy"
+    },
+    {
+        "country": "Benin",
+        "city": "Porto-Novo",
+        "currency_name": "CFA Franc BCEAO",
+        "government": "Republic"
+    },
+    {
+        "country": "Bermuda",
+        "city": "Hamilton",
+        "currency_name": "Bermudian Dollar",
+        "government": "Dependent Territory of the UK"
+    },
+    {
+        "country": "Bhutan",
+        "city": "Thimphu",
+        "currency_name": "Bhutan Ngultrum",
+        "government": "Monarchy"
+    },
+    {
+        "country": "Bolivia",
+        "city": "La Paz",
+        "currency_name": "Boliviano",
+        "government": "Republic"
+    },
+    {
+        "country": "Bosnia and Herzegovina",
+        "city": "Sarajevo",
+        "currency_name": "Convertible Mark",
+        "government": "Federal Republic"
+    },
+    {
+        "country": "Botswana",
+        "city": "Gaborone",
+        "currency_name": "Botswana Pula",
+        "government": "Republic"
+    },
+    {
+        "country": "Bouvet Island",
+        "city": "",
+        "currency_name": "Norwegian Krone",
+        "government": "Dependent Territory of Norway"
+    },
+    {
+        "country": "Brazil",
+        "city": "Brasília",
+        "currency_name": "Brazilian Real",
+        "government": "Federal Republic"
+    },
+    {
+        "country": "British Indian Ocean Territory",
+        "city": "",
+        "currency_name": "US Dollar",
+        "government": "Dependent Territory of the UK"
+    },
+    {
+        "country": "Brunei",
+        "city": "Bandar Seri Begawan",
+        "currency_name": "Brunei Dollar",
+        "government": "Monarchy (Sultanate)"
+    },
+    {
+        "country": "Bulgaria",
+        "city": "Sofia",
+        "currency_name": "Bulgarian Lev",
+        "government": "Republic"
+    },
+    {
+        "country": "Burkina Faso",
+        "city": "Ouagadougou",
+        "currency_name": "CFA Franc BCEAO",
+        "government": "Republic"
+    },
+    {
+        "country": "Burundi",
+        "city": "Bujumbura",
+        "currency_name": "Burundi Franc",
+        "government": "Republic"
+    },
+    {
+        "country": "Cambodia",
+        "city": "Phnom Penh",
+        "currency_name": "Kampuchean Riel",
+        "government": "Constitutional Monarchy"
+    },
+    {
+        "country": "Cameroon",
+        "city": "Yaounde",
+        "currency_name": "CFA Franc BEAC",
+        "government": "Republic"
+    },
+    {
+        "country": "Canada",
+        "city": "Ottawa",
+        "currency_name": "Canadian Dollar",
+        "government": "Constitutional Monarchy, Federation"
+    },
+    {
+        "country": "Cape Verde",
+        "city": "Praia",
+        "currency_name": "Cape Verde Escudo",
+        "government": "Republic"
+    },
+    {
+        "country": "Cayman Islands",
+        "city": "George Town",
+        "currency_name": "Cayman Islands Dollar",
+        "government": "Dependent Territory of the UK"
+    },
+    {
+        "country": "Central African Republic",
+        "city": "Bangui",
+        "currency_name": "CFA Franc BEAC",
+        "government": "Republic"
+    },
+    {
+        "country": "Chad",
+        "city": "N'Djamena",
+        "currency_name": "Central African",
+        "government": "Republic"
+    },
+    {
+        "country": "Chile",
+        "city": "Santiago de Chile",
+        "currency_name": "Chilean Peso",
+        "government": "Republic"
+    },
+    {
+        "country": "China",
+        "city": "Peking",
+        "currency_name": "Yuan Renminbi",
+        "government": "People's Republic"
+    },
+    {
+        "country": "Christmas Island",
+        "city": "Flying Fish Cove",
+        "currency_name": "Australian Dollar",
+        "government": "Territory of Australia"
+    },
+    {
+        "country": "Cocos (Keeling) Islands",
+        "city": "West Island",
+        "currency_name": " Australian Dollar",
+        "government": "Territory of Australia"
+    },
+    {
+        "country": "Colombia",
+        "city": "Bogota",
+        "currency_name": "Colombian Peso",
+        "government": "Republic"
+    },
+    {
+        "country": "Comoros",
+        "city": "Moroni",
+        "currency_name": "Comoros Franc",
+        "government": "Republic"
+    },
+    {
+        "country": "Congo",
+        "city": "Brazzaville",
+        "currency_name": "CFA Franc BEAC",
+        "government": "Republic"
+    },
+    {
+        "country": "Cook Islands",
+        "city": "Avarua",
+        "currency_name": "New Zealand Dollar",
+        "government": "Nonmetropolitan Territory of New Zealand"
+    },
+    {
+        "country": "Costa Rica",
+        "city": "San José",
+        "currency_name": "Costa Rican Colon",
+        "government": "Republic"
+    },
+    {
+        "country": "Croatia",
+        "city": "Zagreb",
+        "currency_name": "Croatian Kuna",
+        "government": "Republic"
+    },
+    {
+        "country": "Cuba",
+        "city": "La Habana",
+        "currency_name": "Cuban Peso",
+        "government": "Socialistic Republic"
+    },
+    {
+        "country": "Cyprus",
+        "city": "Nicosia",
+        "currency_name": "Euro",
+        "government": "Republic"
+    },
+    {
+        "country": "Czech Republic",
+        "city": "Praha",
+        "currency_name": "Czech Koruna",
+        "government": "Republic"
+    },
+    {
+        "country": "Denmark",
+        "city": "Copenhagen",
+        "currency_name": "Danish Krone",
+        "government": "Constitutional Monarchy"
+    },
+    {
+        "country": "Djibouti",
+        "city": "Djibouti",
+        "currency_name": "Djibouti Franc",
+        "government": "Republic"
+    },
+    {
+        "country": "Dominica",
+        "city": "Roseau",
+        "currency_name": "East Caribbean Dollar",
+        "government": "Republic"
+    },
+    {
+        "country": "Dominican Republic",
+        "city": "Santo Domingo de Guzm",
+        "currency_name": "Dominican Peso",
+        "government": "Republic"
+    },
+    {
+        "country": "East Timor",
+        "city": "Dili",
+        "currency_name": "US Dollar",
+        "government": "Administrated by the UN"
+    },
+    {
+        "country": "Ecuador",
+        "city": "Quito",
+        "currency_name": "Ecuador Sucre",
+        "government": "Republic"
+    },
+    {
+        "country": "Egypt",
+        "city": "Cairo",
+        "currency_name": "Egyptian Pound",
+        "government": "Republic"
+    },
+    {
+        "country": "El Salvador",
+        "city": "San Salvador",
+        "currency_name": "El Salvador Colon",
+        "government": "Republic"
+    },
+    {
+        "country": "England",
+        "city": "London",
+        "currency_name": "Pound Sterlin",
+        "government": ""
+    },
+    {
+        "country": "Equatorial Guinea",
+        "city": "Malabo",
+        "currency_name": "CFA Franc BEAC",
+        "government": "Republic"
+    },
+    {
+        "country": "Eritrea",
+        "city": "Asmara",
+        "currency_name": "Eritrean Nakfa",
+        "government": "Republic"
+    },
+    {
+        "country": "Estonia",
+        "city": "Tallinn",
+        "currency_name": "Euro",
+        "government": "Republic"
+    },
+    {
+        "country": "Eswatini",
+        "city": "Mbabane",
+        "currency_name": "Swaziland Lilangeni",
+        "government": "Monarchy"
+    },
+    {
+        "country": "Ethiopia",
+        "city": "Addis Abeba",
+        "currency_name": "Ethiopian Birr",
+        "government": "Republic"
+    },
+    {
+        "country": "Falkland Islands",
+        "city": "Stanley",
+        "currency_name": "Falkland Islands Pound",
+        "government": "Dependent Territory of the UK"
+    },
+    {
+        "country": "Faroe Islands",
+        "city": "Tórshavn",
+        "currency_name": " Danish Krone",
+        "government": "Part of Denmark"
+    },
+    {
+        "country": "Fiji Islands",
+        "city": "Suva",
+        "currency_name": "Fijian Dollar",
+        "government": "Republic"
+    },
+    {
+        "country": "Finland",
+        "city": "Helsinki [Helsingfors]",
+        "currency_name": "Euro",
+        "government": "Republic"
+    },
+    {
+        "country": "France",
+        "city": "Paris",
+        "currency_name": "Euro",
+        "government": "Republic"
+    },
+    {
+        "country": "French Guiana",
+        "city": "Cayenne",
+        "currency_name": "Euro",
+        "government": "Overseas Department of France"
+    },
+    {
+        "country": "French Polynesia",
+        "city": "Papeete",
+        "currency_name": "CFP Franc",
+        "government": "Nonmetropolitan Territory of France"
+    },
+    {
+        "country": "French Southern territories",
+        "city": "",
+        "currency_name": "Euro",
+        "government": "Nonmetropolitan Territory of France"
+    },
+    {
+        "country": "Gabon",
+        "city": "Libreville",
+        "currency_name": "CFA Franc BEAC",
+        "government": "Republic"
+    },
+    {
+        "country": "Gambia",
+        "city": "Banjul",
+        "currency_name": "Gambian Dalasi",
+        "government": "Republic"
+    },
+    {
+        "country": "Georgia",
+        "city": "Tbilisi",
+        "currency_name": "Georgian Lari",
+        "government": "Republic"
+    },
+    {
+        "country": "Germany",
+        "city": "Berlin",
+        "currency_name": "Euro",
+        "government": "Federal Republic"
+    },
+    {
+        "country": "Ghana",
+        "city": "Accra",
+        "currency_name": "Ghanaian Cedi",
+        "government": "Republic"
+    },
+    {
+        "country": "Gibraltar",
+        "city": "Gibraltar",
+        "currency_name": "Gibraltar Pound",
+        "government": "Dependent Territory of the UK"
+    },
+    {
+        "country": "Greece",
+        "city": "Athenai",
+        "currency_name": "Euro",
+        "government": "Republic"
+    },
+    {
+        "country": "Greenland",
+        "city": "Nuuk",
+        "currency_name": "Danish Krone",
+        "government": "Part of Denmark"
+    },
+    {
+        "country": "Grenada",
+        "city": "Saint George's",
+        "currency_name": "East Carribean Dollar",
+        "government": "Constitutional Monarchy"
+    },
+    {
+        "country": "Guadeloupe",
+        "city": "Basse-Terre",
+        "currency_name": "Euro",
+        "government": "Overseas Department of France"
+    },
+    {
+        "country": "Guam",
+        "city": "Aga",
+        "currency_name": "US Dollar",
+        "government": "US Territory"
+    },
+    {
+        "country": "Guatemala",
+        "city": "Ciudad de Guatemala",
+        "currency_name": "Guatemalan Quetzal",
+        "government": "Republic"
+    },
+    {
+        "country": "Guinea",
+        "city": "Conakry",
+        "currency_name": "Guinea Franc",
+        "government": "Republic"
+    },
+    {
+        "country": "Guinea-Bissau",
+        "city": "Bissau",
+        "currency_name": "West African CFA franc",
+        "government": "Republic"
+    },
+    {
+        "country": "Guyana",
+        "city": "Georgetown",
+        "currency_name": "Guyana Dollar",
+        "government": "Republic"
+    },
+    {
+        "country": "Haiti",
+        "city": "Port-au-Prince",
+        "currency_name": "Haitian Gourde",
+        "government": "Republic"
+    },
+    {
+        "country": "Heard Island and McDonald Islands",
+        "city": "",
+        "currency_name": "Australian Dollar",
+        "government": "Territory of Australia"
+    },
+    {
+        "country": "Holy See (Vatican City State)",
+        "city": "Citt",
+        "currency_name": "Euro",
+        "government": "Independent Church State"
+    },
+    {
+        "country": "Honduras",
+        "city": "Tegucigalpa",
+        "currency_name": "Honduran Lempira",
+        "government": "Republic"
+    },
+    {
+        "country": "Hong Kong",
+        "city": "Victoria",
+        "currency_name": "Hong Kong Dollar",
+        "government": "Special Administrative Region of China"
+    },
+    {
+        "country": "Hungary",
+        "city": "Budapest",
+        "currency_name": "Hungarian Forint",
+        "government": "Republic"
+    },
+    {
+        "country": "Iceland",
+        "city": "Reykjavík",
+        "currency_name": "Iceland Krona",
+        "government": "Republic"
+    },
+    {
+        "country": "India",
+        "city": "New Delhi",
+        "currency_name": "Indian Rupee",
+        "government": "Federal Republic"
+    },
+    {
+        "country": "Indonesia",
+        "city": "Jakarta",
+        "currency_name": "Indonesian Rupiah",
+        "government": "Republic"
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "currency_name": "Iranian Rial",
+        "government": "Islamic Republic"
+    },
+    {
+        "country": "Iraq",
+        "city": "Baghdad",
+        "currency_name": "Iraqi Dinar",
+        "government": "Republic"
+    },
+    {
+        "country": "Ireland",
+        "city": "Dublin",
+        "currency_name": "Euro",
+        "government": "Republic"
+    },
+    {
+        "country": "Israel",
+        "city": "Jerusalem",
+        "currency_name": "Israeli New Shekel",
+        "government": "Republic"
+    },
+    {
+        "country": "Italy",
+        "city": "Roma",
+        "currency_name": "Euro",
+        "government": "Republic"
+    },
+    {
+        "country": "Ivory Coast",
+        "city": "Yamoussoukro",
+        "currency_name": "CFA Franc BCEAO",
+        "government": "Republic"
+    },
+    {
+        "country": "Jamaica",
+        "city": "Kingston",
+        "currency_name": "Jamaican Dollar",
+        "government": "Constitutional Monarchy"
+    },
+    {
+        "country": "Japan",
+        "city": "Tokyo",
+        "currency_name": "Japanese Yen",
+        "government": "Constitutional Monarchy"
+    },
+    {
+        "country": "Jordan",
+        "city": "Amman",
+        "currency_name": "Jordanian Dinar",
+        "government": "Constitutional Monarchy"
+    },
+    {
+        "country": "Kazakhstan",
+        "city": "Astana",
+        "currency_name": "Tenge",
+        "government": "Republic"
+    },
+    {
+        "country": "Kenya",
+        "city": "Nairobi",
+        "currency_name": "Kenyan Shilling",
+        "government": "Republic"
+    },
+    {
+        "country": "Kiribati",
+        "city": "Bairiki",
+        "currency_name": "Australian Dollar",
+        "government": "Republic"
+    },
+    {
+        "country": "Kuwait",
+        "city": "Kuwait",
+        "currency_name": "Kuwaiti Dinar",
+        "government": "Constitutional Monarchy (Emirate)"
+    },
+    {
+        "country": "Kyrgyzstan",
+        "city": "Bishkek",
+        "currency_name": "Som",
+        "government": "Republic"
+    },
+    {
+        "country": "Laos",
+        "city": "Vientiane",
+        "currency_name": "Lao Kip",
+        "government": "Republic"
+    },
+    {
+        "country": "Latvia",
+        "city": "Riga",
+        "currency_name": "Latvian Lats",
+        "government": "Republic"
+    },
+    {
+        "country": "Lebanon",
+        "city": "Beirut",
+        "currency_name": "Lebanese Pound",
+        "government": "Republic"
+    },
+    {
+        "country": "Lesotho",
+        "city": "Maseru",
+        "currency_name": "Lesotho Loti",
+        "government": "Constitutional Monarchy"
+    },
+    {
+        "country": "Liberia",
+        "city": "Monrovia",
+        "currency_name": "Liberian Dollar",
+        "government": "Republic"
+    },
+    {
+        "country": "Libya",
+        "city": "Tripoli",
+        "currency_name": "Libyan Dinar",
+        "government": "Socialistic State"
+    },
+    {
+        "country": "Liechtenstein",
+        "city": "Vaduz",
+        "currency_name": "Swiss Franc",
+        "government": "Constitutional Monarchy"
+    },
+    {
+        "country": "Lithuania",
+        "city": "Vilnius",
+        "currency_name": "Lithuanian Litas",
+        "government": "Republic"
+    },
+    {
+        "country": "Luxembourg",
+        "city": "Luxembourg [Luxemburg/L",
+        "currency_name": "Euro",
+        "government": "Constitutional Monarchy"
+    },
+    {
+        "country": "Macao",
+        "city": "Macao",
+        "currency_name": "",
+        "government": "Special Administrative Region of China"
+    },
+    {
+        "country": "North Macedonia",
+        "city": "Skopje",
+        "currency_name": "Denar",
+        "government": "Republic"
+    },
+    {
+        "country": "Madagascar",
+        "city": "Antananarivo",
+        "currency_name": "Malagasy Franc",
+        "government": "Federal Republic"
+    },
+    {
+        "country": "Malawi",
+        "city": "Lilongwe",
+        "currency_name": "Malawi Kwacha",
+        "government": "Republic"
+    },
+    {
+        "country": "Malaysia",
+        "city": "Kuala Lumpur",
+        "currency_name": "Malaysian Ringgit",
+        "government": "Constitutional Monarchy"
+    },
+    {
+        "country": "Maldives",
+        "city": "Male",
+        "currency_name": "Maldive Rufiyaa",
+        "government": "Republic"
+    },
+    {
+        "country": "Mali",
+        "city": "Bamako",
+        "currency_name": "CFA Franc BCEAO",
+        "government": "Republic"
+    },
+    {
+        "country": "Malta",
+        "city": "Valletta",
+        "currency_name": "Euro",
+        "government": "Republic"
+    },
+    {
+        "country": "Marshall Islands",
+        "city": "Dalap-Uliga-Darrit",
+        "currency_name": "US Dollar",
+        "government": "Republic"
+    },
+    {
+        "country": "Martinique",
+        "city": "Fort-de-France",
+        "currency_name": "Euro",
+        "government": "Overseas Department of France"
+    },
+    {
+        "country": "Mauritania",
+        "city": "Nouakchott",
+        "currency_name": "Mauritanian Ouguiya",
+        "government": "Republic"
+    },
+    {
+        "country": "Mauritius",
+        "city": "Port-Louis",
+        "currency_name": "Mauritius Rupee",
+        "government": "Republic"
+    },
+    {
+        "country": "Mayotte",
+        "city": "Mamoutzou",
+        "currency_name": "Euro",
+        "government": "Territorial Collectivity of France"
+    },
+    {
+        "country": "Mexico",
+        "city": "Ciudad de M",
+        "currency_name": "Mexican Nuevo Peso",
+        "government": "Federal Republic"
+    },
+    {
+        "country": "Micronesia, Federated States of",
+        "city": "Palikir",
+        "currency_name": "US Dollar",
+        "government": "Federal Republic"
+    },
+    {
+        "country": "Moldova",
+        "city": "Chisinau",
+        "currency_name": "Moldovan Leu",
+        "government": "Republic"
+    },
+    {
+        "country": "Monaco",
+        "city": "Monaco-Ville",
+        "currency_name": "Euro",
+        "government": "Constitutional Monarchy"
+    },
+    {
+        "country": "Mongolia",
+        "city": "Ulan Bator",
+        "currency_name": "Mongolian Tugrik",
+        "government": "Republic"
+    },
+    {
+        "country": "Montenegro",
+        "city": "Podgorica",
+        "currency_name": "",
+        "government": ""
+    },
+    {
+        "country": "Montserrat",
+        "city": "Plymouth",
+        "currency_name": "East Caribbean Dollar",
+        "government": "Dependent Territory of the UK"
+    },
+    {
+        "country": "Morocco",
+        "city": "Rabat",
+        "currency_name": "Moroccan Dirham",
+        "government": "Constitutional Monarchy"
+    },
+    {
+        "country": "Mozambique",
+        "city": "Maputo",
+        "currency_name": "Mozambique Metical",
+        "government": "Republic"
+    },
+    {
+        "country": "Myanmar",
+        "city": "Rangoon (Yangon)",
+        "currency_name": "Myanmar Kyat",
+        "government": "Republic"
+    },
+    {
+        "country": "Namibia",
+        "city": "Windhoek",
+        "currency_name": "Namibian Dollar",
+        "government": "Republic"
+    },
+    {
+        "country": "Nauru",
+        "city": "Yaren",
+        "currency_name": "Australian Dollar",
+        "government": "Republic"
+    },
+    {
+        "country": "Nepal",
+        "city": "Kathmandu",
+        "currency_name": "Nepalese Rupee",
+        "government": "Federal parliamentary republic"
+    },
+    {
+        "country": "Netherlands",
+        "city": "Amsterdam",
+        "currency_name": "Euro",
+        "government": "Constitutional Monarchy"
+    },
+    {
+        "country": "Netherlands Antilles",
+        "city": "Willemstad",
+        "currency_name": "Netherlands Antillean Guilder",
+        "government": "Nonmetropolitan Territory of The Netherlands"
+    },
+    {
+        "country": "New Caledonia",
+        "city": "Noum",
+        "currency_name": "CFP Franc",
+        "government": "Nonmetropolitan Territory of France"
+    },
+    {
+        "country": "New Zealand",
+        "city": "Wellington",
+        "currency_name": "New Zealand Dollar",
+        "government": "Constitutional Monarchy"
+    },
+    {
+        "country": "Nicaragua",
+        "city": "Managua",
+        "currency_name": "Nicaraguan Cordoba Oro",
+        "government": "Republic"
+    },
+    {
+        "country": "Niger",
+        "city": "Niamey",
+        "currency_name": "CFA Franc BCEAO",
+        "government": "Republic"
+    },
+    {
+        "country": "Nigeria",
+        "city": "Abuja",
+        "currency_name": "Nigerian Naira",
+        "government": "Federal Republic"
+    },
+    {
+        "country": "Niue",
+        "city": "Alofi",
+        "currency_name": "New Zealand Dollar",
+        "government": "Nonmetropolitan Territory of New Zealand"
+    },
+    {
+        "country": "Norfolk Island",
+        "city": "Kingston",
+        "currency_name": "Australian Dollar",
+        "government": "Territory of Australia"
+    },
+    {
+        "country": "North Korea",
+        "city": "Pyongyang",
+        "currency_name": "North Korean Won",
+        "government": "Socialistic Republic"
+    },
+    {
+        "country": "Northern Ireland",
+        "city": "Belfast",
+        "currency_name": "Pound Sterling",
+        "government": ""
+    },
+    {
+        "country": "Northern Mariana Islands",
+        "city": "Garapan",
+        "currency_name": "US Dollar",
+        "government": "Commonwealth of the US"
+    },
+    {
+        "country": "Norway",
+        "city": "Oslo",
+        "currency_name": "Norwegian Krone",
+        "government": "Constitutional Monarchy"
+    },
+    {
+        "country": "Oman",
+        "city": "Masqat",
+        "currency_name": "Omani Rial",
+        "government": "Monarchy (Sultanate)"
+    },
+    {
+        "country": "Pakistan",
+        "city": "Islamabad",
+        "currency_name": "Pakistan Rupee",
+        "government": "Republic"
+    },
+    {
+        "country": "Palau",
+        "city": "Koror",
+        "currency_name": "US Dollar",
+        "government": "Republic"
+    },
+    {
+        "country": "Palestine",
+        "city": "Gaza",
+        "currency_name": "",
+        "government": "Autonomous Area"
+    },
+    {
+        "country": "Panama",
+        "city": "Ciudad de Panamá",
+        "currency_name": "Panamanian Balboa",
+        "government": "Republic"
+    },
+    {
+        "country": "Papua New Guinea",
+        "city": "Port Moresby",
+        "currency_name": "Papua New Guinea Kina",
+        "government": "Constitutional Monarchy"
+    },
+    {
+        "country": "Paraguay",
+        "city": "Asunción",
+        "currency_name": "Paraguay Guarani",
+        "government": "Republic"
+    },
+    {
+        "country": "Peru",
+        "city": "Lima",
+        "currency_name": "Peruvian Nuevo Sol",
+        "government": "Republic"
+    },
+    {
+        "country": "Philippines",
+        "city": "Manila",
+        "currency_name": "Philippine Peso",
+        "government": "Republic"
+    },
+    {
+        "country": "Pitcairn",
+        "city": "Adamstown",
+        "currency_name": "",
+        "government": "Dependent Territory of the UK"
+    },
+    {
+        "country": "Poland",
+        "city": "Warszawa",
+        "currency_name": "Polish Zloty",
+        "government": "Republic"
+    },
+    {
+        "country": "Portugal",
+        "city": "Lisboa",
+        "currency_name": "Euro",
+        "government": "Republic"
+    },
+    {
+        "country": "Puerto Rico",
+        "city": "San Juan",
+        "currency_name": "US Dollar",
+        "government": "Commonwealth of the US"
+    },
+    {
+        "country": "Qatar",
+        "city": "Doha",
+        "currency_name": "Qatari Rial",
+        "government": "Monarchy"
+    },
+    {
+        "country": "Reunion",
+        "city": "Saint-Denis",
+        "currency_name": "Euro",
+        "government": "Overseas Department of France"
+    },
+    {
+        "country": "Romania",
+        "city": "Bucuresti",
+        "currency_name": "Romanian New Leu",
+        "government": "Republic"
+    },
+    {
+        "country": "Russia",
+        "city": "Moscow",
+        "currency_name": "Russian Ruble",
+        "government": "Federal Republic"
+    },
+    {
+        "country": "Rwanda",
+        "city": "Kigali",
+        "currency_name": "Rwanda Franc",
+        "government": "Republic"
+    },
+    {
+        "country": "Saint Helena",
+        "city": "Jamestown",
+        "currency_name": "St. Helena Pound",
+        "government": "Dependent Territory of the UK"
+    },
+    {
+        "country": "Saint Kitts and Nevis",
+        "city": "Basseterre",
+        "currency_name": "East Caribbean Dollar",
+        "government": "Constitutional Monarchy"
+    },
+    {
+        "country": "Saint Lucia",
+        "city": "Castries",
+        "currency_name": "East Caribbean Dollar",
+        "government": "Constitutional Monarchy"
+    },
+    {
+        "country": "Saint Pierre and Miquelon",
+        "city": "Saint-Pierre",
+        "currency_name": " Euro",
+        "government": "Territorial Collectivity of France"
+    },
+    {
+        "country": "Saint Vincent and the Grenadines",
+        "city": "Kingstown",
+        "currency_name": "East Caribbean Dollar",
+        "government": "Constitutional Monarchy"
+    },
+    {
+        "country": "Samoa",
+        "city": "Apia",
+        "currency_name": "Samoan Tala",
+        "government": "Parliamentary Republic"
+    },
+    {
+        "country": "San Marino",
+        "city": "San Marino",
+        "currency_name": "Euro",
+        "government": "Republic"
+    },
+    {
+        "country": "Sao Tome and Principe",
+        "city": "São Tomé",
+        "currency_name": " Dobra",
+        "government": "Republic"
+    },
+    {
+        "country": "Saudi Arabia",
+        "city": "Riyadh",
+        "currency_name": "Saudi Riyal",
+        "government": "Monarchy"
+    },
+    {
+        "country": "Scotland",
+        "city": "Edinburgh",
+        "currency_name": "Pound Sterling",
+        "government": ""
+    },
+    {
+        "country": "Senegal",
+        "city": "Dakar",
+        "currency_name": "CFA Franc BCEAO",
+        "government": "Republic"
+    },
+    {
+        "country": "Serbia",
+        "city": "Belgrade",
+        "currency_name": "Serbian dinar",
+        "government": "Republic"
+    },
+    {
+        "country": "Seychelles",
+        "city": "Victoria",
+        "currency_name": "Seychelles Rupee",
+        "government": "Republic"
+    },
+    {
+        "country": "Sierra Leone",
+        "city": "Freetown",
+        "currency_name": "Sierra Leone Leone",
+        "government": "Republic"
+    },
+    {
+        "country": "Singapore",
+        "city": "Singapore",
+        "currency_name": "Singapore Dollar",
+        "government": "Republic"
+    },
+    {
+        "country": "Slovakia",
+        "city": "Bratislava",
+        "currency_name": "Euro",
+        "government": "Republic"
+    },
+    {
+        "country": "Slovenia",
+        "city": "Ljubljana",
+        "currency_name": "Euro",
+        "government": "Republic"
+    },
+    {
+        "country": "Solomon Islands",
+        "city": "Honiara",
+        "currency_name": "Solomon Islands Dollar",
+        "government": "Constitutional Monarchy"
+    },
+    {
+        "country": "Somalia",
+        "city": "Mogadishu",
+        "currency_name": "Somali Shilling",
+        "government": "Republic"
+    },
+    {
+        "country": "South Africa",
+        "city": "Pretoria",
+        "currency_name": "South African Rand",
+        "government": "Republic"
+    },
+    {
+        "country": "South Georgia and the South Sandwich Islands",
+        "city": "",
+        "currency_name": "Pound Sterling",
+        "government": "Dependent Territory of the UK"
+    },
+    {
+        "country": "South Korea",
+        "city": "Seoul",
+        "currency_name": "Korean Won",
+        "government": "Republic"
+    },
+    {
+        "country": "South Sudan",
+        "city": "Juba",
+        "currency_name": "South Sudan Pound",
+        "government": ""
+    },
+    {
+        "country": "Spain",
+        "city": "Madrid",
+        "currency_name": "Euro",
+        "government": "Constitutional Monarchy"
+    },
+    {
+        "country": "Sri Lanka",
+        "city": "Colombo, Sri Jayawardenepura Kotte",
+        "currency_name": "Sri Lankan Rupee",
+        "government": "Unitary Semi-Presidential Republic"
+    },
+    {
+        "country": "Sudan",
+        "city": "Khartum",
+        "currency_name": "Sudanese Pound",
+        "government": "Islamic Republic"
+    },
+    {
+        "country": "Suriname",
+        "city": "Paramaribo",
+        "currency_name": "Surinam Dollar",
+        "government": "Republic"
+    },
+    {
+        "country": "Svalbard and Jan Mayen",
+        "city": "Longyearbyen",
+        "currency_name": "Norwegian Krone",
+        "government": "Dependent Territory of Norway"
+    },
+    {
+        "country": "Sweden",
+        "city": "Stockholm",
+        "currency_name": "Swedish Krona",
+        "government": "Constitutional Monarchy"
+    },
+    {
+        "country": "Switzerland",
+        "city": "Bern",
+        "currency_name": "Swiss Franc",
+        "government": "Federation"
+    },
+    {
+        "country": "Syria",
+        "city": "Damascus",
+        "currency_name": "Syrian Pound",
+        "government": "Republic"
+    },
+    {
+        "country": "Tajikistan",
+        "city": "Dushanbe",
+        "currency_name": "Tajik Somoni",
+        "government": "Republic"
+    },
+    {
+        "country": "Tanzania",
+        "city": "Dodoma",
+        "currency_name": "Tanzanian Shilling",
+        "government": "Republic"
+    },
+    {
+        "country": "Thailand",
+        "city": "Bangkok",
+        "currency_name": "Thai Baht",
+        "government": "Constitutional Monarchy"
+    },
+    {
+        "country": "The Democratic Republic of Congo",
+        "city": "Kinshasa",
+        "currency_name": "Franc Congolais",
+        "government": "Republic"
+    },
+    {
+        "country": "Togo",
+        "city": "Lomé",
+        "currency_name": "CFA Franc BCEAO",
+        "government": "Republic"
+    },
+    {
+        "country": "Tokelau",
+        "city": "Fakaofo",
+        "currency_name": "New Zealand Dollar",
+        "government": "Nonmetropolitan Territory of New Zealand"
+    },
+    {
+        "country": "Tonga",
+        "city": "Nuku'alofa",
+        "currency_name": "Tongan Pa'anga",
+        "government": "Monarchy"
+    },
+    {
+        "country": "Trinidad and Tobago",
+        "city": "Port-of-Spain",
+        "currency_name": "Trinidad and Tobago Dollar",
+        "government": "Republic"
+    },
+    {
+        "country": "Tunisia",
+        "city": "Tunis",
+        "currency_name": "Tunisian Dollar",
+        "government": "Republic"
+    },
+    {
+        "country": "Turkey",
+        "city": "Ankara",
+        "currency_name": "Turkish Lira",
+        "government": "Republic"
+    },
+    {
+        "country": "Turkmenistan",
+        "city": "Ashgabat",
+        "currency_name": "Manat",
+        "government": "Republic"
+    },
+    {
+        "country": "Turks and Caicos Islands",
+        "city": "Cockburn Town",
+        "currency_name": "US Dollar",
+        "government": "Dependent Territory of the UK"
+    },
+    {
+        "country": "Tuvalu",
+        "city": "Funafuti",
+        "currency_name": "Australian Dollar",
+        "government": "Constitutional Monarchy"
+    },
+    {
+        "country": "Uganda",
+        "city": "Kampala",
+        "currency_name": "Uganda Shilling",
+        "government": "Republic"
+    },
+    {
+        "country": "Ukraine",
+        "city": "Kyiv",
+        "currency_name": "Ukraine Hryvnia",
+        "government": "Republic"
+    },
+    {
+        "country": "United Arab Emirates",
+        "city": "Abu Dhabi",
+        "currency_name": "Arab Emirates Dirham",
+        "government": "Emirate Federation"
+    },
+    {
+        "country": "United Kingdom",
+        "city": "London",
+        "currency_name": "Pound Sterling",
+        "government": "Constitutional Monarchy"
+    },
+    {
+        "country": "United States",
+        "city": "Washington",
+        "currency_name": "US Dollar",
+        "government": "Federal Republic"
+    },
+    {
+        "country": "United States Minor Outlying Islands",
+        "city": "",
+        "currency_name": "US Dollar",
+        "government": "Dependent Territory of the US"
+    },
+    {
+        "country": "Uruguay",
+        "city": "Montevideo",
+        "currency_name": "Uruguayan Peso",
+        "government": "Republic"
+    },
+    {
+        "country": "Uzbekistan",
+        "city": "Toskent",
+        "currency_name": "Uzbekistan Sum",
+        "government": "Republic"
+    },
+    {
+        "country": "Vanuatu",
+        "city": "Port-Vila",
+        "currency_name": "Vanuatu Vatu",
+        "government": "Republic"
+    },
+    {
+        "country": "Venezuela",
+        "city": "Caracas",
+        "currency_name": "Venezuelan Bolivar",
+        "government": "Federal Republic"
+    },
+    {
+        "country": "Vetican City",
+        "city": "Vetican City",
+        "currency_name": "",
+        "government": ""
+    },
+    {
+        "country": "Vietnam",
+        "city": "Hanoi",
+        "currency_name": "Vietnamese Dong",
+        "government": "Socialistic Republic"
+    },
+    {
+        "country": "Virgin Islands, British",
+        "city": "Road Town",
+        "currency_name": "Pound Sterling",
+        "government": ""
+    },
+    {
+        "country": "Virgin Islands, U.S.",
+        "city": "Charlotte Amalie",
+        "currency_name": "US Dollar",
+        "government": ""
+    },
+    {
+        "country": "Wales",
+        "city": "Cardiff",
+        "currency_name": "Pound Sterlin",
+        "government": ""
+    },
+    {
+        "country": "Wallis and Futuna",
+        "city": "Mata-Utu",
+        "currency_name": "CFP Franc",
+        "government": "Nonmetropolitan Territory of France"
+    },
+    {
+        "country": "Western Sahara",
+        "city": "El-Aai",
+        "currency_name": "Moroccan Dirham",
+        "government": "Occupied by Marocco"
+    },
+    {
+        "country": "Yemen",
+        "city": "Sanaa",
+        "currency_name": "Yemeni Rial",
+        "government": "Republic"
+    },
+    {
+        "country": "Zambia",
+        "city": "Lusaka",
+        "currency_name": "Zambian Kwacha",
+        "government": "Republic"
+    },
+    {
+        "country": "Zimbabwe",
+        "city": "Harare",
+        "currency_name": "Zimbabwe Dollar",
+        "government": "Republic"
+    }
+]

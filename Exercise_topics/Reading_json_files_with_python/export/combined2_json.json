@@ -1,0 +1,1472 @@
+[
+    {
+        "country": "Afghanistan",
+        "currency_name": "Afghanistan Afghani",
+        "city": "Kabul",
+        "elevation": null
+    },
+    {
+        "country": "Albania",
+        "currency_name": "Albanian Lek",
+        "city": "Tirana",
+        "elevation": null
+    },
+    {
+        "country": "Algeria",
+        "currency_name": "Algerian Dinar",
+        "city": "Alger",
+        "elevation": 800
+    },
+    {
+        "country": "American Samoa",
+        "currency_name": "US Dollar",
+        "city": "Fagatogo",
+        "elevation": null
+    },
+    {
+        "country": "Andorra",
+        "currency_name": "Euro",
+        "city": "Andorra la Vella",
+        "elevation": 1996
+    },
+    {
+        "country": "Angola",
+        "currency_name": "Angolan Kwanza",
+        "city": "Luanda",
+        "elevation": 1112
+    },
+    {
+        "country": "Anguilla",
+        "currency_name": "East Caribbean Dollar",
+        "city": "The Valley",
+        "elevation": null
+    },
+    {
+        "country": "Antarctica",
+        "currency_name": "East Caribbean Dollar",
+        "city": "",
+        "elevation": 2300
+    },
+    {
+        "country": "Antigua and Barbuda",
+        "currency_name": "East Caribbean Dollar",
+        "city": "Saint John's",
+        "elevation": null
+    },
+    {
+        "country": "Argentina",
+        "currency_name": "Argentine Peso",
+        "city": "Buenos Aires",
+        "elevation": 595
+    },
+    {
+        "country": "Armenia",
+        "currency_name": "Armenian Dram",
+        "city": "Yerevan",
+        "elevation": 1792
+    },
+    {
+        "country": "Aruba",
+        "currency_name": "Aruban Guilder",
+        "city": "Oranjestad",
+        "elevation": null
+    },
+    {
+        "country": "Australia",
+        "currency_name": "Australian Dollar",
+        "city": "Canberra",
+        "elevation": 330
+    },
+    {
+        "country": "Austria",
+        "currency_name": "Euro",
+        "city": "Wien",
+        "elevation": 910
+    },
+    {
+        "country": "Azerbaijan",
+        "currency_name": "Azerbaijan New Manat",
+        "city": "Baku",
+        "elevation": 384
+    },
+    {
+        "country": "Bahamas",
+        "currency_name": "Bahamian Dollar",
+        "city": "Nassau",
+        "elevation": null
+    },
+    {
+        "country": "Bahrain",
+        "currency_name": "Bahraini Dinar",
+        "city": "al-Manama",
+        "elevation": null
+    },
+    {
+        "country": "Bangladesh",
+        "currency_name": "Bangladeshi Taka",
+        "city": "Dhaka",
+        "elevation": 85
+    },
+    {
+        "country": "Barbados",
+        "currency_name": "Barbados Dollar",
+        "city": "Bridgetown",
+        "elevation": null
+    },
+    {
+        "country": "Belarus",
+        "currency_name": "Belarussian Ruble",
+        "city": "Minsk",
+        "elevation": 160
+    },
+    {
+        "country": "Belgium",
+        "currency_name": "Euro",
+        "city": "Bruxelles [Brussel]",
+        "elevation": ""
+    },
+    {
+        "country": "Belize",
+        "currency_name": "Belize Dollar",
+        "city": "Belmopan",
+        "elevation": 173
+    },
+    {
+        "country": "Benin",
+        "currency_name": "CFA Franc BCEAO",
+        "city": "Porto-Novo",
+        "elevation": 273
+    },
+    {
+        "country": "Bermuda",
+        "currency_name": "Bermudian Dollar",
+        "city": "Hamilton",
+        "elevation": null
+    },
+    {
+        "country": "Bhutan",
+        "currency_name": "Bhutan Ngultrum",
+        "city": "Thimphu",
+        "elevation": 3280
+    },
+    {
+        "country": "Bolivia",
+        "currency_name": "Boliviano",
+        "city": "La Paz",
+        "elevation": 1192
+    },
+    {
+        "country": "Bosnia and Herzegovina",
+        "currency_name": "Convertible Mark",
+        "city": "Sarajevo",
+        "elevation": 500
+    },
+    {
+        "country": "Botswana",
+        "currency_name": "Botswana Pula",
+        "city": "Gaborone",
+        "elevation": 1013
+    },
+    {
+        "country": "Bouvet Island",
+        "currency_name": "Norwegian Krone",
+        "city": "",
+        "elevation": null
+    },
+    {
+        "country": "Brazil",
+        "currency_name": "Brazilian Real",
+        "city": "BrasĂ­lia",
+        "elevation": 320
+    },
+    {
+        "country": "British Indian Ocean Territory",
+        "currency_name": "US Dollar",
+        "city": "",
+        "elevation": null
+    },
+    {
+        "country": "Brunei",
+        "currency_name": "Brunei Dollar",
+        "city": "Bandar Seri Begawan",
+        "elevation": 478
+    },
+    {
+        "country": "Bulgaria",
+        "currency_name": "Bulgarian Lev",
+        "city": "Sofia",
+        "elevation": 472
+    },
+    {
+        "country": "Burkina Faso",
+        "currency_name": "CFA Franc BCEAO",
+        "city": "Ouagadougou",
+        "elevation": 297
+    },
+    {
+        "country": "Burundi",
+        "currency_name": "Burundi Franc",
+        "city": "Bujumbura",
+        "elevation": 1504
+    },
+    {
+        "country": "Cambodia",
+        "currency_name": "Kampuchean Riel",
+        "city": "Phnom Penh",
+        "elevation": 126
+    },
+    {
+        "country": "Cameroon",
+        "currency_name": "CFA Franc BEAC",
+        "city": "Yaounde",
+        "elevation": 667
+    },
+    {
+        "country": "Canada",
+        "currency_name": "Canadian Dollar",
+        "city": "Ottawa",
+        "elevation": 487
+    },
+    {
+        "country": "Cape Verde",
+        "currency_name": "Cape Verde Escudo",
+        "city": "Praia",
+        "elevation": null
+    },
+    {
+        "country": "Cayman Islands",
+        "currency_name": "Cayman Islands Dollar",
+        "city": "George Town",
+        "elevation": null
+    },
+    {
+        "country": "Central African Republic",
+        "currency_name": "CFA Franc BEAC",
+        "city": "Bangui",
+        "elevation": 635
+    },
+    {
+        "country": "Chad",
+        "currency_name": "Central African",
+        "city": "N'Djamena",
+        "elevation": 543
+    },
+    {
+        "country": "Chile",
+        "currency_name": "Chilean Peso",
+        "city": "Santiago de Chile",
+        "elevation": 1871
+    },
+    {
+        "country": "China",
+        "currency_name": "Yuan Renminbi",
+        "city": "Peking",
+        "elevation": 1840
+    },
+    {
+        "country": "Christmas Island",
+        "currency_name": "Australian Dollar",
+        "city": "Flying Fish Cove",
+        "elevation": null
+    },
+    {
+        "country": "Cocos (Keeling) Islands",
+        "currency_name": " Australian Dollar",
+        "city": "West Island",
+        "elevation": null
+    },
+    {
+        "country": "Colombia",
+        "currency_name": "Colombian Peso",
+        "city": "Bogota",
+        "elevation": 593
+    },
+    {
+        "country": "Comoros",
+        "currency_name": "Comoros Franc",
+        "city": "Moroni",
+        "elevation": null
+    },
+    {
+        "country": "Congo",
+        "currency_name": "CFA Franc BEAC",
+        "city": "Brazzaville",
+        "elevation": 430
+    },
+    {
+        "country": "Cook Islands",
+        "currency_name": "New Zealand Dollar",
+        "city": "Avarua",
+        "elevation": null
+    },
+    {
+        "country": "Costa Rica",
+        "currency_name": "Costa Rican Colon",
+        "city": "San JosĂ©",
+        "elevation": 746
+    },
+    {
+        "country": "Croatia",
+        "currency_name": "Croatian Kuna",
+        "city": "Zagreb",
+        "elevation": 331
+    },
+    {
+        "country": "Cuba",
+        "currency_name": "Cuban Peso",
+        "city": "La Habana",
+        "elevation": 108
+    },
+    {
+        "country": "Cyprus",
+        "currency_name": "Euro",
+        "city": "Nicosia",
+        "elevation": 91
+    },
+    {
+        "country": "Czech Republic",
+        "currency_name": "Czech Koruna",
+        "city": "Praha",
+        "elevation": 433
+    },
+    {
+        "country": "Denmark",
+        "currency_name": "Danish Krone",
+        "city": "Copenhagen",
+        "elevation": 34
+    },
+    {
+        "country": "Djibouti",
+        "currency_name": "Djibouti Franc",
+        "city": "Djibouti",
+        "elevation": 430
+    },
+    {
+        "country": "Dominica",
+        "currency_name": "East Caribbean Dollar",
+        "city": "Roseau",
+        "elevation": null
+    },
+    {
+        "country": "Dominican Republic",
+        "currency_name": "Dominican Peso",
+        "city": "Santo Domingo de Guzm",
+        "elevation": 424
+    },
+    {
+        "country": "East Timor",
+        "currency_name": "US Dollar",
+        "city": "Dili",
+        "elevation": null
+    },
+    {
+        "country": "Ecuador",
+        "currency_name": "Ecuador Sucre",
+        "city": "Quito",
+        "elevation": 1117
+    },
+    {
+        "country": "Egypt",
+        "currency_name": "Egyptian Pound",
+        "city": "Cairo",
+        "elevation": 321
+    },
+    {
+        "country": "El Salvador",
+        "currency_name": "El Salvador Colon",
+        "city": "San Salvador",
+        "elevation": 442
+    },
+    {
+        "country": "England",
+        "currency_name": "Pound Sterlin",
+        "city": "London",
+        "elevation": null
+    },
+    {
+        "country": "Equatorial Guinea",
+        "currency_name": "CFA Franc BEAC",
+        "city": "Malabo",
+        "elevation": 577
+    },
+    {
+        "country": "Eritrea",
+        "currency_name": "Eritrean Nakfa",
+        "city": "Asmara",
+        "elevation": 853
+    },
+    {
+        "country": "Estonia",
+        "currency_name": "Euro",
+        "city": "Tallinn",
+        "elevation": 61
+    },
+    {
+        "country": "Eswatini",
+        "currency_name": "Swaziland Lilangeni",
+        "city": "Mbabane",
+        "elevation": 305
+    },
+    {
+        "country": "Ethiopia",
+        "currency_name": "Ethiopian Birr",
+        "city": "Addis Abeba",
+        "elevation": 1330
+    },
+    {
+        "country": "Falkland Islands",
+        "currency_name": "Falkland Islands Pound",
+        "city": "Stanley",
+        "elevation": null
+    },
+    {
+        "country": "Faroe Islands",
+        "currency_name": " Danish Krone",
+        "city": "TĂłrshavn",
+        "elevation": null
+    },
+    {
+        "country": "Fiji Islands",
+        "currency_name": "Fijian Dollar",
+        "city": "Suva",
+        "elevation": null
+    },
+    {
+        "country": "Finland",
+        "currency_name": "Euro",
+        "city": "Helsinki [Helsingfors]",
+        "elevation": 164
+    },
+    {
+        "country": "France",
+        "currency_name": "Euro",
+        "city": "Paris",
+        "elevation": 375
+    },
+    {
+        "country": "French Guiana",
+        "currency_name": "Euro",
+        "city": "Cayenne",
+        "elevation": 168
+    },
+    {
+        "country": "French Polynesia",
+        "currency_name": "CFP Franc",
+        "city": "Papeete",
+        "elevation": null
+    },
+    {
+        "country": "French Southern territories",
+        "currency_name": "Euro",
+        "city": "",
+        "elevation": null
+    },
+    {
+        "country": "Gabon",
+        "currency_name": "CFA Franc BEAC",
+        "city": "Libreville",
+        "elevation": 377
+    },
+    {
+        "country": "Gambia",
+        "currency_name": "Gambian Dalasi",
+        "city": "Banjul",
+        "elevation": 34
+    },
+    {
+        "country": "Georgia",
+        "currency_name": "Georgian Lari",
+        "city": "Tbilisi",
+        "elevation": 1432
+    },
+    {
+        "country": "Germany",
+        "currency_name": "Euro",
+        "city": "Berlin",
+        "elevation": 263
+    },
+    {
+        "country": "Ghana",
+        "currency_name": "Ghanaian Cedi",
+        "city": "Accra",
+        "elevation": 190
+    },
+    {
+        "country": "Gibraltar",
+        "currency_name": "Gibraltar Pound",
+        "city": "Gibraltar",
+        "elevation": null
+    },
+    {
+        "country": "Greece",
+        "currency_name": "Euro",
+        "city": "Athenai",
+        "elevation": 498
+    },
+    {
+        "country": "Greenland",
+        "currency_name": "Danish Krone",
+        "city": "Nuuk",
+        "elevation": 1792
+    },
+    {
+        "country": "Grenada",
+        "currency_name": "East Carribean Dollar",
+        "city": "Saint George's",
+        "elevation": null
+    },
+    {
+        "country": "Guadeloupe",
+        "currency_name": "Euro",
+        "city": "Basse-Terre",
+        "elevation": null
+    },
+    {
+        "country": "Guam",
+        "currency_name": "US Dollar",
+        "city": "Aga",
+        "elevation": ""
+    },
+    {
+        "country": "Guatemala",
+        "currency_name": "Guatemalan Quetzal",
+        "city": "Ciudad de Guatemala",
+        "elevation": 759
+    },
+    {
+        "country": "Guinea",
+        "currency_name": "Guinea Franc",
+        "city": "Conakry",
+        "elevation": 472
+    },
+    {
+        "country": "Guinea-Bissau",
+        "currency_name": "West African CFA franc",
+        "city": "Bissau",
+        "elevation": 70
+    },
+    {
+        "country": "Guyana",
+        "currency_name": "Guyana Dollar",
+        "city": "Georgetown",
+        "elevation": 207
+    },
+    {
+        "country": "Haiti",
+        "currency_name": "Haitian Gourde",
+        "city": "Port-au-Prince",
+        "elevation": 470
+    },
+    {
+        "country": "Heard Island and McDonald Islands",
+        "currency_name": "Australian Dollar",
+        "city": "",
+        "elevation": null
+    },
+    {
+        "country": "Holy See (Vatican City State)",
+        "currency_name": "Euro",
+        "city": "Citt",
+        "elevation": null
+    },
+    {
+        "country": "Honduras",
+        "currency_name": "Honduran Lempira",
+        "city": "Tegucigalpa",
+        "elevation": 684
+    },
+    {
+        "country": "Hong Kong",
+        "currency_name": "Hong Kong Dollar",
+        "city": "Victoria",
+        "elevation": null
+    },
+    {
+        "country": "Hungary",
+        "currency_name": "Hungarian Forint",
+        "city": "Budapest",
+        "elevation": 143
+    },
+    {
+        "country": "Iceland",
+        "currency_name": "Iceland Krona",
+        "city": "ReykjavĂ­k",
+        "elevation": 557
+    },
+    {
+        "country": "India",
+        "currency_name": "Indian Rupee",
+        "city": "New Delhi",
+        "elevation": 160
+    },
+    {
+        "country": "Indonesia",
+        "currency_name": "Indonesian Rupiah",
+        "city": "Jakarta",
+        "elevation": 367
+    },
+    {
+        "country": "Iran",
+        "currency_name": "Iranian Rial",
+        "city": "Tehran",
+        "elevation": 1305
+    },
+    {
+        "country": "Iraq",
+        "currency_name": "Iraqi Dinar",
+        "city": "Baghdad",
+        "elevation": 312
+    },
+    {
+        "country": "Ireland",
+        "currency_name": "Euro",
+        "city": "Dublin",
+        "elevation": 118
+    },
+    {
+        "country": "Israel",
+        "currency_name": "Israeli New Shekel",
+        "city": "Jerusalem",
+        "elevation": 508
+    },
+    {
+        "country": "Italy",
+        "currency_name": "Euro",
+        "city": "Roma",
+        "elevation": 538
+    },
+    {
+        "country": "Ivory Coast",
+        "currency_name": "CFA Franc BCEAO",
+        "city": "Yamoussoukro",
+        "elevation": 250
+    },
+    {
+        "country": "Jamaica",
+        "currency_name": "Jamaican Dollar",
+        "city": "Kingston",
+        "elevation": 18
+    },
+    {
+        "country": "Japan",
+        "currency_name": "Japanese Yen",
+        "city": "Tokyo",
+        "elevation": 438
+    },
+    {
+        "country": "Jordan",
+        "currency_name": "Jordanian Dinar",
+        "city": "Amman",
+        "elevation": 812
+    },
+    {
+        "country": "Kazakhstan",
+        "currency_name": "Tenge",
+        "city": "Astana",
+        "elevation": null
+    },
+    {
+        "country": "Kenya",
+        "currency_name": "Kenyan Shilling",
+        "city": "Nairobi",
+        "elevation": 762
+    },
+    {
+        "country": "Kiribati",
+        "currency_name": "Australian Dollar",
+        "city": "Bairiki",
+        "elevation": null
+    },
+    {
+        "country": "Kuwait",
+        "currency_name": "Kuwaiti Dinar",
+        "city": "Kuwait",
+        "elevation": 108
+    },
+    {
+        "country": "Kyrgyzstan",
+        "currency_name": "Som",
+        "city": "Bishkek",
+        "elevation": 2988
+    },
+    {
+        "country": "Laos",
+        "currency_name": "Lao Kip",
+        "city": "Vientiane",
+        "elevation": 710
+    },
+    {
+        "country": "Latvia",
+        "currency_name": "Latvian Lats",
+        "city": "Riga",
+        "elevation": 87
+    },
+    {
+        "country": "Lebanon",
+        "currency_name": "Lebanese Pound",
+        "city": "Beirut",
+        "elevation": 1250
+    },
+    {
+        "country": "Lesotho",
+        "currency_name": "Lesotho Loti",
+        "city": "Maseru",
+        "elevation": 2161
+    },
+    {
+        "country": "Liberia",
+        "currency_name": "Liberian Dollar",
+        "city": "Monrovia",
+        "elevation": 243
+    },
+    {
+        "country": "Libya",
+        "currency_name": "Libyan Dinar",
+        "city": "Tripoli",
+        "elevation": null
+    },
+    {
+        "country": "Liechtenstein",
+        "currency_name": "Swiss Franc",
+        "city": "Vaduz",
+        "elevation": null
+    },
+    {
+        "country": "Lithuania",
+        "currency_name": "Lithuanian Litas",
+        "city": "Vilnius",
+        "elevation": 110
+    },
+    {
+        "country": "Luxembourg",
+        "currency_name": "Euro",
+        "city": "Luxembourg [Luxemburg/L",
+        "elevation": 325
+    },
+    {
+        "country": "Macao",
+        "currency_name": "",
+        "city": "Macao",
+        "elevation": null
+    },
+    {
+        "country": "North Macedonia",
+        "currency_name": "Denar",
+        "city": "Skopje",
+        "elevation": 741
+    },
+    {
+        "country": "Madagascar",
+        "currency_name": "Malagasy Franc",
+        "city": "Antananarivo",
+        "elevation": 615
+    },
+    {
+        "country": "Malawi",
+        "currency_name": "Malawi Kwacha",
+        "city": "Lilongwe",
+        "elevation": 779
+    },
+    {
+        "country": "Malaysia",
+        "currency_name": "Malaysian Ringgit",
+        "city": "Kuala Lumpur",
+        "elevation": 538
+    },
+    {
+        "country": "Maldives",
+        "currency_name": "Maldive Rufiyaa",
+        "city": "Male",
+        "elevation": 1.8
+    },
+    {
+        "country": "Mali",
+        "currency_name": "CFA Franc BCEAO",
+        "city": "Bamako",
+        "elevation": 343
+    },
+    {
+        "country": "Malta",
+        "currency_name": "Euro",
+        "city": "Valletta",
+        "elevation": null
+    },
+    {
+        "country": "Marshall Islands",
+        "currency_name": "US Dollar",
+        "city": "Dalap-Uliga-Darrit",
+        "elevation": null
+    },
+    {
+        "country": "Martinique",
+        "currency_name": "Euro",
+        "city": "Fort-de-France",
+        "elevation": null
+    },
+    {
+        "country": "Mauritania",
+        "currency_name": "Mauritanian Ouguiya",
+        "city": "Nouakchott",
+        "elevation": 276
+    },
+    {
+        "country": "Mauritius",
+        "currency_name": "Mauritius Rupee",
+        "city": "Port-Louis",
+        "elevation": null
+    },
+    {
+        "country": "Mayotte",
+        "currency_name": "Euro",
+        "city": "Mamoutzou",
+        "elevation": null
+    },
+    {
+        "country": "Mexico",
+        "currency_name": "Mexican Nuevo Peso",
+        "city": "Ciudad de M",
+        "elevation": 1111
+    },
+    {
+        "country": "Micronesia, Federated States of",
+        "currency_name": "US Dollar",
+        "city": "Palikir",
+        "elevation": null
+    },
+    {
+        "country": "Moldova",
+        "currency_name": "Moldovan Leu",
+        "city": "Chisinau",
+        "elevation": 139
+    },
+    {
+        "country": "Monaco",
+        "currency_name": "Euro",
+        "city": "Monaco-Ville",
+        "elevation": null
+    },
+    {
+        "country": "Mongolia",
+        "currency_name": "Mongolian Tugrik",
+        "city": "Ulan Bator",
+        "elevation": 1528
+    },
+    {
+        "country": "Montenegro",
+        "currency_name": "",
+        "city": "Podgorica",
+        "elevation": ""
+    },
+    {
+        "country": "Montserrat",
+        "currency_name": "East Caribbean Dollar",
+        "city": "Plymouth",
+        "elevation": null
+    },
+    {
+        "country": "Morocco",
+        "currency_name": "Moroccan Dirham",
+        "city": "Rabat",
+        "elevation": 909
+    },
+    {
+        "country": "Mozambique",
+        "currency_name": "Mozambique Metical",
+        "city": "Maputo",
+        "elevation": 345
+    },
+    {
+        "country": "Myanmar",
+        "currency_name": "Myanmar Kyat",
+        "city": "Rangoon (Yangon)",
+        "elevation": null
+    },
+    {
+        "country": "Namibia",
+        "currency_name": "Namibian Dollar",
+        "city": "Windhoek",
+        "elevation": 1141
+    },
+    {
+        "country": "Nauru",
+        "currency_name": "Australian Dollar",
+        "city": "Yaren",
+        "elevation": null
+    },
+    {
+        "country": "Nepal",
+        "currency_name": "Nepalese Rupee",
+        "city": "Kathmandu",
+        "elevation": 3265
+    },
+    {
+        "country": "Netherlands",
+        "currency_name": "Euro",
+        "city": "Amsterdam",
+        "elevation": 30
+    },
+    {
+        "country": "Netherlands Antilles",
+        "currency_name": "Netherlands Antillean Guilder",
+        "city": "Willemstad",
+        "elevation": null
+    },
+    {
+        "country": "New Caledonia",
+        "currency_name": "CFP Franc",
+        "city": "Noum",
+        "elevation": null
+    },
+    {
+        "country": "New Zealand",
+        "currency_name": "New Zealand Dollar",
+        "city": "Wellington",
+        "elevation": 388
+    },
+    {
+        "country": "Nicaragua",
+        "currency_name": "Nicaraguan Cordoba Oro",
+        "city": "Managua",
+        "elevation": 298
+    },
+    {
+        "country": "Niger",
+        "currency_name": "CFA Franc BCEAO",
+        "city": "Niamey",
+        "elevation": 474
+    },
+    {
+        "country": "Nigeria",
+        "currency_name": "Nigerian Naira",
+        "city": "Abuja",
+        "elevation": 380
+    },
+    {
+        "country": "Niue",
+        "currency_name": "New Zealand Dollar",
+        "city": "Alofi",
+        "elevation": null
+    },
+    {
+        "country": "Norfolk Island",
+        "currency_name": "Australian Dollar",
+        "city": "Kingston",
+        "elevation": null
+    },
+    {
+        "country": "North Korea",
+        "currency_name": "North Korean Won",
+        "city": "Pyongyang",
+        "elevation": 400
+    },
+    {
+        "country": "Northern Ireland",
+        "currency_name": "Pound Sterling",
+        "city": "Belfast",
+        "elevation": null
+    },
+    {
+        "country": "Northern Mariana Islands",
+        "currency_name": "US Dollar",
+        "city": "Garapan",
+        "elevation": null
+    },
+    {
+        "country": "Norway",
+        "currency_name": "Norwegian Krone",
+        "city": "Oslo",
+        "elevation": 460
+    },
+    {
+        "country": "Oman",
+        "currency_name": "Omani Rial",
+        "city": "Masqat",
+        "elevation": 310
+    },
+    {
+        "country": "Pakistan",
+        "currency_name": "Pakistan Rupee",
+        "city": "Islamabad",
+        "elevation": 900
+    },
+    {
+        "country": "Palau",
+        "currency_name": "US Dollar",
+        "city": "Koror",
+        "elevation": null
+    },
+    {
+        "country": "Palestine",
+        "currency_name": "",
+        "city": "Gaza",
+        "elevation": null
+    },
+    {
+        "country": "Panama",
+        "currency_name": "Panamanian Balboa",
+        "city": "Ciudad de PanamĂˇ",
+        "elevation": 360
+    },
+    {
+        "country": "Papua New Guinea",
+        "currency_name": "Papua New Guinea Kina",
+        "city": "Port Moresby",
+        "elevation": 667
+    },
+    {
+        "country": "Paraguay",
+        "currency_name": "Paraguay Guarani",
+        "city": "AsunciĂłn",
+        "elevation": 178
+    },
+    {
+        "country": "Peru",
+        "currency_name": "Peruvian Nuevo Sol",
+        "city": "Lima",
+        "elevation": 1555
+    },
+    {
+        "country": "Philippines",
+        "currency_name": "Philippine Peso",
+        "city": "Manila",
+        "elevation": 442
+    },
+    {
+        "country": "Pitcairn",
+        "currency_name": "",
+        "city": "Adamstown",
+        "elevation": null
+    },
+    {
+        "country": "Poland",
+        "currency_name": "Polish Zloty",
+        "city": "Warszawa",
+        "elevation": 173
+    },
+    {
+        "country": "Portugal",
+        "currency_name": "Euro",
+        "city": "Lisboa",
+        "elevation": 372
+    },
+    {
+        "country": "Puerto Rico",
+        "currency_name": "US Dollar",
+        "city": "San Juan",
+        "elevation": 261
+    },
+    {
+        "country": "Qatar",
+        "currency_name": "Qatari Rial",
+        "city": "Doha",
+        "elevation": 28
+    },
+    {
+        "country": "Reunion",
+        "currency_name": "Euro",
+        "city": "Saint-Denis",
+        "elevation": null
+    },
+    {
+        "country": "Romania",
+        "currency_name": "Romanian New Leu",
+        "city": "Bucuresti",
+        "elevation": 414
+    },
+    {
+        "country": "Russia",
+        "currency_name": "Russian Ruble",
+        "city": "Moscow",
+        "elevation": null
+    },
+    {
+        "country": "Rwanda",
+        "currency_name": "Rwanda Franc",
+        "city": "Kigali",
+        "elevation": 1598
+    },
+    {
+        "country": "Saint Helena",
+        "currency_name": "St. Helena Pound",
+        "city": "Jamestown",
+        "elevation": null
+    },
+    {
+        "country": "Saint Kitts and Nevis",
+        "currency_name": "East Caribbean Dollar",
+        "city": "Basseterre",
+        "elevation": null
+    },
+    {
+        "country": "Saint Lucia",
+        "currency_name": "East Caribbean Dollar",
+        "city": "Castries",
+        "elevation": null
+    },
+    {
+        "country": "Saint Pierre and Miquelon",
+        "currency_name": " Euro",
+        "city": "Saint-Pierre",
+        "elevation": null
+    },
+    {
+        "country": "Saint Vincent and the Grenadines",
+        "currency_name": "East Caribbean Dollar",
+        "city": "Kingstown",
+        "elevation": null
+    },
+    {
+        "country": "Samoa",
+        "currency_name": "Samoan Tala",
+        "city": "Apia",
+        "elevation": null
+    },
+    {
+        "country": "San Marino",
+        "currency_name": "Euro",
+        "city": "San Marino",
+        "elevation": null
+    },
+    {
+        "country": "Sao Tome and Principe",
+        "currency_name": " Dobra",
+        "city": "SĂŁo TomĂ©",
+        "elevation": null
+    },
+    {
+        "country": "Saudi Arabia",
+        "currency_name": "Saudi Riyal",
+        "city": "Riyadh",
+        "elevation": 665
+    },
+    {
+        "country": "Scotland",
+        "currency_name": "Pound Sterling",
+        "city": "Edinburgh",
+        "elevation": null
+    },
+    {
+        "country": "Senegal",
+        "currency_name": "CFA Franc BCEAO",
+        "city": "Dakar",
+        "elevation": 69
+    },
+    {
+        "country": "Serbia",
+        "currency_name": "Serbian dinar",
+        "city": "Belgrade",
+        "elevation": 2826
+    },
+    {
+        "country": "Seychelles",
+        "currency_name": "Seychelles Rupee",
+        "city": "Victoria",
+        "elevation": null
+    },
+    {
+        "country": "Sierra Leone",
+        "currency_name": "Sierra Leone Leone",
+        "city": "Freetown",
+        "elevation": 279
+    },
+    {
+        "country": "Singapore",
+        "currency_name": "Singapore Dollar",
+        "city": "Singapore",
+        "elevation": null
+    },
+    {
+        "country": "Slovakia",
+        "currency_name": "Euro",
+        "city": "Bratislava",
+        "elevation": 458
+    },
+    {
+        "country": "Slovenia",
+        "currency_name": "Euro",
+        "city": "Ljubljana",
+        "elevation": 492
+    },
+    {
+        "country": "Solomon Islands",
+        "currency_name": "Solomon Islands Dollar",
+        "city": "Honiara",
+        "elevation": null
+    },
+    {
+        "country": "Somalia",
+        "currency_name": "Somali Shilling",
+        "city": "Mogadishu",
+        "elevation": 410
+    },
+    {
+        "country": "South Africa",
+        "currency_name": "South African Rand",
+        "city": "Pretoria",
+        "elevation": 1034
+    },
+    {
+        "country": "South Georgia and the South Sandwich Islands",
+        "currency_name": "Pound Sterling",
+        "city": "",
+        "elevation": null
+    },
+    {
+        "country": "South Korea",
+        "currency_name": "Korean Won",
+        "city": "Seoul",
+        "elevation": 282
+    },
+    {
+        "country": "South Sudan",
+        "currency_name": "South Sudan Pound",
+        "city": "Juba",
+        "elevation": null
+    },
+    {
+        "country": "Spain",
+        "currency_name": "Euro",
+        "city": "Madrid",
+        "elevation": 660
+    },
+    {
+        "country": "Sri Lanka",
+        "currency_name": "Sri Lankan Rupee",
+        "city": "Colombo, Sri Jayawardenepura Kotte",
+        "elevation": null
+    },
+    {
+        "country": "Sudan",
+        "currency_name": "Sudanese Pound",
+        "city": "Khartum",
+        "elevation": 568
+    },
+    {
+        "country": "Suriname",
+        "currency_name": "Surinam Dollar",
+        "city": "Paramaribo",
+        "elevation": 246
+    },
+    {
+        "country": "Svalbard and Jan Mayen",
+        "currency_name": "Norwegian Krone",
+        "city": "Longyearbyen",
+        "elevation": null
+    },
+    {
+        "country": "Sweden",
+        "currency_name": "Swedish Krona",
+        "city": "Stockholm",
+        "elevation": 320
+    },
+    {
+        "country": "Switzerland",
+        "currency_name": "Swiss Franc",
+        "city": "Bern",
+        "elevation": 1350
+    },
+    {
+        "country": "Syria",
+        "currency_name": "Syrian Pound",
+        "city": "Damascus",
+        "elevation": 514
+    },
+    {
+        "country": "Tajikistan",
+        "currency_name": "Tajik Somoni",
+        "city": "Dushanbe",
+        "elevation": 3186
+    },
+    {
+        "country": "Tanzania",
+        "currency_name": "Tanzanian Shilling",
+        "city": "Dodoma",
+        "elevation": 1018
+    },
+    {
+        "country": "Thailand",
+        "currency_name": "Thai Baht",
+        "city": "Bangkok",
+        "elevation": 287
+    },
+    {
+        "country": "The Democratic Republic of Congo",
+        "currency_name": "Franc Congolais",
+        "city": "Kinshasa",
+        "elevation": null
+    },
+    {
+        "country": "Togo",
+        "currency_name": "CFA Franc BCEAO",
+        "city": "LomĂ©",
+        "elevation": 236
+    },
+    {
+        "country": "Tokelau",
+        "currency_name": "New Zealand Dollar",
+        "city": "Fakaofo",
+        "elevation": null
+    },
+    {
+        "country": "Tonga",
+        "currency_name": "Tongan Pa'anga",
+        "city": "Nuku'alofa",
+        "elevation": null
+    },
+    {
+        "country": "Trinidad and Tobago",
+        "currency_name": "Trinidad and Tobago Dollar",
+        "city": "Port-of-Spain",
+        "elevation": 83
+    },
+    {
+        "country": "Tunisia",
+        "currency_name": "Tunisian Dollar",
+        "city": "Tunis",
+        "elevation": 246
+    },
+    {
+        "country": "Turkey",
+        "currency_name": "Turkish Lira",
+        "city": "Ankara",
+        "elevation": 1132
+    },
+    {
+        "country": "Turkmenistan",
+        "currency_name": "Manat",
+        "city": "Ashgabat",
+        "elevation": 230
+    },
+    {
+        "country": "Turks and Caicos Islands",
+        "currency_name": "US Dollar",
+        "city": "Cockburn Town",
+        "elevation": null
+    },
+    {
+        "country": "Tuvalu",
+        "currency_name": "Australian Dollar",
+        "city": "Funafuti",
+        "elevation": null
+    },
+    {
+        "country": "Uganda",
+        "currency_name": "Uganda Shilling",
+        "city": "Kampala",
+        "elevation": null
+    },
+    {
+        "country": "Ukraine",
+        "currency_name": "Ukraine Hryvnia",
+        "city": "Kyiv",
+        "elevation": 175
+    },
+    {
+        "country": "United Arab Emirates",
+        "currency_name": "Arab Emirates Dirham",
+        "city": "Abu Dhabi",
+        "elevation": 149
+    },
+    {
+        "country": "United Kingdom",
+        "currency_name": "Pound Sterling",
+        "city": "London",
+        "elevation": ""
+    },
+    {
+        "country": "United States",
+        "currency_name": "US Dollar",
+        "city": "Washington",
+        "elevation": 760
+    },
+    {
+        "country": "United States Minor Outlying Islands",
+        "currency_name": "US Dollar",
+        "city": "",
+        "elevation": null
+    },
+    {
+        "country": "Uruguay",
+        "currency_name": "Uruguayan Peso",
+        "city": "Montevideo",
+        "elevation": 109
+    },
+    {
+        "country": "Uzbekistan",
+        "currency_name": "Uzbekistan Sum",
+        "city": "Toskent",
+        "elevation": null
+    },
+    {
+        "country": "Vanuatu",
+        "currency_name": "Vanuatu Vatu",
+        "city": "Port-Vila",
+        "elevation": null
+    },
+    {
+        "country": "Venezuela",
+        "currency_name": "Venezuelan Bolivar",
+        "city": "Caracas",
+        "elevation": 450
+    },
+    {
+        "country": "Vetican City",
+        "currency_name": "",
+        "city": "Vetican City",
+        "elevation": ""
+    },
+    {
+        "country": "Vietnam",
+        "currency_name": "Vietnamese Dong",
+        "city": "Hanoi",
+        "elevation": ""
+    },
+    {
+        "country": "Virgin Islands, British",
+        "currency_name": "Pound Sterling",
+        "city": "Road Town",
+        "elevation": null
+    },
+    {
+        "country": "Virgin Islands, U.S.",
+        "currency_name": "US Dollar",
+        "city": "Charlotte Amalie",
+        "elevation": null
+    },
+    {
+        "country": "Wales",
+        "currency_name": "Pound Sterlin",
+        "city": "Cardiff",
+        "elevation": null
+    },
+    {
+        "country": "Wallis and Futuna",
+        "currency_name": "CFP Franc",
+        "city": "Mata-Utu",
+        "elevation": null
+    },
+    {
+        "country": "Western Sahara",
+        "currency_name": "Moroccan Dirham",
+        "city": "El-Aai",
+        "elevation": 256
+    },
+    {
+        "country": "Yemen",
+        "currency_name": "Yemeni Rial",
+        "city": "Sanaa",
+        "elevation": 999
+    },
+    {
+        "country": "Zambia",
+        "currency_name": "Zambian Kwacha",
+        "city": "Lusaka",
+        "elevation": 1138
+    },
+    {
+        "country": "Zimbabwe",
+        "currency_name": "Zimbabwe Dollar",
+        "city": "Harare",
+        "elevation": 961
+    }
+]
