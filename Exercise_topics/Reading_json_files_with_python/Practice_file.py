@@ -143,5 +143,85 @@ def join_governement_to_combined2():
 
         print('json')
 
+
+def join_national_dishtocombined3():
+
+    with open('src/country-by-national-dish.json', encoding='utf-8') as natdish:
+        natdish_json = json.load(natdish)
+
+    with open('export/combined3_json.json', encoding='utf-8') as combined3:
+        combined3_json = json.load(combined3)
+
+    natdish_dict = {item['country']: item.get('dish', '') for item in natdish_json}
+
+    combined_data4 = []
+
+    for item in combined3_json:
+        country = item.get('country')
+        city = item.get('city')
+        currency_name = item.get('currency_name')
+        elevation = item.get('elevation')
+        government = item.get('government')
+
+        nat_dish = natdish_dict.get(country, '')
+
+        combined_data4.append({
+            'country': country,
+            'city': city,
+            'currency_name': currency_name,
+            'elevation': elevation,
+            'government': government,
+            'national_dish': nat_dish
+        })
+
+        with open('export/combined4_json.json', 'w', encoding='utf-8') as f_out:
+            json.dump(combined_data4, f_out, indent=4, ensure_ascii=False)
+
+def join_national_dishtocombined4():
+
+    with open('src/country-by-independence-date.json', encoding='utf-8') as independence:
+        independence_json = json.load(independence)
+
+    with open('export/combined4_json.json', encoding='utf-8') as combined4:
+        combined4_json = json.load(combined4)
+
+    independence_dict = {item['country']: item.get('independence', '') for item in independence_json}
+
+    combined_data5 = []
+
+    for item in combined4_json:
+        country = item.get('country')
+        city = item.get('city')
+        currency_name = item.get('currency')
+        elevation = item.get('elevation')
+        government = item.get('government')
+        national_dish = item.get('national_dish')
+
+        independence = independence_dict.get(country, '')
+
+        combined_data5.append({
+            'country': country,
+            'city': city,
+            'currency_name': currency_name,
+            'elevation': elevation,
+            'government': government,
+            'national_dish': national_dish,
+            'independence': independence
+        })
+    
+    with open('export/combined5_json.json', 'w', encoding='utf-8') as f_out:
+        json.dump(combined_data5, f_out, indent=4, ensure_ascii=False)
+
+
+def format_to_Dataframe():
+
+    with open('export/combined4_json.json', encoding='utf-8') as combined4:
+        combined4_json = json.load(combined4)
+
+    combined_df = pd.DataFrame(combined4_json, columns=['country', 'city', 'currency_name', 'elevation', 'government', 'national_dish'])
+    combined_df.columns = ['country', 'city', 'currency_name', 'elevation', 'government', 'national_dish']
+
+    print(combined_df.head(10))
+
 if __name__ == '__main__':
-    join_governement_to_combined2()
+    join_national_dishtocombined4()

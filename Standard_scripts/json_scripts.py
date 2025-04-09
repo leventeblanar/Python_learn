@@ -98,4 +98,4 @@ def check_json():
         bevetelezes_json = json.load(json_file)
 
         bevetelezes_df = pd.DataFrame(bevetelezes_json['items'], columns=['qty', 'price', 'itemid'])
-        bevetelezes_df.columns = ['Quantity', 'Price', 'itemId']x
+        bevetelezes_df.columns = ['Quantity', 'Price', 'itemId']

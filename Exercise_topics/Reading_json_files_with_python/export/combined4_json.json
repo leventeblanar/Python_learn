@@ -1,0 +1,1962 @@
+[
+    {
+        "country": "Afghanistan",
+        "city": "Kabul",
+        "currency_name": "Afghanistan Afghani",
+        "elevation": null,
+        "government": "Islamic Emirate",
+        "national_dish": "Kabuli Palaw"
+    },
+    {
+        "country": "Albania",
+        "city": "Tirana",
+        "currency_name": "Albanian Lek",
+        "elevation": null,
+        "government": "Republic",
+        "national_dish": "Tavë kosi"
+    },
+    {
+        "country": "Algeria",
+        "city": "Alger",
+        "currency_name": "Algerian Dinar",
+        "elevation": 800,
+        "government": "Republic",
+        "national_dish": "Couscous"
+    },
+    {
+        "country": "American Samoa",
+        "city": "Fagatogo",
+        "currency_name": "US Dollar",
+        "elevation": null,
+        "government": "US Territory",
+        "national_dish": null
+    },
+    {
+        "country": "Andorra",
+        "city": "Andorra la Vella",
+        "currency_name": "Euro",
+        "elevation": 1996,
+        "government": "Parliamentary Coprincipality",
+        "national_dish": null
+    },
+    {
+        "country": "Angola",
+        "city": "Luanda",
+        "currency_name": "Angolan Kwanza",
+        "elevation": 1112,
+        "government": "Republic",
+        "national_dish": "Moamba de galinha"
+    },
+    {
+        "country": "Anguilla",
+        "city": "The Valley",
+        "currency_name": "East Caribbean Dollar",
+        "elevation": null,
+        "government": "Dependent Territory of the UK",
+        "national_dish": null
+    },
+    {
+        "country": "Antarctica",
+        "city": "",
+        "currency_name": "East Caribbean Dollar",
+        "elevation": 2300,
+        "government": "Co-administrated",
+        "national_dish": null
+    },
+    {
+        "country": "Antigua and Barbuda",
+        "city": "Saint John's",
+        "currency_name": "East Caribbean Dollar",
+        "elevation": null,
+        "government": "Constitutional Monarchy",
+        "national_dish": "Pepperpot, Fungee"
+    },
+    {
+        "country": "Argentina",
+        "city": "Buenos Aires",
+        "currency_name": "Argentine Peso",
+        "elevation": 595,
+        "government": "Federal Republic",
+        "national_dish": "Asado"
+    },
+    {
+        "country": "Armenia",
+        "city": "Yerevan",
+        "currency_name": "Armenian Dram",
+        "elevation": 1792,
+        "government": "Republic",
+        "national_dish": "Harissa, Dolma, Khorovats"
+    },
+    {
+        "country": "Aruba",
+        "city": "Oranjestad",
+        "currency_name": "Aruban Guilder",
+        "elevation": null,
+        "government": "Nonmetropolitan Territory of The Netherlands",
+        "national_dish": "Keshi yena"
+    },
+    {
+        "country": "Australia",
+        "city": "Canberra",
+        "currency_name": "Australian Dollar",
+        "elevation": 330,
+        "government": "Federation Constitutional Monarchy",
+        "national_dish": "Meat pie,Roast lamb"
+    },
+    {
+        "country": "Austria",
+        "city": "Wien",
+        "currency_name": "Euro",
+        "elevation": 910,
+        "government": "Federal Republic",
+        "national_dish": "Wiener schnitzel, Tafelspitz"
+    },
+    {
+        "country": "Azerbaijan",
+        "city": "Baku",
+        "currency_name": "Azerbaijan New Manat",
+        "elevation": 384,
+        "government": "Federal Republic",
+        "national_dish": "Dolma"
+    },
+    {
+        "country": "Bahamas",
+        "city": "Nassau",
+        "currency_name": "Bahamian Dollar",
+        "elevation": null,
+        "government": "Constitutional Monarchy",
+        "national_dish": "Crack conch with peas and rice"
+    },
+    {
+        "country": "Bahrain",
+        "city": "al-Manama",
+        "currency_name": "Bahraini Dinar",
+        "elevation": null,
+        "government": "Monarchy (Emirate)",
+        "national_dish": "Machboos"
+    },
+    {
+        "country": "Bangladesh",
+        "city": "Dhaka",
+        "currency_name": "Bangladeshi Taka",
+        "elevation": 85,
+        "government": "Republic",
+        "national_dish": "Rice, Fish, Chicken Korma"
+    },
+    {
+        "country": "Barbados",
+        "city": "Bridgetown",
+        "currency_name": "Barbados Dollar",
+        "elevation": null,
+        "government": "Republic",
+        "national_dish": "Cou-Cou and Flying Fish"
+    },
+    {
+        "country": "Belarus",
+        "city": "Minsk",
+        "currency_name": "Belarussian Ruble",
+        "elevation": 160,
+        "government": "Republic",
+        "national_dish": "Draniki"
+    },
+    {
+        "country": "Belgium",
+        "city": "Bruxelles [Brussel]",
+        "currency_name": "Euro",
+        "elevation": "",
+        "government": "Federation Constitutional Monarchy",
+        "national_dish": "Moules-frites"
+    },
+    {
+        "country": "Belize",
+        "city": "Belmopan",
+        "currency_name": "Belize Dollar",
+        "elevation": 173,
+        "government": "Constitutional Monarchy",
+        "national_dish": "Boil up"
+    },
+    {
+        "country": "Benin",
+        "city": "Porto-Novo",
+        "currency_name": "CFA Franc BCEAO",
+        "elevation": 273,
+        "government": "Republic",
+        "national_dish": null
+    },
+    {
+        "country": "Bermuda",
+        "city": "Hamilton",
+        "currency_name": "Bermudian Dollar",
+        "elevation": null,
+        "government": "Dependent Territory of the UK",
+        "national_dish": "Bermuda fish chowder"
+    },
+    {
+        "country": "Bhutan",
+        "city": "Thimphu",
+        "currency_name": "Bhutan Ngultrum",
+        "elevation": 3280,
+        "government": "Monarchy",
+        "national_dish": "Ema datshi"
+    },
+    {
+        "country": "Bolivia",
+        "city": "La Paz",
+        "currency_name": "Boliviano",
+        "elevation": 1192,
+        "government": "Republic",
+        "national_dish": "Salteñas"
+    },
+    {
+        "country": "Bosnia and Herzegovina",
+        "city": "Sarajevo",
+        "currency_name": "Convertible Mark",
+        "elevation": 500,
+        "government": "Federal Republic",
+        "national_dish": "Bosnian pot"
+    },
+    {
+        "country": "Botswana",
+        "city": "Gaborone",
+        "currency_name": "Botswana Pula",
+        "elevation": 1013,
+        "government": "Republic",
+        "national_dish": "Seswaa"
+    },
+    {
+        "country": "Bouvet Island",
+        "city": "",
+        "currency_name": "Norwegian Krone",
+        "elevation": null,
+        "government": "Dependent Territory of Norway",
+        "national_dish": null
+    },
+    {
+        "country": "Brazil",
+        "city": "BrasĂ­lia",
+        "currency_name": "Brazilian Real",
+        "elevation": 320,
+        "government": "Federal Republic",
+        "national_dish": "Feijoada"
+    },
+    {
+        "country": "British Indian Ocean Territory",
+        "city": "",
+        "currency_name": "US Dollar",
+        "elevation": null,
+        "government": "Dependent Territory of the UK",
+        "national_dish": null
+    },
+    {
+        "country": "Brunei",
+        "city": "Bandar Seri Begawan",
+        "currency_name": "Brunei Dollar",
+        "elevation": 478,
+        "government": "Monarchy (Sultanate)",
+        "national_dish": "Ambuyat"
+    },
+    {
+        "country": "Bulgaria",
+        "city": "Sofia",
+        "currency_name": "Bulgarian Lev",
+        "elevation": 472,
+        "government": "Republic",
+        "national_dish": "Banitsa, Bob chorba"
+    },
+    {
+        "country": "Burkina Faso",
+        "city": "Ouagadougou",
+        "currency_name": "CFA Franc BCEAO",
+        "elevation": 297,
+        "government": "Republic",
+        "national_dish": null
+    },
+    {
+        "country": "Burundi",
+        "city": "Bujumbura",
+        "currency_name": "Burundi Franc",
+        "elevation": 1504,
+        "government": "Republic",
+        "national_dish": null
+    },
+    {
+        "country": "Cambodia",
+        "city": "Phnom Penh",
+        "currency_name": "Kampuchean Riel",
+        "elevation": 126,
+        "government": "Constitutional Monarchy",
+        "national_dish": "Amok trey"
+    },
+    {
+        "country": "Cameroon",
+        "city": "Yaounde",
+        "currency_name": "CFA Franc BEAC",
+        "elevation": 667,
+        "government": "Republic",
+        "national_dish": "Ndolé"
+    },
+    {
+        "country": "Canada",
+        "city": "Ottawa",
+        "currency_name": "Canadian Dollar",
+        "elevation": 487,
+        "government": "Constitutional Monarchy, Federation",
+        "national_dish": "Kraft Dinner"
+    },
+    {
+        "country": "Cape Verde",
+        "city": "Praia",
+        "currency_name": "Cape Verde Escudo",
+        "elevation": null,
+        "government": "Republic",
+        "national_dish": "Cachupa"
+    },
+    {
+        "country": "Cayman Islands",
+        "city": "George Town",
+        "currency_name": "Cayman Islands Dollar",
+        "elevation": null,
+        "government": "Dependent Territory of the UK",
+        "national_dish": null
+    },
+    {
+        "country": "Central African Republic",
+        "city": "Bangui",
+        "currency_name": "CFA Franc BEAC",
+        "elevation": 635,
+        "government": "Republic",
+        "national_dish": null
+    },
+    {
+        "country": "Chad",
+        "city": "N'Djamena",
+        "currency_name": "Central African",
+        "elevation": 543,
+        "government": "Republic",
+        "national_dish": null
+    },
+    {
+        "country": "Chile",
+        "city": "Santiago de Chile",
+        "currency_name": "Chilean Peso",
+        "elevation": 1871,
+        "government": "Republic",
+        "national_dish": "Empanada"
+    },
+    {
+        "country": "China",
+        "city": "Peking",
+        "currency_name": "Yuan Renminbi",
+        "elevation": 1840,
+        "government": "People's Republic",
+        "national_dish": "Peking Duck"
+    },
+    {
+        "country": "Christmas Island",
+        "city": "Flying Fish Cove",
+        "currency_name": "Australian Dollar",
+        "elevation": null,
+        "government": "Territory of Australia",
+        "national_dish": null
+    },
+    {
+        "country": "Cocos (Keeling) Islands",
+        "city": "West Island",
+        "currency_name": " Australian Dollar",
+        "elevation": null,
+        "government": "Territory of Australia",
+        "national_dish": null
+    },
+    {
+        "country": "Colombia",
+        "city": "Bogota",
+        "currency_name": "Colombian Peso",
+        "elevation": 593,
+        "government": "Republic",
+        "national_dish": "Ajiaco, Bandeja paisa"
+    },
+    {
+        "country": "Comoros",
+        "city": "Moroni",
+        "currency_name": "Comoros Franc",
+        "elevation": null,
+        "government": "Republic",
+        "national_dish": null
+    },
+    {
+        "country": "Congo",
+        "city": "Brazzaville",
+        "currency_name": "CFA Franc BEAC",
+        "elevation": 430,
+        "government": "Republic",
+        "national_dish": null
+    },
+    {
+        "country": "Cook Islands",
+        "city": "Avarua",
+        "currency_name": "New Zealand Dollar",
+        "elevation": null,
+        "government": "Nonmetropolitan Territory of New Zealand",
+        "national_dish": null
+    },
+    {
+        "country": "Costa Rica",
+        "city": "San JosĂ©",
+        "currency_name": "Costa Rican Colon",
+        "elevation": 746,
+        "government": "Republic",
+        "national_dish": "Gallo pinto"
+    },
+    {
+        "country": "Croatia",
+        "city": "Zagreb",
+        "currency_name": "Croatian Kuna",
+        "elevation": 331,
+        "government": "Republic",
+        "national_dish": "Istrian stew"
+    },
+    {
+        "country": "Cuba",
+        "city": "La Habana",
+        "currency_name": "Cuban Peso",
+        "elevation": 108,
+        "government": "Socialistic Republic",
+        "national_dish": "Ropa vieja, Moros y cristianos"
+    },
+    {
+        "country": "Cyprus",
+        "city": "Nicosia",
+        "currency_name": "Euro",
+        "elevation": 91,
+        "government": "Republic",
+        "national_dish": "Fasolada"
+    },
+    {
+        "country": "Czech Republic",
+        "city": "Praha",
+        "currency_name": "Czech Koruna",
+        "elevation": 433,
+        "government": "Republic",
+        "national_dish": "roast pork with dumplings and sauerkraut"
+    },
+    {
+        "country": "Denmark",
+        "city": "Copenhagen",
+        "currency_name": "Danish Krone",
+        "elevation": 34,
+        "government": "Constitutional Monarchy",
+        "national_dish": "fried pork and potato-based dish"
+    },
+    {
+        "country": "Djibouti",
+        "city": "Djibouti",
+        "currency_name": "Djibouti Franc",
+        "elevation": 430,
+        "government": "Republic",
+        "national_dish": null
+    },
+    {
+        "country": "Dominica",
+        "city": "Roseau",
+        "currency_name": "East Caribbean Dollar",
+        "elevation": null,
+        "government": "Republic",
+        "national_dish": "Mountain chicken, Fish broth"
+    },
+    {
+        "country": "Dominican Republic",
+        "city": "Santo Domingo de Guzm",
+        "currency_name": "Dominican Peso",
+        "elevation": 424,
+        "government": "Republic",
+        "national_dish": "rice, red beans, and meat"
+    },
+    {
+        "country": "East Timor",
+        "city": "Dili",
+        "currency_name": "US Dollar",
+        "elevation": null,
+        "government": "Administrated by the UN",
+        "national_dish": null
+    },
+    {
+        "country": "Ecuador",
+        "city": "Quito",
+        "currency_name": "Ecuador Sucre",
+        "elevation": 1117,
+        "government": "Republic",
+        "national_dish": "Encebollado, Fritada,Guatitas,"
+    },
+    {
+        "country": "Egypt",
+        "city": "Cairo",
+        "currency_name": "Egyptian Pound",
+        "elevation": 321,
+        "government": "Republic",
+        "national_dish": "Ful medames, kushari,"
+    },
+    {
+        "country": "El Salvador",
+        "city": "San Salvador",
+        "currency_name": "El Salvador Colon",
+        "elevation": 442,
+        "government": "Republic",
+        "national_dish": "Pupusa"
+    },
+    {
+        "country": "England",
+        "city": "London",
+        "currency_name": "Pound Sterlin",
+        "elevation": null,
+        "government": null,
+        "national_dish": "Beef,(especially roast beef/corned beef),Pudding"
+    },
+    {
+        "country": "Equatorial Guinea",
+        "city": "Malabo",
+        "currency_name": "CFA Franc BEAC",
+        "elevation": 577,
+        "government": "Republic",
+        "national_dish": null
+    },
+    {
+        "country": "Eritrea",
+        "city": "Asmara",
+        "currency_name": "Eritrean Nakfa",
+        "elevation": 853,
+        "government": "Republic",
+        "national_dish": "Zigini with injera, Gored gored, raw meat"
+    },
+    {
+        "country": "Estonia",
+        "city": "Tallinn",
+        "currency_name": "Euro",
+        "elevation": 61,
+        "government": "Republic",
+        "national_dish": "sauerkraut stew"
+    },
+    {
+        "country": "Eswatini",
+        "city": "Mbabane",
+        "currency_name": "Swaziland Lilangeni",
+        "elevation": 305,
+        "government": "Monarchy",
+        "national_dish": null
+    },
+    {
+        "country": "Ethiopia",
+        "city": "Addis Abeba",
+        "currency_name": "Ethiopian Birr",
+        "elevation": 1330,
+        "government": "Republic",
+        "national_dish": "Wat with injera, Fit-fit"
+    },
+    {
+        "country": "Falkland Islands",
+        "city": "Stanley",
+        "currency_name": "Falkland Islands Pound",
+        "elevation": null,
+        "government": "Dependent Territory of the UK",
+        "national_dish": null
+    },
+    {
+        "country": "Faroe Islands",
+        "city": "TĂłrshavn",
+        "currency_name": " Danish Krone",
+        "elevation": null,
+        "government": "Part of Denmark",
+        "national_dish": null
+    },
+    {
+        "country": "Fiji Islands",
+        "city": "Suva",
+        "currency_name": "Fijian Dollar",
+        "elevation": null,
+        "government": "Republic",
+        "national_dish": null
+    },
+    {
+        "country": "Finland",
+        "city": "Helsinki [Helsingfors]",
+        "currency_name": "Euro",
+        "elevation": 164,
+        "government": "Republic",
+        "national_dish": "Karjalanpaisti, Mämmi, Sautéed reindeer"
+    },
+    {
+        "country": "France",
+        "city": "Paris",
+        "currency_name": "Euro",
+        "elevation": 375,
+        "government": "Republic",
+        "national_dish": "Crêpe, Pot-au-feu, Macaron, Bisque"
+    },
+    {
+        "country": "French Guiana",
+        "city": "Cayenne",
+        "currency_name": "Euro",
+        "elevation": 168,
+        "government": "Overseas Department of France",
+        "national_dish": null
+    },
+    {
+        "country": "French Polynesia",
+        "city": "Papeete",
+        "currency_name": "CFP Franc",
+        "elevation": null,
+        "government": "Nonmetropolitan Territory of France",
+        "national_dish": null
+    },
+    {
+        "country": "French Southern territories",
+        "city": "",
+        "currency_name": "Euro",
+        "elevation": null,
+        "government": "Nonmetropolitan Territory of France",
+        "national_dish": null
+    },
+    {
+        "country": "Gabon",
+        "city": "Libreville",
+        "currency_name": "CFA Franc BEAC",
+        "elevation": 377,
+        "government": "Republic",
+        "national_dish": "Poulet Nyembwe"
+    },
+    {
+        "country": "Gambia",
+        "city": "Banjul",
+        "currency_name": "Gambian Dalasi",
+        "elevation": 34,
+        "government": "Republic",
+        "national_dish": null
+    },
+    {
+        "country": "Georgia",
+        "city": "Tbilisi",
+        "currency_name": "Georgian Lari",
+        "elevation": 1432,
+        "government": "Republic",
+        "national_dish": "Khachapuri, khinkali"
+    },
+    {
+        "country": "Germany",
+        "city": "Berlin",
+        "currency_name": "Euro",
+        "elevation": 263,
+        "government": "Federal Republic",
+        "national_dish": "Currywurst, Sauerbraten, Bratwurst"
+    },
+    {
+        "country": "Ghana",
+        "city": "Accra",
+        "currency_name": "Ghanaian Cedi",
+        "elevation": 190,
+        "government": "Republic",
+        "national_dish": "Fufu"
+    },
+    {
+        "country": "Gibraltar",
+        "city": "Gibraltar",
+        "currency_name": "Gibraltar Pound",
+        "elevation": null,
+        "government": "Dependent Territory of the UK",
+        "national_dish": null
+    },
+    {
+        "country": "Greece",
+        "city": "Athenai",
+        "currency_name": "Euro",
+        "elevation": 498,
+        "government": "Republic",
+        "national_dish": "Fasolada,Moussaka, Souvlaki"
+    },
+    {
+        "country": "Greenland",
+        "city": "Nuuk",
+        "currency_name": "Danish Krone",
+        "elevation": 1792,
+        "government": "Part of Denmark",
+        "national_dish": "Kiviak"
+    },
+    {
+        "country": "Grenada",
+        "city": "Saint George's",
+        "currency_name": "East Carribean Dollar",
+        "elevation": null,
+        "government": "Constitutional Monarchy",
+        "national_dish": "Oil Down"
+    },
+    {
+        "country": "Guadeloupe",
+        "city": "Basse-Terre",
+        "currency_name": "Euro",
+        "elevation": null,
+        "government": "Overseas Department of France",
+        "national_dish": null
+    },
+    {
+        "country": "Guam",
+        "city": "Aga",
+        "currency_name": "US Dollar",
+        "elevation": "",
+        "government": "US Territory",
+        "national_dish": null
+    },
+    {
+        "country": "Guatemala",
+        "city": "Ciudad de Guatemala",
+        "currency_name": "Guatemalan Quetzal",
+        "elevation": 759,
+        "government": "Republic",
+        "national_dish": "Fiambre, Pepian (hearty meat stew)"
+    },
+    {
+        "country": "Guinea",
+        "city": "Conakry",
+        "currency_name": "Guinea Franc",
+        "elevation": 472,
+        "government": "Republic",
+        "national_dish": null
+    },
+    {
+        "country": "Guinea-Bissau",
+        "city": "Bissau",
+        "currency_name": "West African CFA franc",
+        "elevation": 70,
+        "government": "Republic",
+        "national_dish": null
+    },
+    {
+        "country": "Guyana",
+        "city": "Georgetown",
+        "currency_name": "Guyana Dollar",
+        "elevation": 207,
+        "government": "Republic",
+        "national_dish": "Pepperpot"
+    },
+    {
+        "country": "Haiti",
+        "city": "Port-au-Prince",
+        "currency_name": "Haitian Gourde",
+        "elevation": 470,
+        "government": "Republic",
+        "national_dish": "Red beans and rice"
+    },
+    {
+        "country": "Heard Island and McDonald Islands",
+        "city": "",
+        "currency_name": "Australian Dollar",
+        "elevation": null,
+        "government": "Territory of Australia",
+        "national_dish": null
+    },
+    {
+        "country": "Holy See (Vatican City State)",
+        "city": "Citt",
+        "currency_name": "Euro",
+        "elevation": null,
+        "government": "Independent Church State",
+        "national_dish": null
+    },
+    {
+        "country": "Honduras",
+        "city": "Tegucigalpa",
+        "currency_name": "Honduran Lempira",
+        "elevation": 684,
+        "government": "Republic",
+        "national_dish": "Baleada, Carne asada, Sopa de Caracol (Conch Soup)"
+    },
+    {
+        "country": "Hong Kong",
+        "city": "Victoria",
+        "currency_name": "Hong Kong Dollar",
+        "elevation": null,
+        "government": "Special Administrative Region of China",
+        "national_dish": "Char siu"
+    },
+    {
+        "country": "Hungary",
+        "city": "Budapest",
+        "currency_name": "Hungarian Forint",
+        "elevation": 143,
+        "government": "Republic",
+        "national_dish": "Gulyás,"
+    },
+    {
+        "country": "Iceland",
+        "city": "ReykjavĂ­k",
+        "currency_name": "Iceland Krona",
+        "elevation": 557,
+        "government": "Republic",
+        "national_dish": "Hákarl, Þorramatur"
+    },
+    {
+        "country": "India",
+        "city": "New Delhi",
+        "currency_name": "Indian Rupee",
+        "elevation": 160,
+        "government": "Federal Republic",
+        "national_dish": "No officially announced national dish"
+    },
+    {
+        "country": "Indonesia",
+        "city": "Jakarta",
+        "currency_name": "Indonesian Rupiah",
+        "elevation": 367,
+        "government": "Republic",
+        "national_dish": "Tumpeng Sate,Soto,Nasi goreng"
+    },
+    {
+        "country": "Iran",
+        "city": "Tehran",
+        "currency_name": "Iranian Rial",
+        "elevation": 1305,
+        "government": "Islamic Republic",
+        "national_dish": "Chelo kabab, Ghormeh sabzi"
+    },
+    {
+        "country": "Iraq",
+        "city": "Baghdad",
+        "currency_name": "Iraqi Dinar",
+        "elevation": 312,
+        "government": "Republic",
+        "national_dish": "Samak masgouf,Kleicha"
+    },
+    {
+        "country": "Ireland",
+        "city": "Dublin",
+        "currency_name": "Euro",
+        "elevation": 118,
+        "government": "Republic",
+        "national_dish": "Colcannon,Irish stew"
+    },
+    {
+        "country": "Israel",
+        "city": "Jerusalem",
+        "currency_name": "Israeli New Shekel",
+        "elevation": 508,
+        "government": "Republic",
+        "national_dish": "Hummus, falafel, Meorav Yerushalmi"
+    },
+    {
+        "country": "Italy",
+        "city": "Roma",
+        "currency_name": "Euro",
+        "elevation": 538,
+        "government": "Republic",
+        "national_dish": "Pasta,Polenta,Pizza, Risotto"
+    },
+    {
+        "country": "Ivory Coast",
+        "city": "Yamoussoukro",
+        "currency_name": "CFA Franc BCEAO",
+        "elevation": 250,
+        "government": "Republic",
+        "national_dish": "Fufu, Kedjenou"
+    },
+    {
+        "country": "Jamaica",
+        "city": "Kingston",
+        "currency_name": "Jamaican Dollar",
+        "elevation": 18,
+        "government": "Constitutional Monarchy",
+        "national_dish": "Ackee and Saltfish, Jamaican patty"
+    },
+    {
+        "country": "Japan",
+        "city": "Tokyo",
+        "currency_name": "Japanese Yen",
+        "elevation": 438,
+        "government": "Constitutional Monarchy",
+        "national_dish": "Sushi, Japanese curry,Ramen"
+    },
+    {
+        "country": "Jordan",
+        "city": "Amman",
+        "currency_name": "Jordanian Dinar",
+        "elevation": 812,
+        "government": "Constitutional Monarchy",
+        "national_dish": "Mansaf"
+    },
+    {
+        "country": "Kazakhstan",
+        "city": "Astana",
+        "currency_name": "Tenge",
+        "elevation": null,
+        "government": "Republic",
+        "national_dish": null
+    },
+    {
+        "country": "Kenya",
+        "city": "Nairobi",
+        "currency_name": "Kenyan Shilling",
+        "elevation": 762,
+        "government": "Republic",
+        "national_dish": "Ugali, Sukuma wiki, Nyama choma"
+    },
+    {
+        "country": "Kiribati",
+        "city": "Bairiki",
+        "currency_name": "Australian Dollar",
+        "elevation": null,
+        "government": "Republic",
+        "national_dish": null
+    },
+    {
+        "country": "Kuwait",
+        "city": "Kuwait",
+        "currency_name": "Kuwaiti Dinar",
+        "elevation": 108,
+        "government": "Constitutional Monarchy (Emirate)",
+        "national_dish": "Machboos"
+    },
+    {
+        "country": "Kyrgyzstan",
+        "city": "Bishkek",
+        "currency_name": "Som",
+        "elevation": 2988,
+        "government": "Republic",
+        "national_dish": "Beshbarmak, Laghman, Kuurdak"
+    },
+    {
+        "country": "Laos",
+        "city": "Vientiane",
+        "currency_name": "Lao Kip",
+        "elevation": 710,
+        "government": "Republic",
+        "national_dish": "Tum Mak Hoong (Som Tum, its Thai name)"
+    },
+    {
+        "country": "Latvia",
+        "city": "Riga",
+        "currency_name": "Latvian Lats",
+        "elevation": 87,
+        "government": "Republic",
+        "national_dish": "Latke"
+    },
+    {
+        "country": "Lebanon",
+        "city": "Beirut",
+        "currency_name": "Lebanese Pound",
+        "elevation": 1250,
+        "government": "Republic",
+        "national_dish": "Kibbeh"
+    },
+    {
+        "country": "Lesotho",
+        "city": "Maseru",
+        "currency_name": "Lesotho Loti",
+        "elevation": 2161,
+        "government": "Constitutional Monarchy",
+        "national_dish": null
+    },
+    {
+        "country": "Liberia",
+        "city": "Monrovia",
+        "currency_name": "Liberian Dollar",
+        "elevation": 243,
+        "government": "Republic",
+        "national_dish": null
+    },
+    {
+        "country": "Libya",
+        "city": "Tripoli",
+        "currency_name": "Libyan Dinar",
+        "elevation": null,
+        "government": "Socialistic State",
+        "national_dish": null
+    },
+    {
+        "country": "Liechtenstein",
+        "city": "Vaduz",
+        "currency_name": "Swiss Franc",
+        "elevation": null,
+        "government": "Constitutional Monarchy",
+        "national_dish": null
+    },
+    {
+        "country": "Lithuania",
+        "city": "Vilnius",
+        "currency_name": "Lithuanian Litas",
+        "elevation": 110,
+        "government": "Republic",
+        "national_dish": "Cepelinai"
+    },
+    {
+        "country": "Luxembourg",
+        "city": "Luxembourg [Luxemburg/L",
+        "currency_name": "Euro",
+        "elevation": 325,
+        "government": "Constitutional Monarchy",
+        "national_dish": "Judd mat Gaardebounen, Bouneschlupp"
+    },
+    {
+        "country": "Macao",
+        "city": "Macao",
+        "currency_name": "",
+        "elevation": null,
+        "government": "Special Administrative Region of China",
+        "national_dish": null
+    },
+    {
+        "country": "North Macedonia",
+        "city": "Skopje",
+        "currency_name": "Denar",
+        "elevation": 741,
+        "government": "Republic",
+        "national_dish": "Tavče Gravče"
+    },
+    {
+        "country": "Madagascar",
+        "city": "Antananarivo",
+        "currency_name": "Malagasy Franc",
+        "elevation": 615,
+        "government": "Federal Republic",
+        "national_dish": "Romazava"
+    },
+    {
+        "country": "Malawi",
+        "city": "Lilongwe",
+        "currency_name": "Malawi Kwacha",
+        "elevation": 779,
+        "government": "Republic",
+        "national_dish": null
+    },
+    {
+        "country": "Malaysia",
+        "city": "Kuala Lumpur",
+        "currency_name": "Malaysian Ringgit",
+        "elevation": 538,
+        "government": "Constitutional Monarchy",
+        "national_dish": "Nasi lemak,Satay, Laksa, Roti canai"
+    },
+    {
+        "country": "Maldives",
+        "city": "Male",
+        "currency_name": "Maldive Rufiyaa",
+        "elevation": 1.8,
+        "government": "Republic",
+        "national_dish": null
+    },
+    {
+        "country": "Mali",
+        "city": "Bamako",
+        "currency_name": "CFA Franc BCEAO",
+        "elevation": 343,
+        "government": "Republic",
+        "national_dish": null
+    },
+    {
+        "country": "Malta",
+        "city": "Valletta",
+        "currency_name": "Euro",
+        "elevation": null,
+        "government": "Republic",
+        "national_dish": "Pastizzi, Rabbit Stew (Fenkata)"
+    },
+    {
+        "country": "Marshall Islands",
+        "city": "Dalap-Uliga-Darrit",
+        "currency_name": "US Dollar",
+        "elevation": null,
+        "government": "Republic",
+        "national_dish": null
+    },
+    {
+        "country": "Martinique",
+        "city": "Fort-de-France",
+        "currency_name": "Euro",
+        "elevation": null,
+        "government": "Overseas Department of France",
+        "national_dish": null
+    },
+    {
+        "country": "Mauritania",
+        "city": "Nouakchott",
+        "currency_name": "Mauritanian Ouguiya",
+        "elevation": 276,
+        "government": "Republic",
+        "national_dish": "Thieboudienne, Couscous"
+    },
+    {
+        "country": "Mauritius",
+        "city": "Port-Louis",
+        "currency_name": "Mauritius Rupee",
+        "elevation": null,
+        "government": "Republic",
+        "national_dish": null
+    },
+    {
+        "country": "Mayotte",
+        "city": "Mamoutzou",
+        "currency_name": "Euro",
+        "elevation": null,
+        "government": "Territorial Collectivity of France",
+        "national_dish": null
+    },
+    {
+        "country": "Mexico",
+        "city": "Ciudad de M",
+        "currency_name": "Mexican Nuevo Peso",
+        "elevation": 1111,
+        "government": "Federal Republic",
+        "national_dish": "Tacos, Mole poblano,Chiles en nogada"
+    },
+    {
+        "country": "Micronesia, Federated States of",
+        "city": "Palikir",
+        "currency_name": "US Dollar",
+        "elevation": null,
+        "government": "Federal Republic",
+        "national_dish": null
+    },
+    {
+        "country": "Moldova",
+        "city": "Chisinau",
+        "currency_name": "Moldovan Leu",
+        "elevation": 139,
+        "government": "Republic",
+        "national_dish": "Mămăligă, Sarmale, Răcituri"
+    },
+    {
+        "country": "Monaco",
+        "city": "Monaco-Ville",
+        "currency_name": "Euro",
+        "elevation": null,
+        "government": "Constitutional Monarchy",
+        "national_dish": null
+    },
+    {
+        "country": "Mongolia",
+        "city": "Ulan Bator",
+        "currency_name": "Mongolian Tugrik",
+        "elevation": 1528,
+        "government": "Republic",
+        "national_dish": "Buuz"
+    },
+    {
+        "country": "Montenegro",
+        "city": "Podgorica",
+        "currency_name": "",
+        "elevation": "",
+        "government": "",
+        "national_dish": ""
+    },
+    {
+        "country": "Montserrat",
+        "city": "Plymouth",
+        "currency_name": "East Caribbean Dollar",
+        "elevation": null,
+        "government": "Dependent Territory of the UK",
+        "national_dish": null
+    },
+    {
+        "country": "Morocco",
+        "city": "Rabat",
+        "currency_name": "Moroccan Dirham",
+        "elevation": 909,
+        "government": "Constitutional Monarchy",
+        "national_dish": "Couscous, Tagine"
+    },
+    {
+        "country": "Mozambique",
+        "city": "Maputo",
+        "currency_name": "Mozambique Metical",
+        "elevation": 345,
+        "government": "Republic",
+        "national_dish": null
+    },
+    {
+        "country": "Myanmar",
+        "city": "Rangoon (Yangon)",
+        "currency_name": "Myanmar Kyat",
+        "elevation": null,
+        "government": "Republic",
+        "national_dish": null
+    },
+    {
+        "country": "Namibia",
+        "city": "Windhoek",
+        "currency_name": "Namibian Dollar",
+        "elevation": 1141,
+        "government": "Republic",
+        "national_dish": null
+    },
+    {
+        "country": "Nauru",
+        "city": "Yaren",
+        "currency_name": "Australian Dollar",
+        "elevation": null,
+        "government": "Republic",
+        "national_dish": null
+    },
+    {
+        "country": "Nepal",
+        "city": "Kathmandu",
+        "currency_name": "Nepalese Rupee",
+        "elevation": 3265,
+        "government": "Federal parliamentary republic",
+        "national_dish": "Dal bhat"
+    },
+    {
+        "country": "Netherlands",
+        "city": "Amsterdam",
+        "currency_name": "Euro",
+        "elevation": 30,
+        "government": "Constitutional Monarchy",
+        "national_dish": "Stamppot, hutspot"
+    },
+    {
+        "country": "Netherlands Antilles",
+        "city": "Willemstad",
+        "currency_name": "Netherlands Antillean Guilder",
+        "elevation": null,
+        "government": "Nonmetropolitan Territory of The Netherlands",
+        "national_dish": null
+    },
+    {
+        "country": "New Caledonia",
+        "city": "Noum",
+        "currency_name": "CFP Franc",
+        "elevation": null,
+        "government": "Nonmetropolitan Territory of France",
+        "national_dish": null
+    },
+    {
+        "country": "New Zealand",
+        "city": "Wellington",
+        "currency_name": "New Zealand Dollar",
+        "elevation": 388,
+        "government": "Constitutional Monarchy",
+        "national_dish": "Bacon and egg pie, lamb, pavlova"
+    },
+    {
+        "country": "Nicaragua",
+        "city": "Managua",
+        "currency_name": "Nicaraguan Cordoba Oro",
+        "elevation": 298,
+        "government": "Republic",
+        "national_dish": "Gallo pinto"
+    },
+    {
+        "country": "Niger",
+        "city": "Niamey",
+        "currency_name": "CFA Franc BCEAO",
+        "elevation": 474,
+        "government": "Republic",
+        "national_dish": null
+    },
+    {
+        "country": "Nigeria",
+        "city": "Abuja",
+        "currency_name": "Nigerian Naira",
+        "elevation": 380,
+        "government": "Federal Republic",
+        "national_dish": "Jollof rice"
+    },
+    {
+        "country": "Niue",
+        "city": "Alofi",
+        "currency_name": "New Zealand Dollar",
+        "elevation": null,
+        "government": "Nonmetropolitan Territory of New Zealand",
+        "national_dish": null
+    },
+    {
+        "country": "Norfolk Island",
+        "city": "Kingston",
+        "currency_name": "Australian Dollar",
+        "elevation": null,
+        "government": "Territory of Australia",
+        "national_dish": null
+    },
+    {
+        "country": "North Korea",
+        "city": "Pyongyang",
+        "currency_name": "North Korean Won",
+        "elevation": 400,
+        "government": "Socialistic Republic",
+        "national_dish": "Galbi, Kimchi"
+    },
+    {
+        "country": "Northern Ireland",
+        "city": "Belfast",
+        "currency_name": "Pound Sterling",
+        "elevation": null,
+        "government": null,
+        "national_dish": "Ulster fry"
+    },
+    {
+        "country": "Northern Mariana Islands",
+        "city": "Garapan",
+        "currency_name": "US Dollar",
+        "elevation": null,
+        "government": "Commonwealth of the US",
+        "national_dish": null
+    },
+    {
+        "country": "Norway",
+        "city": "Oslo",
+        "currency_name": "Norwegian Krone",
+        "elevation": 460,
+        "government": "Constitutional Monarchy",
+        "national_dish": "Fårikål"
+    },
+    {
+        "country": "Oman",
+        "city": "Masqat",
+        "currency_name": "Omani Rial",
+        "elevation": 310,
+        "government": "Monarchy (Sultanate)",
+        "national_dish": null
+    },
+    {
+        "country": "Pakistan",
+        "city": "Islamabad",
+        "currency_name": "Pakistan Rupee",
+        "elevation": 900,
+        "government": "Republic",
+        "national_dish": "Biryani, Nihari"
+    },
+    {
+        "country": "Palau",
+        "city": "Koror",
+        "currency_name": "US Dollar",
+        "elevation": null,
+        "government": "Republic",
+        "national_dish": null
+    },
+    {
+        "country": "Palestine",
+        "city": "Gaza",
+        "currency_name": "",
+        "elevation": null,
+        "government": "Autonomous Area",
+        "national_dish": "Arab salad, Falafel, Mujaddara, Musakhan, Hummus with tahini"
+    },
+    {
+        "country": "Panama",
+        "city": "Ciudad de PanamĂˇ",
+        "currency_name": "Panamanian Balboa",
+        "elevation": 360,
+        "government": "Republic",
+        "national_dish": "Sancocho de gallina"
+    },
+    {
+        "country": "Papua New Guinea",
+        "city": "Port Moresby",
+        "currency_name": "Papua New Guinea Kina",
+        "elevation": 667,
+        "government": "Constitutional Monarchy",
+        "national_dish": null
+    },
+    {
+        "country": "Paraguay",
+        "city": "AsunciĂłn",
+        "currency_name": "Paraguay Guarani",
+        "elevation": 178,
+        "government": "Republic",
+        "national_dish": "Sopa paraguaya"
+    },
+    {
+        "country": "Peru",
+        "city": "Lima",
+        "currency_name": "Peruvian Nuevo Sol",
+        "elevation": 1555,
+        "government": "Republic",
+        "national_dish": "Ceviche"
+    },
+    {
+        "country": "Philippines",
+        "city": "Manila",
+        "currency_name": "Philippine Peso",
+        "elevation": 442,
+        "government": "Republic",
+        "national_dish": "Adobo,Lechon (both unofficial)"
+    },
+    {
+        "country": "Pitcairn",
+        "city": "Adamstown",
+        "currency_name": "",
+        "elevation": null,
+        "government": "Dependent Territory of the UK",
+        "national_dish": null
+    },
+    {
+        "country": "Poland",
+        "city": "Warszawa",
+        "currency_name": "Polish Zloty",
+        "elevation": 173,
+        "government": "Republic",
+        "national_dish": "Bigos, Pierogi,Kotlet schabowy, Żurek"
+    },
+    {
+        "country": "Portugal",
+        "city": "Lisboa",
+        "currency_name": "Euro",
+        "elevation": 372,
+        "government": "Republic",
+        "national_dish": "Bacalhau"
+    },
+    {
+        "country": "Puerto Rico",
+        "city": "San Juan",
+        "currency_name": "US Dollar",
+        "elevation": 261,
+        "government": "Commonwealth of the US",
+        "national_dish": "Arroz con gandules, Mofongo"
+    },
+    {
+        "country": "Qatar",
+        "city": "Doha",
+        "currency_name": "Qatari Rial",
+        "elevation": 28,
+        "government": "Monarchy",
+        "national_dish": null
+    },
+    {
+        "country": "Reunion",
+        "city": "Saint-Denis",
+        "currency_name": "Euro",
+        "elevation": null,
+        "government": "Overseas Department of France",
+        "national_dish": null
+    },
+    {
+        "country": "Romania",
+        "city": "Bucuresti",
+        "currency_name": "Romanian New Leu",
+        "elevation": 414,
+        "government": "Republic",
+        "national_dish": "Mămăligă, Sarmale, Mici"
+    },
+    {
+        "country": "Russia",
+        "city": "Moscow",
+        "currency_name": "Russian Ruble",
+        "elevation": null,
+        "government": "Federal Republic",
+        "national_dish": null
+    },
+    {
+        "country": "Rwanda",
+        "city": "Kigali",
+        "currency_name": "Rwanda Franc",
+        "elevation": 1598,
+        "government": "Republic",
+        "national_dish": null
+    },
+    {
+        "country": "Saint Helena",
+        "city": "Jamestown",
+        "currency_name": "St. Helena Pound",
+        "elevation": null,
+        "government": "Dependent Territory of the UK",
+        "national_dish": null
+    },
+    {
+        "country": "Saint Kitts and Nevis",
+        "city": "Basseterre",
+        "currency_name": "East Caribbean Dollar",
+        "elevation": null,
+        "government": "Constitutional Monarchy",
+        "national_dish": null
+    },
+    {
+        "country": "Saint Lucia",
+        "city": "Castries",
+        "currency_name": "East Caribbean Dollar",
+        "elevation": null,
+        "government": "Constitutional Monarchy",
+        "national_dish": null
+    },
+    {
+        "country": "Saint Pierre and Miquelon",
+        "city": "Saint-Pierre",
+        "currency_name": " Euro",
+        "elevation": null,
+        "government": "Territorial Collectivity of France",
+        "national_dish": null
+    },
+    {
+        "country": "Saint Vincent and the Grenadines",
+        "city": "Kingstown",
+        "currency_name": "East Caribbean Dollar",
+        "elevation": null,
+        "government": "Constitutional Monarchy",
+        "national_dish": null
+    },
+    {
+        "country": "Samoa",
+        "city": "Apia",
+        "currency_name": "Samoan Tala",
+        "elevation": null,
+        "government": "Parliamentary Republic",
+        "national_dish": null
+    },
+    {
+        "country": "San Marino",
+        "city": "San Marino",
+        "currency_name": "Euro",
+        "elevation": null,
+        "government": "Republic",
+        "national_dish": "Torta Tre Monti"
+    },
+    {
+        "country": "Sao Tome and Principe",
+        "city": "SĂŁo TomĂ©",
+        "currency_name": " Dobra",
+        "elevation": null,
+        "government": "Republic",
+        "national_dish": null
+    },
+    {
+        "country": "Saudi Arabia",
+        "city": "Riyadh",
+        "currency_name": "Saudi Riyal",
+        "elevation": 665,
+        "government": "Monarchy",
+        "national_dish": "Kabsa"
+    },
+    {
+        "country": "Scotland",
+        "city": "Edinburgh",
+        "currency_name": "Pound Sterling",
+        "elevation": null,
+        "government": null,
+        "national_dish": "Haggis"
+    },
+    {
+        "country": "Senegal",
+        "city": "Dakar",
+        "currency_name": "CFA Franc BCEAO",
+        "elevation": 69,
+        "government": "Republic",
+        "national_dish": "Thieboudienne"
+    },
+    {
+        "country": "Serbia",
+        "city": "Belgrade",
+        "currency_name": "Serbian dinar",
+        "elevation": 2826,
+        "government": "Republic",
+        "national_dish": null
+    },
+    {
+        "country": "Seychelles",
+        "city": "Victoria",
+        "currency_name": "Seychelles Rupee",
+        "elevation": null,
+        "government": "Republic",
+        "national_dish": null
+    },
+    {
+        "country": "Sierra Leone",
+        "city": "Freetown",
+        "currency_name": "Sierra Leone Leone",
+        "elevation": 279,
+        "government": "Republic",
+        "national_dish": null
+    },
+    {
+        "country": "Singapore",
+        "city": "Singapore",
+        "currency_name": "Singapore Dollar",
+        "elevation": null,
+        "government": "Republic",
+        "national_dish": "Chilli crab,Hainanese Chicken Rice"
+    },
+    {
+        "country": "Slovakia",
+        "city": "Bratislava",
+        "currency_name": "Euro",
+        "elevation": 458,
+        "government": "Republic",
+        "national_dish": "Bryndzové halušky"
+    },
+    {
+        "country": "Slovenia",
+        "city": "Ljubljana",
+        "currency_name": "Euro",
+        "elevation": 492,
+        "government": "Republic",
+        "national_dish": "Ajdovi žganci, Belokranjska povitica, Obara"
+    },
+    {
+        "country": "Solomon Islands",
+        "city": "Honiara",
+        "currency_name": "Solomon Islands Dollar",
+        "elevation": null,
+        "government": "Constitutional Monarchy",
+        "national_dish": null
+    },
+    {
+        "country": "Somalia",
+        "city": "Mogadishu",
+        "currency_name": "Somali Shilling",
+        "elevation": 410,
+        "government": "Republic",
+        "national_dish": "Canjeero with goat stew"
+    },
+    {
+        "country": "South Africa",
+        "city": "Pretoria",
+        "currency_name": "South African Rand",
+        "elevation": 1034,
+        "government": "Republic",
+        "national_dish": "Bobotie"
+    },
+    {
+        "country": "South Georgia and the South Sandwich Islands",
+        "city": "",
+        "currency_name": "Pound Sterling",
+        "elevation": null,
+        "government": "Dependent Territory of the UK",
+        "national_dish": null
+    },
+    {
+        "country": "South Korea",
+        "city": "Seoul",
+        "currency_name": "Korean Won",
+        "elevation": 282,
+        "government": "Republic",
+        "national_dish": "Kimchi, bulgogi"
+    },
+    {
+        "country": "South Sudan",
+        "city": "Juba",
+        "currency_name": "South Sudan Pound",
+        "elevation": null,
+        "government": null,
+        "national_dish": null
+    },
+    {
+        "country": "Spain",
+        "city": "Madrid",
+        "currency_name": "Euro",
+        "elevation": 660,
+        "government": "Constitutional Monarchy",
+        "national_dish": "Tortilla española"
+    },
+    {
+        "country": "Sri Lanka",
+        "city": "Colombo, Sri Jayawardenepura Kotte",
+        "currency_name": "Sri Lankan Rupee",
+        "elevation": null,
+        "government": "Unitary Semi-Presidential Republic",
+        "national_dish": "Rice and curry, pittu, kiribath, wholemeal roti, string hoppers, wattalapam, kottu, and appam"
+    },
+    {
+        "country": "Sudan",
+        "city": "Khartum",
+        "currency_name": "Sudanese Pound",
+        "elevation": 568,
+        "government": "Islamic Republic",
+        "national_dish": "Ful medames"
+    },
+    {
+        "country": "Suriname",
+        "city": "Paramaribo",
+        "currency_name": "Surinam Dollar",
+        "elevation": 246,
+        "government": "Republic",
+        "national_dish": null
+    },
+    {
+        "country": "Svalbard and Jan Mayen",
+        "city": "Longyearbyen",
+        "currency_name": "Norwegian Krone",
+        "elevation": null,
+        "government": "Dependent Territory of Norway",
+        "national_dish": null
+    },
+    {
+        "country": "Sweden",
+        "city": "Stockholm",
+        "currency_name": "Swedish Krona",
+        "elevation": 320,
+        "government": "Constitutional Monarchy",
+        "national_dish": "Köttbullar, Kräftskiva,Surströmming,Ostkaka"
+    },
+    {
+        "country": "Switzerland",
+        "city": "Bern",
+        "currency_name": "Swiss Franc",
+        "elevation": 1350,
+        "government": "Federation",
+        "national_dish": "Cervelat,Fondue, Rösti"
+    },
+    {
+        "country": "Syria",
+        "city": "Damascus",
+        "currency_name": "Syrian Pound",
+        "elevation": 514,
+        "government": "Republic",
+        "national_dish": "Kibbeh"
+    },
+    {
+        "country": "Tajikistan",
+        "city": "Dushanbe",
+        "currency_name": "Tajik Somoni",
+        "elevation": 3186,
+        "government": "Republic",
+        "national_dish": "O'sh (pilaf)"
+    },
+    {
+        "country": "Tanzania",
+        "city": "Dodoma",
+        "currency_name": "Tanzanian Shilling",
+        "elevation": 1018,
+        "government": "Republic",
+        "national_dish": "Ugali, Chips Mayai (Zege), Mtori"
+    },
+    {
+        "country": "Thailand",
+        "city": "Bangkok",
+        "currency_name": "Thai Baht",
+        "elevation": 287,
+        "government": "Constitutional Monarchy",
+        "national_dish": "Pad Thai, Tom Yum Goong"
+    },
+    {
+        "country": "The Democratic Republic of Congo",
+        "city": "Kinshasa",
+        "currency_name": "Franc Congolais",
+        "elevation": null,
+        "government": "Republic",
+        "national_dish": null
+    },
+    {
+        "country": "Togo",
+        "city": "LomĂ©",
+        "currency_name": "CFA Franc BCEAO",
+        "elevation": 236,
+        "government": "Republic",
+        "national_dish": null
+    },
+    {
+        "country": "Tokelau",
+        "city": "Fakaofo",
+        "currency_name": "New Zealand Dollar",
+        "elevation": null,
+        "government": "Nonmetropolitan Territory of New Zealand",
+        "national_dish": null
+    },
+    {
+        "country": "Tonga",
+        "city": "Nuku'alofa",
+        "currency_name": "Tongan Pa'anga",
+        "elevation": null,
+        "government": "Monarchy",
+        "national_dish": null
+    },
+    {
+        "country": "Trinidad and Tobago",
+        "city": "Port-of-Spain",
+        "currency_name": "Trinidad and Tobago Dollar",
+        "elevation": 83,
+        "government": "Republic",
+        "national_dish": "Callaloo,Doubles"
+    },
+    {
+        "country": "Tunisia",
+        "city": "Tunis",
+        "currency_name": "Tunisian Dollar",
+        "elevation": 246,
+        "government": "Republic",
+        "national_dish": "Couscous, Kabkabou"
+    },
+    {
+        "country": "Turkey",
+        "city": "Ankara",
+        "currency_name": "Turkish Lira",
+        "elevation": 1132,
+        "government": "Republic",
+        "national_dish": "Döner kebab, Kuru fasulye with pilav"
+    },
+    {
+        "country": "Turkmenistan",
+        "city": "Ashgabat",
+        "currency_name": "Manat",
+        "elevation": 230,
+        "government": "Republic",
+        "national_dish": "Palaw"
+    },
+    {
+        "country": "Turks and Caicos Islands",
+        "city": "Cockburn Town",
+        "currency_name": "US Dollar",
+        "elevation": null,
+        "government": "Dependent Territory of the UK",
+        "national_dish": null
+    },
+    {
+        "country": "Tuvalu",
+        "city": "Funafuti",
+        "currency_name": "Australian Dollar",
+        "elevation": null,
+        "government": "Constitutional Monarchy",
+        "national_dish": null
+    },
+    {
+        "country": "Uganda",
+        "city": "Kampala",
+        "currency_name": "Uganda Shilling",
+        "elevation": null,
+        "government": "Republic",
+        "national_dish": "Matoke"
+    },
+    {
+        "country": "Ukraine",
+        "city": "Kyiv",
+        "currency_name": "Ukraine Hryvnia",
+        "elevation": 175,
+        "government": "Republic",
+        "national_dish": "Borscht, Varenyky"
+    },
+    {
+        "country": "United Arab Emirates",
+        "city": "Abu Dhabi",
+        "currency_name": "Arab Emirates Dirham",
+        "elevation": 149,
+        "government": "Emirate Federation",
+        "national_dish": null
+    },
+    {
+        "country": "United Kingdom",
+        "city": "London",
+        "currency_name": "Pound Sterling",
+        "elevation": "",
+        "government": "Constitutional Monarchy",
+        "national_dish": "Fish and chips,Chicken tikka masala (Indian-British curry)"
+    },
+    {
+        "country": "United States",
+        "city": "Washington",
+        "currency_name": "US Dollar",
+        "elevation": 760,
+        "government": "Federal Republic",
+        "national_dish": "Hamburger, Hot dog, Fried chicken, Buffalo wings, Apple pie"
+    },
+    {
+        "country": "United States Minor Outlying Islands",
+        "city": "",
+        "currency_name": "US Dollar",
+        "elevation": null,
+        "government": "Dependent Territory of the US",
+        "national_dish": null
+    },
+    {
+        "country": "Uruguay",
+        "city": "Montevideo",
+        "currency_name": "Uruguayan Peso",
+        "elevation": 109,
+        "government": "Republic",
+        "national_dish": "Asado, Chivito"
+    },
+    {
+        "country": "Uzbekistan",
+        "city": "Toskent",
+        "currency_name": "Uzbekistan Sum",
+        "elevation": null,
+        "government": "Republic",
+        "national_dish": "O'sh"
+    },
+    {
+        "country": "Vanuatu",
+        "city": "Port-Vila",
+        "currency_name": "Vanuatu Vatu",
+        "elevation": null,
+        "government": "Republic",
+        "national_dish": "Lap lap"
+    },
+    {
+        "country": "Venezuela",
+        "city": "Caracas",
+        "currency_name": "Venezuelan Bolivar",
+        "elevation": 450,
+        "government": "Federal Republic",
+        "national_dish": "Pabellón criollo"
+    },
+    {
+        "country": "Vetican City",
+        "city": "Vetican City",
+        "currency_name": "",
+        "elevation": "",
+        "government": "",
+        "national_dish": ""
+    },
+    {
+        "country": "Vietnam",
+        "city": "Hanoi",
+        "currency_name": "Vietnamese Dong",
+        "elevation": "",
+        "government": "Socialistic Republic",
+        "national_dish": "Phở, Bún bò Huế"
+    },
+    {
+        "country": "Virgin Islands, British",
+        "city": "Road Town",
+        "currency_name": "Pound Sterling",
+        "elevation": null,
+        "government": null,
+        "national_dish": null
+    },
+    {
+        "country": "Virgin Islands, U.S.",
+        "city": "Charlotte Amalie",
+        "currency_name": "US Dollar",
+        "elevation": null,
+        "government": null,
+        "national_dish": null
+    },
+    {
+        "country": "Wales",
+        "city": "Cardiff",
+        "currency_name": "Pound Sterlin",
+        "elevation": null,
+        "government": null,
+        "national_dish": "Cawl"
+    },
+    {
+        "country": "Wallis and Futuna",
+        "city": "Mata-Utu",
+        "currency_name": "CFP Franc",
+        "elevation": null,
+        "government": "Nonmetropolitan Territory of France",
+        "national_dish": null
+    },
+    {
+        "country": "Western Sahara",
+        "city": "El-Aai",
+        "currency_name": "Moroccan Dirham",
+        "elevation": 256,
+        "government": "Occupied by Marocco",
+        "national_dish": null
+    },
+    {
+        "country": "Yemen",
+        "city": "Sanaa",
+        "currency_name": "Yemeni Rial",
+        "elevation": 999,
+        "government": "Republic",
+        "national_dish": "Saltah"
+    },
+    {
+        "country": "Zambia",
+        "city": "Lusaka",
+        "currency_name": "Zambian Kwacha",
+        "elevation": 1138,
+        "government": "Republic",
+        "national_dish": null
+    },
+    {
+        "country": "Zimbabwe",
+        "city": "Harare",
+        "currency_name": "Zimbabwe Dollar",
+        "elevation": 961,
+        "government": "Republic",
+        "national_dish": "Sadza"
+    }
+]
