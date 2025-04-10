@@ -240,25 +240,27 @@ def merge_json_files_atonce():  ### review this one!!!
 
     osszes_adat = {}
 
-    for file in os.listdir(mappa):
-        if file.endswith('.json'):
-            file_path = os.path.join(mappa,file)
-            with open(file_path, 'r', encoding='utf-8') as f:
-                adat = json.load(f)
+    for file in os.listdir(mappa): # iterating through files in a folder
+        if file.endswith('.json'): # if a file ends with .json
+            file_path = os.path.join(mappa,file) # join the folder name and file name together as a path
+            with open(file_path, 'r', encoding='utf-8') as f: 
+                adat = json.load(f) #loading given json and putting it into a variable
                 
-                if isinstance(adat, list):
-                    for elem in adat:
-                        if 'country' in elem:
-                            country = elem['country']
-                            if country in osszes_adat:
-                                osszes_adat[country].update(elem)
+
+                # right below this we are listing up cases for adat being either a list or a dictionary
+                if isinstance(adat, list):  # if adat is a lsit
+                    for elem in adat: # then for each item in adat
+                        if 'country' in elem: # if there is a 'country' in the item
+                            country = elem['country'] # then the variable country equals to the key 'country' in the item
+                            if country in osszes_adat: # if country in the osszes_adat
+                                osszes_adat[country].update(elem) # have the country be updated with the item
                             else:
-                                osszes_adat[country] = elem
+                                osszes_adat[country] = elem # if not then the update should be the item itself
                         else:
                             print(f'Hiba: nincs country kulcs ebben az elemben -> {file}')
-                elif isinstance(adat, dict):
-                    if country in osszes_adat:
-                        osszes_adat[country].update(adat)
+                elif isinstance(adat, dict): # if the instance is a dictionary
+                    if country in osszes_adat: # if the country already is in osszes_adat
+                        osszes_adat[country].update(adat) 
                     else:
                         osszes_adat[country] = adat
                 else:
