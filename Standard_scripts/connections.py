@@ -19,7 +19,7 @@ def get_engine():
     
 
 
-def get_uconnection():
+def get_connection():
 
     try:
         conn = psycopg2.connect(
