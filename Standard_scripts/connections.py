@@ -22,14 +22,13 @@ def get_engine():
 def get_connection():
 
     try:
-        conn = psycopg2.connect(
+        return psycopg2.connect(
                 user = "****",
                 password = "****",
                 host = "****",
                 dbname = "****",
                 port = "****"
             )
-        return conn
     except psycopg2.Error as e:
         print(f"Hiba tortént a kapcsolat létrehozása során: {e}")
         return None
