@@ -109,10 +109,41 @@ class ComplexPhone:
         print(f"Töltöttség: {self.battery}")
         print(f"Használati idő: {self.usage_time} óra\n")
 
-phone1 = ComplexPhone("Nokia", "3310")
-phone1.use(4)
-phone1.use(4)
-phone1.use(4)
-phone1.info()
-phone1.charge(50)
-phone1.info()
+# phone1 = ComplexPhone("Nokia", "3310")
+# phone1.use(4)
+# phone1.use(4)
+# phone1.use(4)
+# phone1.info()
+# phone1.charge(50)
+# phone1.info()
+
+
+class Tablet:
+
+    def __init__(self, brand, model):
+        self.brand = brand
+        self.model = model
+        self.battery = 100
+        self.screen_on_time = 0
+
+    def use(self, hours):
+        needed_battery = hours * 20
+        if self.battery < 20:
+            print(f"A(z) {self.brand} {self.model} lemerült!")
+        else:
+            self.battery -= hours * 20
+            self.screen_on_time += hours
+            print(f"A(z) {self.brand} {self.model} tablet töltöttsége {self.battery}%. Screentime: {self.screen_on_time}")
+
+    def charge(self, percent):
+        if percent <= 0:
+            print("csak pozitív értékkel lehet tölteni.")
+        else:
+            self.battery += percent
+            if self.battery > 100:
+                self.battery = 100
+            print("A tablet feltöltve.")
+
+# tablet1 = Tablet("Xiaomi", "P265Xz")
+# tablet1.use(2)
+# tablet1.use(1)
