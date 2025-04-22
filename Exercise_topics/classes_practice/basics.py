@@ -14,8 +14,8 @@ class Item:
     pay_rate = 0.8 # the payrate after 20% discount
     def __init__(self, name: str, price: float, quantity=0):
         # Run validations to the received arguments
-        assert price >= 0, f"Price {price} is not greater then zero!"
-        assert quantity >= 0, f"Quantity {quantity} is not greater then zero!"
+        assert price >= 0, f"Price {price} is not greater then zero!"            ### assert - used to check if there is a match 
+        assert quantity >= 0, f"Quantity {quantity} is not greater then zero!"   ### to what is happening to your expectations
 
 
         # assign to self object
