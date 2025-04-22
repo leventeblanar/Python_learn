@@ -86,8 +86,52 @@ class MusicLibrary:
 
         return []
     
+class Guitar:
+    def __init__(self, brand: str, model: str, year: int, price: float):
+        self.brand = brand
+        self.model = model
+        self.year = year
+        self.price = price
 
-if __name__ == '__main__':
+    def info(self):
+        print(f"This guitar is a {self.brand} {self.model} from {self.year}. Price: ${self.price}")
+
+    def vintage(self) -> bool:
+        return 2025 - self.year >= 30
+
+    def premium(self) -> bool:
+        return self.price >= 5000
+    
+    def get_category(self):
+        if self.vintage() and self.premium():
+            return "vintage premium"
+        elif self.vintage():
+            return "vintage"
+        elif self.premium():
+            return "premium"
+        else:
+            return "standard"
+        
+    def category_sort(self):
+        category = self.get_category()
+        print(f"{self.brand} {self.model} is a {category} guitar from {self.year} for ${self.price}.")
+        
+
+guitars = []
+
+guitar1 = Guitar("Fender", "Stratocaster", 1967, 4675.50)
+guitar2 = Guitar("Gibson", "Les Paul", 1981, 5080.00)
+guitar3 = Guitar("PRS", "Singlecut", 2025, 1987.25)
+
+guitars.append(guitar1)
+guitars.append(guitar2)
+guitars.append(guitar3)
+
+for guitar in guitars:
+    guitar.info()
+    guitar.category_sort()
+
+# if __name__ == '__main__':
     # manager = MovieManager('Film.json')
 
     # print("Filmek James Cameron-tól:")
@@ -101,12 +145,12 @@ if __name__ == '__main__':
     # for movie in manager.search_by_title("Game"):
     #     print(" -", movie)
 
-    lib = MusicLibrary("music.json")
+    # lib = MusicLibrary("music.json")
 
-    print("Előadók:")
-    lib.list_all_artists()
+    # print("Előadók:")
+    # lib.list_all_artists()
 
-    print("Dalcímek keresése 'Ghost' kulcsszóra:")
-    results = lib.search_song("Ghost")
-    for artist, album, song in results:
-        print(f"{artist} - {album} - {song}")
+    # print("Dalcímek keresése 'Ghost' kulcsszóra:")
+    # results = lib.search_song("Ghost")
+    # for artist, album, song in results:
+    #     print(f"{artist} - {album} - {song}")
