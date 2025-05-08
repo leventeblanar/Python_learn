@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Teszt Kft.",
+        "zip": "1234",
+        "city": "Tesztváros",
+        "address": "Kossuth Lajos utca 5"
+    },
+    {
+        "name": "Mintapélda Bt.",
+        "zip": "",
+        "city": "Budapest",
+        "address": "Petőfi Sándor utca"
+    },
+    {
+        "name": "Hibás Cég",
+        "zip": "9999",
+        "city": "",
+        "address": ""
+    }
+]
