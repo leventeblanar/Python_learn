@@ -147,3 +147,52 @@ class Tablet:
 # tablet1 = Tablet("Xiaomi", "P265Xz")
 # tablet1.use(2)
 # tablet1.use(1)
+
+
+
+class Pet:
+    def __init__(self, name):
+        self.name = name
+        self.hunger = 0
+        self.happiness = 100
+
+    def feed(self, amount):
+        if amount <= 0:
+            print("Valamit csak adnod kell neki enni. Semmit nem adhatsz.")
+            return
+        self.hunger -= amount
+        if self.hunger < 0:
+            self.hunger = 0
+        print(f"A tamagocsi már nem éhes.")
+
+        if not self.is_alive():
+            print("Játék vége.")
+
+    def play(self, hours):
+        self.happiness += hours * 10
+        self.hunger += hours * 5
+        print(f"{self.name} ennyire éhes: {self.hunger} | ennyire boldog: {self.happiness}")
+
+        if not self.is_alive():
+            print("Játék vége.")
+
+    def status(self):
+        print(f"Név: {self.name}")
+        print(f"Éhség: {self.hunger}")
+        print(f"Boldogság: {self.happiness}")
+
+    def is_alive(self):
+        if self.hunger >= 100:
+            print(f"Sajnos {self.name} éhen halt.")
+            return False
+        if self.happiness <= 0:
+            print(f"Sajnos {self.name} depressziós lett és elpusztult.")
+            return False
+        return True
+    
+    
+
+
+pet1 = Pet("Lajos")
+pet1.status()
+pet1.play(10)
