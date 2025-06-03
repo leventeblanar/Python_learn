@@ -44,4 +44,3 @@ class Pokemon:
 
 # pokemon3 = Pokemon("Lajos")
 # pokemon3.get_data_from_api()
-
