@@ -1,16 +1,19 @@
 [project]
-name = "python_learn"
+name = "python-learn"
 version = "0.1.0"
 description = ""
 authors = [
-    {name = "leventeblanar",email = "blanar.levente@gmail.com"}
+    {name = "Levente Blanar",email = "blanar.levente@gmail.com"}
 ]
 readme = "README.md"
-requires-python = ">=3.13"
+requires-python = ">=3.10"
 dependencies = [
     "requests (>=2.32.3,<3.0.0)",
     "sqlalchemy (>=2.0.41,<3.0.0)",
-    "psycopg2 (>=2.9.10,<3.0.0)"
+    "psycopg2-binary (>=2.9.10,<3.0.0)",
+    "dotenv (>=0.9.9,<0.10.0)",
+    "pandas (>=2.2.3,<3.0.0)",
+    "pillow (>=11.2.1,<12.0.0)"
 ]
 
 
