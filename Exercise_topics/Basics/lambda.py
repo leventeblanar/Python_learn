@@ -67,4 +67,83 @@ def lambda_dataframe():
 
     print(only_hight_alcohol_df)
 
-lambda_dataframe()
+
+def beer_percentage():
+
+    df = pd.read_csv('only_high_alcohol.csv', sep=",")
+
+    df['beer_percentage'] = df.apply(lambda row: row['beer_servings'] / (row['beer_servings'] + row['spirit_servings'] + row['wine_servings']) * 100, axis=1)
+
+    df.to_csv('df_check.csv')
+
+
+def wine_countries():
+
+    df = pd.read_csv('only_high_alcohol.csv', sep=",")
+
+    df['wine_dominant'] = df['wine_servings'].apply(lambda x: x > 250)
+
+    print(df)
+
+
+def which_drink():
+
+    df = pd.read_csv('only_high_alcohol.csv', sep=",")
+    
+    df['top_drink'] = df.apply(
+        lambda row: max(
+            {'beer': row['beer_servings'],
+             'wine': row['wine_servings'],
+             'spirit': row['spirit_servings']},
+            key=lambda k: row[k + '_servings']
+        ),
+        axis=1
+    )
+
+    return df
+
+
+def alcohol_category():
+
+    df = pd.read_csv('only_high_alcohol.csv', sep=",")
+    
+    df['alcohol_level'] = df['total_litres_of_pure_alcohol'].apply(
+        lambda x: 'low' if x<10 else ('medium' if x<=12 else 'high')
+    )
+
+    print(df)
+
+
+def alcohol_warning():
+
+    df = pd.read_csv('only_high_alcohol.csv', sep=",")
+
+    df['alcohol warning'] = df['total_litres_of_pure_alcohol'].apply(
+        lambda x: 'none' if x < 10 else ('watch_out' if x<=12 else 'danger')
+    )
+
+    print(df)
+
+
+def wine_or_beer():
+
+    df = pd.read_csv('only_high_alcohol.csv', sep=",")
+    
+    df['preference'] = df.apply(
+        lambda row: 'beer' if row['beer_servings'] > row['wine_servings'] else 'wine', axis=1
+    )
+
+    print(df)
+
+def drink_tip():
+
+    top_drink = which_drink()
+
+    top_drink['drink_tip'] = top_drink['top_drink'].apply(
+        lambda x: 'Try a local beer' if x == 'beer'
+        else ('Try a local wine' if x == 'wine' else 'spirit')
+    )
+
+    print(top_drink)
+
+drink_tip()
