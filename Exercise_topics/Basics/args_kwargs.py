@@ -34,3 +34,4 @@ def nevjegy(**kwargs):
     return "\n".join([f"{k.capitalize()}: {v}" for k, v in kwargs.items()])
 
 print(nevjegy(név='Béla', jármű="Bicaj", üzemanyag='JófajtaBor'))
+

@@ -44,4 +44,49 @@ def filter_count_join():
     print(f"Szám típusúak: {szamok}")
     print("Nem szám elemek nagybetűvel:", " ".join(nem_szamok))
 
-filter_count_join()
+
+#  kisbetűsítés
+
+def kisbetusites(szoveg):
+
+    return szoveg.lower()
+
+# szóköz eltávolítás
+
+def trimmel(szoveg):
+    
+    return szoveg.strip()
+
+print(trimmel("   Hello.   "))
+
+
+# darabolás
+
+def szetvalasztas(szoveg):
+
+    return szoveg.split(" ")
+
+print(szetvalasztas("alma körte barack"))
+
+
+# kezdődik-e
+
+def kezdodik_hello(szoveg):
+
+    if szoveg.lower().startswith("hello"):
+        return szoveg
+    else:
+        return (f"'{szoveg}' nem helloval kezdődik.")
+
+print(kezdodik_hello("hello világ"))
+print(kezdodik_hello("világ hello "))
+
+
+
+def csere(szoveg):
+
+    return szoveg.replace('rossz', 'jo')
+
+print(csere("Ez egy rossz nap."))
+
+

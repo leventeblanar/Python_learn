@@ -9,6 +9,9 @@ def basics():
     add_2 = lambda x: x + 2
     print(add_2(4))
 
+    multiply_5 = lambda x: x * 5
+    print(multiply_5(4))
+
 
     triple = lambda x: x * 3
     print(triple(6))
@@ -26,7 +29,6 @@ def basics():
     numbers_double = [1, 2, 3, 4]
     doubled = list(map(lambda x: x * 2, numbers_double))
     print(doubled)
-
 
     numbers_square = [1, 2, 3, 4, 5]
     squared = list(map(lambda x: x ** 2, numbers_square))
@@ -54,6 +56,11 @@ def basics():
 
     brutto = list(map(lambda x: round(x * 1.27, 1), net_prices))
     print(brutto)
+
+
+    words = ['körte', 'alma', 'szilva', 'a']
+    sort_by_len = sorted(words, key=lambda x: len(x))
+    print(sort_by_len)
 
 
 def lambda_dataframe():
@@ -146,4 +153,4 @@ def drink_tip():
 
     print(top_drink)
 
-drink_tip()
+basics()
