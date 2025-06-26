@@ -153,4 +153,35 @@ def drink_tip():
 
     print(top_drink)
 
-basics()
+def paros_e():
+
+    is_even = lambda x: x % 2 == 0
+    print(is_even(3))
+    print(is_even(4))
+
+def string_hossz():
+
+    len_string = lambda x: len(x)
+    print(len_string("pizza"))
+    print(len_string("habarcs"))
+
+def negyzet_szam():
+
+    square = lambda x: x ** 2 
+    print(square(4))
+    print(square(6))
+
+def ket_szam_maximuma():
+
+    maximum = lambda x, y: max(x, y)    
+    print(maximum(4, 6))
+
+def make_capital():
+
+    capitalize = lambda s: s[0].upper() + s[1:] if s else ''
+    print(capitalize("hello"))
+
+    capitalize2 = lambda s: s.capitalize()
+    print(capitalize2("hello"))
+
+make_capital()
