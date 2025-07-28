@@ -133,9 +133,92 @@ def short_form():
         rovidites = hosszu_to_rovid.get(nev, "???")
         print(f"{nev.title()} -> {rovidites.upper()}")
 
-short_form()
 
 
 
 
+def create_list_to_read_from():
 
+    tantargyak = [
+    "matek",
+    "fizika",
+    "foldrajz",
+    "testneveles",
+    "irodalom",
+    "tortenelem",
+    "kemia",
+    "biologia",
+    "informatika",
+    "enektanctestneveles"
+    ]
+
+    kulcsszavak = [
+        "enek", "tanc", "testneveles", "matek", "fizika", "foldrajz",
+        "irodalom", "tortenelem", "kemia", "biologia", "informatika"
+    ]
+
+    eredmeny = []
+
+    for kulcsszo in kulcsszavak:
+        if kulcsszo in tantargyak:
+            eredmeny.append(kulcsszo)
+    
+    print(eredmeny)
+
+
+
+def filter_invalid_usernames():
+
+    usernames = [
+    "peter123",
+    "anna",
+    "béla",
+    "Juli",
+    "ka",
+    "rozi!",
+    "endre",
+    "viola"
+    ]
+
+    valid_usernames = []
+
+    for name in usernames:
+        if (
+            len(name) >= 3 and
+            name.isalpha() and
+            name.islower() and
+            all(ord(c) < 128 for c in name)
+        ):
+            valid_usernames.append(name)
+
+    print(valid_usernames)
+
+def normalize_phone_numbers():
+
+    szamok = [
+    "+36 30 123 4567",
+    "06301234567",
+    "30-123-4567",
+    "06 1 234 5678",
+    "0670123456",
+    "1234567890",
+    "06-70-1234-567"
+    ]
+
+    valid_phone_numbers = []
+
+    for szam in szamok:
+        szam_onlydigits = szam.replace("-", "").replace(" ", "").replace("+", "").strip("")
+
+        if szam_onlydigits.startswith("36") and len(szam_onlydigits) == 11:
+            szam_onlydigits = "0" + szam_onlydigits[1:]
+
+        if len(szam_onlydigits) == 11 and szam.startswith("06"): 
+            format_szam = f"+36 {szam_onlydigits[2:4]} {szam_onlydigits[4:7]} {szam_onlydigits[7:11]}"
+            valid_phone_numbers.append(format_szam)
+
+        print(szam_onlydigits)
+
+    print(valid_phone_numbers)
+
+normalize_phone_numbers()
