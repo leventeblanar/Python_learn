@@ -1,4 +1,79 @@
+from datetime import datetime, timedelta
 
+#  enumerate() - akkor jön jól, ha végig akarunk menni egy listán és közben kell az index is
+def enumerate_pelda():
+
+    nevek = ["Anna", "Béla", "Csaba"]
+
+    for index, nev in enumerate(nevek):
+        print(index, nev)
+
+
+
+#  isinstance() - ellenőrzi a változó típusát
+def isinstance_pelda():
+    adatok = [1, "hello", [1, 2, 3]]
+
+    for a in adatok:
+        if isinstance(a, int):
+            print(a, "-> int")
+        elif isinstance(a, str):
+            print(a, "-> string")
+        elif isinstance(a, list):
+            print(a, "-> lista")
+
+
+
+#  kombinalva a kettő
+
+def enumerate_isinstance_pelda():
+    adatok = [1, "hello", [1, 2, 3]]
+
+    for i, a in enumerate(adatok):
+        if isinstance(a, int):
+            print(f"{i}. elem: {a} (int)")
+        elif isinstance(a, str):
+            print(f"{i}. elem: {a} (string)")
+        elif isinstance(a, list):
+            print(f"{i}. elem: {a} (list)")
+        else:
+            print(f"{i}. elem: {a} (ismeretlen)")
+
+
+
+def enumerate_feladat_1():
+
+    words = ["python", "rocks", "big", "time"]
+
+    for index, word in enumerate(words):
+        print(f"Index: {index}, Word: {word}")
+
+
+
+def isinstance_feladat_1():
+
+    adatok = [1, "hi", [1,2], "python", 5]
+
+    int_szamlalo = 0
+    str_szamlalo = 0
+    list_szamlalo = 0
+
+    for adat in adatok:
+        if isinstance(adat, int):
+            print(adat, "-> int")
+            int_szamlalo += 1 
+        elif isinstance(adat, str):
+            print(adat, "-> string")
+            str_szamlalo += 1
+        elif isinstance(adat, list):
+            print(adat, "-> lista")
+            list_szamlalo += 1
+    
+    print(f"int={int_szamlalo}")
+    print(f"str={str_szamlalo}")
+    print(f"list={list_szamlalo}")
+
+        
 def kezeld(adat):
     if isinstance(adat, dict):
         print("This is a dict, number of keys:", len(adat))
@@ -110,5 +185,10 @@ def clean_and_normalize(adatok, headers, fill="-"):
     print(f"Hibás sorok száma: {len(hibas)}")
     return eredmeny
 
-print(clean_and_normalize(adatok, headers))
+# print(clean_and_normalize(adatok, headers))
     
+
+
+
+
+
