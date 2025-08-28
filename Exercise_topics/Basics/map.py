@@ -46,4 +46,28 @@ def feladat_2():
     eredmeny = list(map(lambda x, y: f"{x} -> {y}", diakok, jegyek))
     print(eredmeny)
 
-feladat_2()
+
+
+def feladat_3():
+
+    nevek = ["Alex", "Bianka", "Charlie", "Diana"]
+
+    karakterek = map(len, nevek)
+    print(list(karakterek))
+
+
+
+def final_boss():
+
+    diakok = ["Alex", "Bianka", "Charlie"]
+    matek  = [5, 3, 4]
+    tori   = [4, 4, 5]
+    info   = [5, 5, 3]
+
+    jegyek_list = list(zip(matek, tori, info))
+    
+    for index, (diak, jegyek) in enumerate(zip(diakok, jegyek_list), start=1):
+        atlag = list(map(lambda x: round(sum(x)/len(x), 2), [jegyek]))
+        print(f"{index} - {diak}: jegyek={list(jegyek)}, átlag={atlag}")
+
+final_boss()

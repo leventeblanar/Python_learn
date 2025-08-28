@@ -71,4 +71,14 @@ def feladat_3():
 
     print(f"A legjobb időt futotta: {legjobb_futo} - {legjobb_ido}")
 
-feladat_3()
+
+
+def zip_gyakorlas():
+
+    diakok = ["Alex", "Bianka", "Charlie", "Diana"]
+    jegyek = [5, 4, 3, 5]
+
+    for diak, jegy in zip(diakok, jegyek):
+        print(f"{diak} -> {jegy}")
+
+zip_gyakorlas()

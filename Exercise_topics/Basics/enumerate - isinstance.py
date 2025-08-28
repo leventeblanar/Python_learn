@@ -188,7 +188,26 @@ def clean_and_normalize(adatok, headers, fill="-"):
 # print(clean_and_normalize(adatok, headers))
     
 
+def python_enumerate():
+
+    szoveg = "Python"
+
+    for index, charater in enumerate(szoveg):
+        print(f"Index {index}: {charater}")
 
 
+def isinstance_gyak():
 
+    adatok = [42, "hello", [1, 2, 3], {"nev": "Alex"}, 3.14, True]
 
+    for adat in adatok:
+        if isinstance(adat, int):
+            print(f"{adat} -> int")
+        elif isinstance(adat, str):
+            print(f"{adat} -> str")
+        elif isinstance(adat, list):
+            print(f"{adat} -> list")
+        elif isinstance(adat, dict):
+            print(f"{adat} -> dict")
+        else:
+            print(f"{adat} -> ismeretlen típus")
