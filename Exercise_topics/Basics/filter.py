@@ -61,3 +61,25 @@ def feladat_3():
     szamok = list(range(1, 31))
     filtered_num = filter(lambda x: x % 3 == 0 and x % 2 != 0, szamok)
     print(list(filtered_num))
+
+
+def feladat_4():
+
+    szavak = ["alma", "banán", "kiwi", "ananász", "szilva", "körte"]
+
+    longer_than_5 = filter(lambda x: len(x) < 5, szavak)
+    print(list(longer_than_5))
+
+
+def feladat_5():
+
+    dolgozok = [
+    {"nev": "Alex", "kor": 25, "fizetes": 300000},
+    {"nev": "Bianka", "kor": 19, "fizetes": 250000},
+    {"nev": "Charlie", "kor": 32, "fizetes": 450000},
+    {"nev": "Diana", "kor": 28, "fizetes": 220000},
+    {"nev": "Eric", "kor": 41, "fizetes": 500000},
+    ]
+
+    older_than_25 = filter(lambda x: x['kor'] >= 25 and x['fizetes'] > 300000, dolgozok)
+    print(list(older_than_25))

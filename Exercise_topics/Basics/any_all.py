@@ -79,4 +79,48 @@ def feladat_2():
     if not all(szam > 0 for szam in szamok) and not any(szam < 0 for szam in szamok) and not any(szam == 0 for szam in szamok):
         print("Vegyes lista")
 
-feladat_2()
+
+def feladat_3():
+
+    diakok = {
+    "Alex": [3, 4, 5],
+    "Bianka": [2, 2, 3],
+    "Charlie": [5, 5, 5],
+    "Diana": [3, 0, 4],
+    }
+
+    for nev, jegyek in diakok.items():
+        if all(jegy >= 2 for jegy in jegyek):
+            status = "Átment"
+        elif any(jegy < 2 for jegy in jegyek):
+            status = "Megbukott"
+        else:
+            status = "Vegyes"
+
+        van_jeles = "van jeles" if any(jegy == 5 for jegy in jegyek) else "nincs jeles"
+
+        print(f"{nev}: {status}, {van_jeles}")
+
+
+def feladat_4():
+
+    autok = {
+    "BMW": ["ok", "ok", "ok"],
+    "Audi": ["ok", "hiba", "ok"],
+    "Lada": ["hiba", "hiba", "hiba"],
+    "Tesla": ["ok", "ok", "hiba"],
+    }
+
+    for auto, statusok in autok.items():
+        if all(status == "ok" for status in statusok):
+            status = "Minden rendben"
+        elif all(status == "hiba" for status in statusok):
+            status = "Roncs"
+        elif any(status == "hiba" for status in statusok):
+            status = "Van hiba"
+        
+        minden_ok = "Minden ok" if all(status == "ok" for status in statusok) else "Valami nem ok"
+
+        print(f"{auto} - {status} - Oké? - {minden_ok}")
+
+feladat_4()
