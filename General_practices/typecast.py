@@ -181,3 +181,58 @@ def typecast_pandas_5():
     return df, march_2021
 
 
+#  ----- REVIEW -----
+
+def safe_float(data):
+    try:
+        return float(data)
+    except (ValueError, TypeError):
+        return None
+    
+
+def direct_typeconv():
+    df = {"ar": 10.00}
+
+    df["ar"] = df["ar"].astype(int)
+
+def to_numeric():
+    df = pd.DataFrame({
+        "ar": ["100", "200", "x", "", None, "300.5"]
+    })
+
+    df["ar_szam"] = pd.to_numeric(df["ar"], errors="coerce")
+
+    print(df)
+    print(df.dtypes)
+
+
+def to_datetime():
+    df = pd.DataFrame({
+        "datum": [
+            "2021-01-01",
+            "2021/02/15",
+            "15-03-2021",
+            "rossz",
+            "",
+            None
+        ]
+    })
+
+    df["datum_dt"] = pd.to_datetime(df["datum"], errors="coerce", dayfirst=True)
+
+    print(df)
+    print(df.dtypes)
+
+
+def to_timedelta():
+
+    df = pd.DataFrame({
+    "ido": ["2:30:00", "90m", "01:15", "rossz", "", None]
+    })
+
+    df["ido_td"] = pd.to_timedelta(df["ido"], errors="coerce")
+
+    print(df)
+    print(df.dtypes)
+
+to_timedelta()
