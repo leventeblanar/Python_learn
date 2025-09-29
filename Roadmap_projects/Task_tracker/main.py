@@ -1,29 +1,16 @@
 import json
 from json import JSONDecodeError
 import os
+from datetime import datetime
 
-# todo:
-# 1. functions:
-#       - create task
-#       - modify task
-#       - delete task
-#       - change status for task
+today = datetime.today().strftime('%Y-%m-%d %H:%M:%S')
 
-# 2. json payload: - name of task, deadline, status, notes
+
 
 def create_task():
 
     try:
-        name = str(input("Enter the name of the taks: ")).capitalize()
-        due_date = str(input("Enter the due date: (format: YY:MM:DD)"))
-        note = str(input("Enter notes for the task:")).capitalize()
-
-        new_entry = {
-            "name": name,
-            "due_date": due_date,
-            "note": note,
-            "status": "New"
-        }
+        description = str(input("Enter description for the task:")).capitalize()
 
         tasks = []
 
@@ -33,6 +20,14 @@ def create_task():
                     tasks = json.load(f_in)
                 except JSONDecodeError:
                     tasks = []
+
+        new_entry = {
+            "id": len(tasks) + 1,
+            "description": description,
+            "status": "New",
+            "created_at": today,
+            "updated_at": today,
+        }
         
         tasks.append(new_entry)
 
@@ -44,14 +39,16 @@ def create_task():
     except Exception as e:
         print(f"Save task unsuccessful. Error: {e}")
 
+
+
 def modify_task():
     
     try:
-        modify_task = str(input("Select task by name: ")).lower().strip()
+        modify_task = str(input("Select task by id: ")).lower().strip()
 
         tasks = []
 
-        if os.path.exists('task_db.json') or os.path.getsize(task_db.json) > 0:
+        if os.path.exists('task_db.json') or os.path.getsize('task_db.json') > 0:
             with open('task_db.json', 'r', encoding='utf-8') as f_in:
                 try:
                     tasks = json.load(f_in)
@@ -60,27 +57,25 @@ def modify_task():
 
         task = None
         for item in tasks:
-            if str(item.get("name", "")).strip().lower() == modify_task:
+            if str(item.get("id", "")).strip().lower() == modify_task:
                 task = item
                 break
             
-        if task.get('name') == modify_task:
-            print(f"Name: {task.get('name')}")
-            print(f"DueDate: {task.get('due_date')}")
-            print(f"Note: {task.get('note')}")
+        if task.get('id') == modify_task:
+            print(f"id: {task.get('id')}")
+            print(f"Description: {task.get('description')}")
             print(f"Status: {task.get('status')}")
+            print(f"Created at: {task.get('created_at')}")
 
         print("\n")
         print("Select what you wish to modify:")
-        print("1. Name")
-        print("2. Due date")
-        print("3. Note")
-        print("4. Status")
+        print("1. Description")
+        print("2. Status (In progress)")
         print("Type 'skip' to cancel modification.")
         print("\n")
-        to_modify = str(input("select a property you wish to change (1, 2, 3, 4): ")).lower().strip()
+        to_modify = str(input("select a property you wish to change (1, 2): ")).lower().strip()
 
-        if to_modify not in ['1', '2', '3', '4', 'skip']:
+        if to_modify not in ['1', '2', 'skip']:
             print("Invalid entry.")
             return
 
@@ -89,17 +84,13 @@ def modify_task():
 
         match to_modify:
             case '1':
-                new_name = str(input("Enter new name: ")).capitalize()
-                task['name'] = new_name
+                new_description = str(input("Enter new description: ")).capitalize()
+                task['description'] = new_description
+                task['updated_at'] = today
             case '2':
-                new_duedate = str(input("Enter new due date: "))
-                task['due_date'] = new_duedate
-            case '3':
-                new_note = str(input("Enter new note. "))
-                task['note'] = new_note
-            case '4':
-                new_status = str(input("Enter new status: "))
-                task['status'] = new_status
+                task['status'] = "In progress"
+                task['updated_at'] = today
+
 
         with open('task_db.json', 'w', encoding='utf-8') as f_out:
             json.dump(tasks, f_out, indent=4, ensure_ascii=False)
@@ -107,10 +98,12 @@ def modify_task():
     except Exception as e:
         print(f"{e}")
 
+
+
 def change_status_to_done():
 
     try:
-        selected_task = str(input("Select task by name: ")).strip().lower()
+        selected_task = str(input("Select task by id: ")).strip().lower()
 
         tasks = []
 
@@ -122,7 +115,7 @@ def change_status_to_done():
                     tasks = []
 
         for task in tasks:
-            if task['name'].strip().lower() == selected_task:
+            if task['id'].strip().lower() == selected_task:
                 task['status'] = 'DONE'
 
         with open('task_db.json', 'w', encoding='utf-8') as f_out:
@@ -133,6 +126,57 @@ def change_status_to_done():
     
 
 def delete_task():
+    
+    try:
+        tasks = []
+
+        if os.path.exists('task_db.json') and os.path.getsize('task_db.json') > 0:
+            with open('task_db.json', 'r', encoding='utf-8') as f_in:
+                try:
+                    tasks = json.load(f_in)
+                except JSONDecodeError:
+                    tasks = []
+        
+        delete_task = str(input("Select which task you wish to delete (by id): ")).strip().lower()
+
+        for task in tasks:
+            if task['id'] == delete_task:
+                tasks.remove(task)
+
+        with open('task_db.json', 'w', encoding='utf-8') as f_out:
+            json.dump(tasks, f_out, indent=4, ensure_ascii=False)
+        
+    except Exception as e:
+        print("Error during the deletion of tasks.")
+
+
+
+def list_tasks(status: list):
+
+    tasks = []
+    
+    if os.path.exists('task_db.json') and os.path.getsize('task_db.json') > 0:
+        with open('task_db.json', 'r', encoding='utf-8') as f_in:
+            try:
+                tasks = json.load(f_in)
+            except JSONDecodeError:
+                tasks = []
+                print("There is no record in the db list.")
+
+
+    for task in tasks:
+        if task['status'] == status:
+            print(f"id: {task.get('id')}")
+            print(f"Description: {task.get('description')}")
+            print(f"Status: {task.get('status')}")
+            print(f"Created at: {task.get('created_at')}")
+
+
+def list_not_done():
+    pass
+
+
+def list_in_progress():
     pass
 
 
@@ -145,9 +189,13 @@ def main():
     while application_on:
         print("Select an action you wish to perform:")
         print("1. Add new task")
-        print("2. Modify task")
-        print("3. Change status of task")
+        print("2. Modify Description / Set task to In progress.")
+        print("3. Mark as Done.")
         print("4. Delete task")
+        print("5. List all tasks")
+        print("6. List all Done tasks.")
+        print("7. List all Not Done tasks")
+        print("8. List all tasks that are In Progress")
         print("To exit the application, type 'exit'.")
 
         #  list currently recorded tasks
@@ -159,10 +207,11 @@ def main():
                 all_tasks = []
             else:
                 all_tasks = json.load(f)
-                for idx, task in enumerate(all_tasks, start=1):
-                    task_name = task.get('name')
-                    status = task.get('status')
-                    print(f"{idx}. {task_name} - {status}")
+                for task in all_tasks:
+                    task_id = task['id']
+                    status = task['status']
+                    description = task['description']
+                    print(f"{task_id} - {description} - {status}")
 
 
         action = str(input("Action (Select 1, 2, 3, 4): ")).lower()
@@ -181,6 +230,14 @@ def main():
                 change_status_to_done()
             case "4":
                 delete_task()
+            case "5":
+                list_tasks()
+            case "6":
+                list_tasks("done")
+            case "7":
+                list_tasks("in progress")
+            case "8":
+                list_tasks("in progress")
 
 
 
