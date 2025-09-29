@@ -9,6 +9,18 @@ list("abc")     # ['a', 'b', 'c']
 tuple([1, 2])   # (1, 2)
 set([1, 2, 2])  # {1, 2}
 
+
+"""
+Python type conversion
+- Python esetén két typeconv létezik:
+    - implicit (automatikus)
+        Ebben az esetben az a type győz amelyik magasabb rendű. Pl int + float esetén float, hogy elkerüljük az adatvesztést
+    - explicit (manuális)
+        Manuális konverzió esetén szokás ezt typecast-nek hívni
+        num_int = int(num_string)
+"""
+
+
 #  pandas specifikus typecast
 
 import pandas as pd
@@ -235,4 +247,4 @@ def to_timedelta():
     print(df)
     print(df.dtypes)
 
-to_timedelta()
+
