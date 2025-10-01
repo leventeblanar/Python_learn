@@ -2,11 +2,6 @@ Roadmap.sh - TASK TRACKER Project
 
 Project UL: https://roadmap.sh/projects/task-tracker
 
-Got it 👍 Here’s the **README.txt** in English:
-
----
-
-# Task Tracker Application
 
 This is a simple JSON-based Python program for keeping track of tasks (to-do list).
 All tasks are stored in a file named `task_db.json`.
