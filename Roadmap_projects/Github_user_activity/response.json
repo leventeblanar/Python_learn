@@ -1,0 +1,682 @@
+[
+    {
+        "id": "55352613568",
+        "type": "PushEvent",
+        "actor": {
+            "id": 186176305,
+            "login": "leventeblanar",
+            "display_login": "leventeblanar",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/leventeblanar",
+            "avatar_url": "https://avatars.githubusercontent.com/u/186176305?"
+        },
+        "repo": {
+            "id": 1022081019,
+            "name": "leventeblanar/GO_learn",
+            "url": "https://api.github.com/repos/leventeblanar/GO_learn"
+        },
+        "payload": {
+            "repository_id": 1022081019,
+            "push_id": 27140225886,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "faeda9e62536199d07484c39afdfb038e3539443",
+            "before": "636c5797e99fa4c0e9d3c09a02c2d7929c0e2923",
+            "commits": [
+                {
+                    "sha": "faeda9e62536199d07484c39afdfb038e3539443",
+                    "author": {
+                        "email": "blanar.levente@gmail.com",
+                        "name": "Levente Blanar"
+                    },
+                    "message": "Webserver practice",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/leventeblanar/GO_learn/commits/faeda9e62536199d07484c39afdfb038e3539443"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2025-09-29T14:28:30Z"
+    },
+    {
+        "id": "55352568724",
+        "type": "PushEvent",
+        "actor": {
+            "id": 186176305,
+            "login": "leventeblanar",
+            "display_login": "leventeblanar",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/leventeblanar",
+            "avatar_url": "https://avatars.githubusercontent.com/u/186176305?"
+        },
+        "repo": {
+            "id": 921174826,
+            "name": "leventeblanar/Python_learn",
+            "url": "https://api.github.com/repos/leventeblanar/Python_learn"
+        },
+        "payload": {
+            "repository_id": 921174826,
+            "push_id": 27140204294,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "92623dbe934306a520cc2e942e3be7632c3039f1",
+            "before": "2441a56c3215d73083b57e84d4ae23acb9942c44",
+            "commits": [
+                {
+                    "sha": "92623dbe934306a520cc2e942e3be7632c3039f1",
+                    "author": {
+                        "email": "blanar.levente@gmail.com",
+                        "name": "Levente Blanar"
+                    },
+                    "message": "correction upload",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/leventeblanar/Python_learn/commits/92623dbe934306a520cc2e942e3be7632c3039f1"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2025-09-29T14:27:45Z"
+    },
+    {
+        "id": "55338531119",
+        "type": "PushEvent",
+        "actor": {
+            "id": 186176305,
+            "login": "leventeblanar",
+            "display_login": "leventeblanar",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/leventeblanar",
+            "avatar_url": "https://avatars.githubusercontent.com/u/186176305?"
+        },
+        "repo": {
+            "id": 921174826,
+            "name": "leventeblanar/Python_learn",
+            "url": "https://api.github.com/repos/leventeblanar/Python_learn"
+        },
+        "payload": {
+            "repository_id": 921174826,
+            "push_id": 27133651822,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "2441a56c3215d73083b57e84d4ae23acb9942c44",
+            "before": "868091f13c77e82c67911cffb1de6a011337c1ca",
+            "commits": [
+                {
+                    "sha": "2441a56c3215d73083b57e84d4ae23acb9942c44",
+                    "author": {
+                        "email": "blanar.levente@gmail.com",
+                        "name": "Levente Blanar"
+                    },
+                    "message": "task manager",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/leventeblanar/Python_learn/commits/2441a56c3215d73083b57e84d4ae23acb9942c44"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2025-09-29T10:05:16Z"
+    },
+    {
+        "id": "55335146979",
+        "type": "PushEvent",
+        "actor": {
+            "id": 186176305,
+            "login": "leventeblanar",
+            "display_login": "leventeblanar",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/leventeblanar",
+            "avatar_url": "https://avatars.githubusercontent.com/u/186176305?"
+        },
+        "repo": {
+            "id": 1022081019,
+            "name": "leventeblanar/GO_learn",
+            "url": "https://api.github.com/repos/leventeblanar/GO_learn"
+        },
+        "payload": {
+            "repository_id": 1022081019,
+            "push_id": 27132126287,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "636c5797e99fa4c0e9d3c09a02c2d7929c0e2923",
+            "before": "423de2ecec046a62df085cd2147e179b526bea41",
+            "commits": [
+                {
+                    "sha": "636c5797e99fa4c0e9d3c09a02c2d7929c0e2923",
+                    "author": {
+                        "email": "blanar.levente@gmail.com",
+                        "name": "Levente Blanar"
+                    },
+                    "message": "daily practice",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/leventeblanar/GO_learn/commits/636c5797e99fa4c0e9d3c09a02c2d7929c0e2923"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2025-09-29T09:01:46Z"
+    },
+    {
+        "id": "55335020848",
+        "type": "PushEvent",
+        "actor": {
+            "id": 186176305,
+            "login": "leventeblanar",
+            "display_login": "leventeblanar",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/leventeblanar",
+            "avatar_url": "https://avatars.githubusercontent.com/u/186176305?"
+        },
+        "repo": {
+            "id": 962570766,
+            "name": "leventeblanar/NJE_Programfejleszt-_informatikus_z-r-vizsga_t-telek",
+            "url": "https://api.github.com/repos/leventeblanar/NJE_Programfejleszt-_informatikus_z-r-vizsga_t-telek"
+        },
+        "payload": {
+            "repository_id": 962570766,
+            "push_id": 27132064786,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "fb71b55decc138fa7aa1c8de966852bb777a7eda",
+            "before": "0b29e2292569765b061de50057a625ef72348f6e",
+            "commits": [
+                {
+                    "sha": "fb71b55decc138fa7aa1c8de966852bb777a7eda",
+                    "author": {
+                        "email": "blanar.levente@gmail.com",
+                        "name": "Levente Blanar"
+                    },
+                    "message": "webservers",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/leventeblanar/NJE_Programfejleszt-_informatikus_z-r-vizsga_t-telek/commits/fb71b55decc138fa7aa1c8de966852bb777a7eda"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2025-09-29T08:59:32Z"
+    },
+    {
+        "id": "55292286385",
+        "type": "PushEvent",
+        "actor": {
+            "id": 186176305,
+            "login": "leventeblanar",
+            "display_login": "leventeblanar",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/leventeblanar",
+            "avatar_url": "https://avatars.githubusercontent.com/u/186176305?"
+        },
+        "repo": {
+            "id": 921174826,
+            "name": "leventeblanar/Python_learn",
+            "url": "https://api.github.com/repos/leventeblanar/Python_learn"
+        },
+        "payload": {
+            "repository_id": 921174826,
+            "push_id": 27106974135,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "868091f13c77e82c67911cffb1de6a011337c1ca",
+            "before": "4778c26ad9c8d874214260677ebecd8b16e3ee24",
+            "commits": [
+                {
+                    "sha": "868091f13c77e82c67911cffb1de6a011337c1ca",
+                    "author": {
+                        "email": "blanar.levente@gmail.com",
+                        "name": "Levente Blanar"
+                    },
+                    "message": "task_manager",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/leventeblanar/Python_learn/commits/868091f13c77e82c67911cffb1de6a011337c1ca"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2025-09-27T18:20:26Z"
+    },
+    {
+        "id": "55255235375",
+        "type": "PushEvent",
+        "actor": {
+            "id": 186176305,
+            "login": "leventeblanar",
+            "display_login": "leventeblanar",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/leventeblanar",
+            "avatar_url": "https://avatars.githubusercontent.com/u/186176305?"
+        },
+        "repo": {
+            "id": 1022081019,
+            "name": "leventeblanar/GO_learn",
+            "url": "https://api.github.com/repos/leventeblanar/GO_learn"
+        },
+        "payload": {
+            "repository_id": 1022081019,
+            "push_id": 27086446384,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "423de2ecec046a62df085cd2147e179b526bea41",
+            "before": "2ec9629210a725c037d41019e70a1dfdf4df252e",
+            "commits": [
+                {
+                    "sha": "423de2ecec046a62df085cd2147e179b526bea41",
+                    "author": {
+                        "email": "blanar.levente@gmail.com",
+                        "name": "Levente Blanar"
+                    },
+                    "message": "local server",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/leventeblanar/GO_learn/commits/423de2ecec046a62df085cd2147e179b526bea41"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2025-09-26T13:51:22Z"
+    },
+    {
+        "id": "55250817378",
+        "type": "PushEvent",
+        "actor": {
+            "id": 186176305,
+            "login": "leventeblanar",
+            "display_login": "leventeblanar",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/leventeblanar",
+            "avatar_url": "https://avatars.githubusercontent.com/u/186176305?"
+        },
+        "repo": {
+            "id": 1022081019,
+            "name": "leventeblanar/GO_learn",
+            "url": "https://api.github.com/repos/leventeblanar/GO_learn"
+        },
+        "payload": {
+            "repository_id": 1022081019,
+            "push_id": 27084371463,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "2ec9629210a725c037d41019e70a1dfdf4df252e",
+            "before": "92f4d64d3e014300ca3ec57503b87e991759d719",
+            "commits": [
+                {
+                    "sha": "2ec9629210a725c037d41019e70a1dfdf4df252e",
+                    "author": {
+                        "email": "blanar.levente@gmail.com",
+                        "name": "Levente Blanar"
+                    },
+                    "message": "Closures",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/leventeblanar/GO_learn/commits/2ec9629210a725c037d41019e70a1dfdf4df252e"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2025-09-26T12:24:48Z"
+    },
+    {
+        "id": "55145379926",
+        "type": "PushEvent",
+        "actor": {
+            "id": 186176305,
+            "login": "leventeblanar",
+            "display_login": "leventeblanar",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/leventeblanar",
+            "avatar_url": "https://avatars.githubusercontent.com/u/186176305?"
+        },
+        "repo": {
+            "id": 1022081019,
+            "name": "leventeblanar/GO_learn",
+            "url": "https://api.github.com/repos/leventeblanar/GO_learn"
+        },
+        "payload": {
+            "repository_id": 1022081019,
+            "push_id": 27032672513,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "92f4d64d3e014300ca3ec57503b87e991759d719",
+            "before": "0de29908ed13a9bbc8cbc64ea1168b17ddba8a8d",
+            "commits": [
+                {
+                    "sha": "92f4d64d3e014300ca3ec57503b87e991759d719",
+                    "author": {
+                        "email": "blanar.levente@gmail.com",
+                        "name": "Levente Blanar"
+                    },
+                    "message": "go",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/leventeblanar/GO_learn/commits/92f4d64d3e014300ca3ec57503b87e991759d719"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2025-09-24T14:40:34Z"
+    },
+    {
+        "id": "54807680995",
+        "type": "PushEvent",
+        "actor": {
+            "id": 186176305,
+            "login": "leventeblanar",
+            "display_login": "leventeblanar",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/leventeblanar",
+            "avatar_url": "https://avatars.githubusercontent.com/u/186176305?"
+        },
+        "repo": {
+            "id": 962570766,
+            "name": "leventeblanar/NJE_Programfejleszt-_informatikus_z-r-vizsga_t-telek",
+            "url": "https://api.github.com/repos/leventeblanar/NJE_Programfejleszt-_informatikus_z-r-vizsga_t-telek"
+        },
+        "payload": {
+            "repository_id": 962570766,
+            "push_id": 26863220689,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "0b29e2292569765b061de50057a625ef72348f6e",
+            "before": "e447700c886f3d35eb6bd46ea9947d2b90255ee0",
+            "commits": [
+                {
+                    "sha": "0b29e2292569765b061de50057a625ef72348f6e",
+                    "author": {
+                        "email": "blanar.levente@gmail.com",
+                        "name": "Levente Blanar"
+                    },
+                    "message": "kernel",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/leventeblanar/NJE_Programfejleszt-_informatikus_z-r-vizsga_t-telek/commits/0b29e2292569765b061de50057a625ef72348f6e"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2025-09-17T07:34:42Z"
+    },
+    {
+        "id": "54546331414",
+        "type": "PushEvent",
+        "actor": {
+            "id": 186176305,
+            "login": "leventeblanar",
+            "display_login": "leventeblanar",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/leventeblanar",
+            "avatar_url": "https://avatars.githubusercontent.com/u/186176305?"
+        },
+        "repo": {
+            "id": 962570766,
+            "name": "leventeblanar/NJE_Programfejleszt-_informatikus_z-r-vizsga_t-telek",
+            "url": "https://api.github.com/repos/leventeblanar/NJE_Programfejleszt-_informatikus_z-r-vizsga_t-telek"
+        },
+        "payload": {
+            "repository_id": 962570766,
+            "push_id": 26732162018,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "1c99eed84148f725404109e3f06700410f047f13",
+            "before": "ab21d0ea72b51ff7dc67038f9c58d91e7c93023f",
+            "commits": [
+                {
+                    "sha": "1c99eed84148f725404109e3f06700410f047f13",
+                    "author": {
+                        "email": "blanar.levente@gmail.com",
+                        "name": "Levente Blanar"
+                    },
+                    "message": "GraphQL",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/leventeblanar/NJE_Programfejleszt-_informatikus_z-r-vizsga_t-telek/commits/1c99eed84148f725404109e3f06700410f047f13"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2025-09-11T06:51:53Z"
+    },
+    {
+        "id": "54376723990",
+        "type": "PushEvent",
+        "actor": {
+            "id": 186176305,
+            "login": "leventeblanar",
+            "display_login": "leventeblanar",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/leventeblanar",
+            "avatar_url": "https://avatars.githubusercontent.com/u/186176305?"
+        },
+        "repo": {
+            "id": 921174826,
+            "name": "leventeblanar/Python_learn",
+            "url": "https://api.github.com/repos/leventeblanar/Python_learn"
+        },
+        "payload": {
+            "repository_id": 921174826,
+            "push_id": 26651807205,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "4778c26ad9c8d874214260677ebecd8b16e3ee24",
+            "before": "2153aab131325dec2b7761fc6cf9e82cc6f7ea85",
+            "commits": [
+                {
+                    "sha": "4778c26ad9c8d874214260677ebecd8b16e3ee24",
+                    "author": {
+                        "email": "blanar.levente@gmail.com",
+                        "name": "Levente Blanar"
+                    },
+                    "message": "typecasting",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/leventeblanar/Python_learn/commits/4778c26ad9c8d874214260677ebecd8b16e3ee24"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2025-09-08T07:23:12Z"
+    },
+    {
+        "id": "54375433491",
+        "type": "PushEvent",
+        "actor": {
+            "id": 186176305,
+            "login": "leventeblanar",
+            "display_login": "leventeblanar",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/leventeblanar",
+            "avatar_url": "https://avatars.githubusercontent.com/u/186176305?"
+        },
+        "repo": {
+            "id": 962570766,
+            "name": "leventeblanar/NJE_Programfejleszt-_informatikus_z-r-vizsga_t-telek",
+            "url": "https://api.github.com/repos/leventeblanar/NJE_Programfejleszt-_informatikus_z-r-vizsga_t-telek"
+        },
+        "payload": {
+            "repository_id": 962570766,
+            "push_id": 26651206776,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "4f7e767d500d898ab77a42a36a1d310e9e750b04",
+            "before": "61627a242c07482e4989d6a987ae9a3c675d7f1c",
+            "commits": [
+                {
+                    "sha": "4f7e767d500d898ab77a42a36a1d310e9e750b04",
+                    "author": {
+                        "email": "blanar.levente@gmail.com",
+                        "name": "Levente Blanar"
+                    },
+                    "message": "N+1",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/leventeblanar/NJE_Programfejleszt-_informatikus_z-r-vizsga_t-telek/commits/4f7e767d500d898ab77a42a36a1d310e9e750b04"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2025-09-08T06:52:42Z"
+    },
+    {
+        "id": "54374856359",
+        "type": "PushEvent",
+        "actor": {
+            "id": 186176305,
+            "login": "leventeblanar",
+            "display_login": "leventeblanar",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/leventeblanar",
+            "avatar_url": "https://avatars.githubusercontent.com/u/186176305?"
+        },
+        "repo": {
+            "id": 962570766,
+            "name": "leventeblanar/NJE_Programfejleszt-_informatikus_z-r-vizsga_t-telek",
+            "url": "https://api.github.com/repos/leventeblanar/NJE_Programfejleszt-_informatikus_z-r-vizsga_t-telek"
+        },
+        "payload": {
+            "repository_id": 962570766,
+            "push_id": 26650945399,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "61627a242c07482e4989d6a987ae9a3c675d7f1c",
+            "before": "2e7af8fc3c4350d772953defc4b6169ef5eab2df",
+            "commits": [
+                {
+                    "sha": "61627a242c07482e4989d6a987ae9a3c675d7f1c",
+                    "author": {
+                        "email": "blanar.levente@gmail.com",
+                        "name": "Levente Blanar"
+                    },
+                    "message": "acid",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/leventeblanar/NJE_Programfejleszt-_informatikus_z-r-vizsga_t-telek/commits/61627a242c07482e4989d6a987ae9a3c675d7f1c"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2025-09-08T06:38:31Z"
+    },
+    {
+        "id": "54335029963",
+        "type": "PushEvent",
+        "actor": {
+            "id": 186176305,
+            "login": "leventeblanar",
+            "display_login": "leventeblanar",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/leventeblanar",
+            "avatar_url": "https://avatars.githubusercontent.com/u/186176305?"
+        },
+        "repo": {
+            "id": 921174826,
+            "name": "leventeblanar/Python_learn",
+            "url": "https://api.github.com/repos/leventeblanar/Python_learn"
+        },
+        "payload": {
+            "repository_id": 921174826,
+            "push_id": 26626992861,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "2153aab131325dec2b7761fc6cf9e82cc6f7ea85",
+            "before": "6b2c3e03a07a65c3007a6be0b504c3a71398b5ac",
+            "commits": [
+                {
+                    "sha": "2153aab131325dec2b7761fc6cf9e82cc6f7ea85",
+                    "author": {
+                        "email": "blanar.levente@gmail.com",
+                        "name": "Levente Blanar"
+                    },
+                    "message": "daily practice",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/leventeblanar/Python_learn/commits/2153aab131325dec2b7761fc6cf9e82cc6f7ea85"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2025-09-06T11:08:24Z"
+    },
+    {
+        "id": "54246309789",
+        "type": "PushEvent",
+        "actor": {
+            "id": 186176305,
+            "login": "leventeblanar",
+            "display_login": "leventeblanar",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/leventeblanar",
+            "avatar_url": "https://avatars.githubusercontent.com/u/186176305?"
+        },
+        "repo": {
+            "id": 921174826,
+            "name": "leventeblanar/Python_learn",
+            "url": "https://api.github.com/repos/leventeblanar/Python_learn"
+        },
+        "payload": {
+            "repository_id": 921174826,
+            "push_id": 26582507693,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "9078fc61aa7fbffff0c050367155e73121e290e2",
+            "before": "a3e3c210c4b1e5c2d0ff24aef6e08ed46921c6a3",
+            "commits": [
+                {
+                    "sha": "9078fc61aa7fbffff0c050367155e73121e290e2",
+                    "author": {
+                        "email": "blanar.levente@gmail.com",
+                        "name": "Levente Blanar"
+                    },
+                    "message": "practice",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/leventeblanar/Python_learn/commits/9078fc61aa7fbffff0c050367155e73121e290e2"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2025-09-04T11:56:23Z"
+    },
+    {
+        "id": "54080038320",
+        "type": "PushEvent",
+        "actor": {
+            "id": 186176305,
+            "login": "leventeblanar",
+            "display_login": "leventeblanar",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/leventeblanar",
+            "avatar_url": "https://avatars.githubusercontent.com/u/186176305?"
+        },
+        "repo": {
+            "id": 962570766,
+            "name": "leventeblanar/NJE_Programfejleszt-_informatikus_z-r-vizsga_t-telek",
+            "url": "https://api.github.com/repos/leventeblanar/NJE_Programfejleszt-_informatikus_z-r-vizsga_t-telek"
+        },
+        "payload": {
+            "repository_id": 962570766,
+            "push_id": 26502021934,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/main",
+            "head": "1d4be30be457b2159b94de1a89c99b090755a08c",
+            "before": "faa724d6f097909130784bbb3521d53b020ae396",
+            "commits": [
+                {
+                    "sha": "1d4be30be457b2159b94de1a89c99b090755a08c",
+                    "author": {
+                        "email": "blanar.levente@gmail.com",
+                        "name": "Levente Blanar"
+                    },
+                    "message": "json api",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/leventeblanar/NJE_Programfejleszt-_informatikus_z-r-vizsga_t-telek/commits/1d4be30be457b2159b94de1a89c99b090755a08c"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2025-09-01T09:03:25Z"
+    }
+]
