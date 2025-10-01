@@ -1,193 +1,161 @@
 import json
 from json import JSONDecodeError
-import os
+from pathlib import Path
 from datetime import datetime
 
-today = datetime.today().strftime('%Y-%m-%d %H:%M:%S')
+DB_PATH = Path("task_db.json")
 
+Status = {
+    "NEW": "New",
+    "INPROG": "In progress",
+    "DONE": "Done",
+}
 
+def now() -> str:
+    return datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+
+def load_tasks() -> list[dict]:
+    if not DB_PATH.exists() or DB_PATH.stat().st_size == 0:
+        return []
+    try:
+        with DB_PATH.open("r", encoding="utf-8") as f:
+            data = json.load(f)
+            return data if isinstance(data, list) else []
+    except JSONDecodeError:
+        return []
+
+def save_tasks(tasks: list[dict]) -> None:
+    with DB_PATH.open("w", encoding="utf-8") as f:
+        json.dump(tasks, f, indent=4, ensure_ascii=False)
+
+def next_id(tasks: list[dict]) -> int:
+    return (max((t.get("id", 0) for t in tasks), default=0) + 1)
+
+def find_by_id(tasks: list[dict], task_id: int) -> dict | None:
+    for t in tasks:
+        if t.get("id") == task_id:
+            return t
+    return None
+
+def ask(prompt: str) -> str:
+    # Egységes input: körbevág, kisbetűs változat is visszaadható, stb.
+    return input(prompt).strip()
 
 def create_task():
-
-    try:
-        description = str(input("Enter description for the task:")).capitalize()
-
-        tasks = []
-
-        if os.path.exists("task_db.json") and os.path.getsize("task_db.json") > 0:
-            with open('task_db.json', 'r', encoding='utf-8') as f_in:
-                try:
-                    tasks = json.load(f_in)
-                except JSONDecodeError:
-                    tasks = []
-
-        new_entry = {
-            "id": len(tasks) + 1,
-            "description": description,
-            "status": "New",
-            "created_at": today,
-            "updated_at": today,
-        }
-        
-        tasks.append(new_entry)
-
-        with open('task_db.json', 'w', encoding='utf-8') as f_out:
-            json.dump(tasks, f_out, indent=4, ensure_ascii=False)
-
-        print("New task successfully saved.")
-
-    except Exception as e:
-        print(f"Save task unsuccessful. Error: {e}")
-
-
+    tasks = load_tasks()
+    description = ask("Enter description for the task: ").capitalize()
+    new_task = {
+        "id": next_id(tasks),
+        "description": description,
+        "status": Status["NEW"],
+        "created_at": now(),
+        "updated_at": now(),
+    }
+    tasks.append(new_task)
+    save_tasks(tasks)
+    print("New task successfully saved.")
 
 def modify_task():
-    
-    try:
-        modify_task = str(input("Select task by id: ")).lower().strip()
+    tasks = load_tasks()
+    raw = ask("Select task by id: ")
+    if not raw.isdigit():
+        print("Invalid id.")
+        return
+    task = find_by_id(tasks, int(raw))
+    if not task:
+        print("Task not found.")
+        return
 
-        tasks = []
+    print(f"\nCurrent values:\n  id: {task['id']}\n  Description: {task['description']}\n  Status: {task['status']}\n  Created at: {task['created_at']}\n")
 
-        if os.path.exists('task_db.json') or os.path.getsize('task_db.json') > 0:
-            with open('task_db.json', 'r', encoding='utf-8') as f_in:
-                try:
-                    tasks = json.load(f_in)
-                except JSONDecodeError:
-                    tasks = 0
+    print("Select what you wish to modify:")
+    print("1. Description")
+    print("2. Status (In progress)")
+    print("Type 'skip' to cancel.")
+    choice = ask("Your choice (1/2/skip): ").lower()
 
-        task = None
-        for item in tasks:
-            if str(item.get("id", "")).strip().lower() == modify_task:
-                task = item
-                break
-            
-        if task.get('id') == modify_task:
-            print(f"id: {task.get('id')}")
-            print(f"Description: {task.get('description')}")
-            print(f"Status: {task.get('status')}")
-            print(f"Created at: {task.get('created_at')}")
+    if choice == "1":
+        task["description"] = ask("Enter new description: ").capitalize()
+        task["updated_at"] = now()
+    elif choice == "2":
+        task["status"] = Status["INPROG"]
+        task["updated_at"] = now()
+    elif choice == "skip":
+        return
+    else:
+        print("Invalid choice.")
+        return
 
-        print("\n")
-        print("Select what you wish to modify:")
-        print("1. Description")
-        print("2. Status (In progress)")
-        print("Type 'skip' to cancel modification.")
-        print("\n")
-        to_modify = str(input("select a property you wish to change (1, 2): ")).lower().strip()
-
-        if to_modify not in ['1', '2', 'skip']:
-            print("Invalid entry.")
-            return
-
-        if to_modify == 'skip':
-            return
-
-        match to_modify:
-            case '1':
-                new_description = str(input("Enter new description: ")).capitalize()
-                task['description'] = new_description
-                task['updated_at'] = today
-            case '2':
-                task['status'] = "In progress"
-                task['updated_at'] = today
-
-
-        with open('task_db.json', 'w', encoding='utf-8') as f_out:
-            json.dump(tasks, f_out, indent=4, ensure_ascii=False)
-    
-    except Exception as e:
-        print(f"{e}")
-
-
+    save_tasks(tasks)
+    print("Task updated.")
 
 def change_status_to_done():
-
-    try:
-        selected_task = str(input("Select task by id: ")).strip().lower()
-
-        tasks = []
-
-        if os.path.exists('task_db.json') and os.path.getsize('task_db.json') > 0:
-            with open('task_db.json', 'r', encoding='utf-8') as f_in:
-                try:
-                    tasks = json.load(f_in)
-                except JSONDecodeError:
-                    tasks = []
-
-        for task in tasks:
-            if task['id'].strip().lower() == selected_task:
-                task['status'] = 'DONE'
-
-        with open('task_db.json', 'w', encoding='utf-8') as f_out:
-            json.dump(tasks, f_out, indent=4, ensure_ascii=False)
-        
-    except Exception as e:
-        print(f"Error: {e}")
-    
+    tasks = load_tasks()
+    raw = ask("Select task by id: ")
+    if not raw.isdigit():
+        print("Invalid id.")
+        return
+    task = find_by_id(tasks, int(raw))
+    if not task:
+        print("Task not found.")
+        return
+    task["status"] = Status["DONE"]
+    task["updated_at"] = now()
+    save_tasks(tasks)
+    print("Task marked as DONE.")
 
 def delete_task():
-    
-    try:
-        tasks = []
+    tasks = load_tasks()
+    raw = ask("Select which task you wish to delete (by id): ")
+    if not raw.isdigit():
+        print("Invalid id.")
+        return
+    tid = int(raw)
+    new_tasks = [t for t in tasks if t.get("id") != tid]
+    if len(new_tasks) == len(tasks):
+        print("Task not found.")
+        return
+    save_tasks(new_tasks)
+    print("Task deleted.")
 
-        if os.path.exists('task_db.json') and os.path.getsize('task_db.json') > 0:
-            with open('task_db.json', 'r', encoding='utf-8') as f_in:
-                try:
-                    tasks = json.load(f_in)
-                except JSONDecodeError:
-                    tasks = []
-        
-        delete_task = str(input("Select which task you wish to delete (by id): ")).strip().lower()
+def list_tasks(status_filters: list[str]):
+    tasks = load_tasks()
+    # normalizáljuk a szűrőket kisbetűre
+    wanted = {s.lower() for s in status_filters}
+    shown = [t for t in tasks if t.get("status","").lower() in wanted]
+    print(f"\nTasks with status in {status_filters}:")
+    if not shown:
+        print("(none)")
+        return
+    for t in shown:
+        print(
+            f"\n id: {t['id']}\n Description: {t['description']}\n Status: {t['status']}\n Created: {t['created_at']}\n Updated: {t.get('updated_at','-')}"
+        )
 
-        for task in tasks:
-            if task['id'] == delete_task:
-                tasks.remove(task)
-
-        with open('task_db.json', 'w', encoding='utf-8') as f_out:
-            json.dump(tasks, f_out, indent=4, ensure_ascii=False)
-        
-    except Exception as e:
-        print("Error during the deletion of tasks.")
-
-
-
-def list_tasks(status: list):
-
-    tasks = []
-    
-    if os.path.exists('task_db.json') and os.path.getsize('task_db.json') > 0:
-        with open('task_db.json', 'r', encoding='utf-8') as f_in:
-            try:
-                tasks = json.load(f_in)
-            except JSONDecodeError:
-                tasks = []
-                print("There is no record in the db list.")
-
-
-    for task in tasks:
-        if task['status'] == status:
-            print(f"id: {task.get('id')}")
-            print(f"Description: {task.get('description')}")
-            print(f"Status: {task.get('status')}")
-            print(f"Created at: {task.get('created_at')}")
-
-
-def list_not_done():
-    pass
-
-
-def list_in_progress():
-    pass
-
-
+def print_overview():
+    tasks = load_tasks()
+    if not tasks:
+        print("Currently there is no task recorded in the application.")
+        return
+    print("Currently recorded tasks:")
+    for t in tasks:
+        print(f"{t['id']} - {t['description']} - {t['status']}")
 
 def main():
-    
     print("***** Task Tracker Application *****")
-    application_on = True
-    
-    while application_on:
-        print("Select an action you wish to perform:")
+    actions = {
+        "1": create_task,
+        "2": modify_task,
+        "3": change_status_to_done,
+        "4": delete_task,
+        "5": lambda: list_tasks([Status["NEW"], Status["INPROG"], Status["DONE"]]),
+        "6": lambda: list_tasks([Status["DONE"]]),
+        "7": lambda: list_tasks([Status["NEW"], Status["INPROG"]]),
+        "8": lambda: list_tasks([Status["INPROG"]]),
+    }
+
+    while True:
+        print("\nSelect an action:")
         print("1. Add new task")
         print("2. Modify Description / Set task to In progress.")
         print("3. Mark as Done.")
@@ -196,50 +164,18 @@ def main():
         print("6. List all Done tasks.")
         print("7. List all Not Done tasks")
         print("8. List all tasks that are In Progress")
-        print("To exit the application, type 'exit'.")
+        print("Type 'exit' to quit.\n")
 
-        #  list currently recorded tasks
-        print('\n')
-        print("Currently recorded tasks: ")
-        with open('task_db.json', 'r') as f:
-            if os.path.getsize('task_db.json') == 0:
-                print("There is currently no tasks recorded in the application.")
-                all_tasks = []
-            else:
-                all_tasks = json.load(f)
-                for task in all_tasks:
-                    task_id = task['id']
-                    status = task['status']
-                    description = task['description']
-                    print(f"{task_id} - {description} - {status}")
-
-
-        action = str(input("Action (Select 1, 2, 3, 4): ")).lower()
-
-
-        if (action) == 'exit':
+        print_overview()
+        choice = ask("\nAction (1-8 or 'exit'): ").lower()
+        if choice == "exit":
             print("Goodbye!")
             break
+        action = actions.get(choice)
+        if action:
+            action()
+        else:
+            print("Invalid choice.")
 
-        match action:
-            case "1":
-                create_task()
-            case "2":
-                modify_task()
-            case "3":
-                change_status_to_done()
-            case "4":
-                delete_task()
-            case "5":
-                list_tasks()
-            case "6":
-                list_tasks("done")
-            case "7":
-                list_tasks("in progress")
-            case "8":
-                list_tasks("in progress")
-
-
-
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()
