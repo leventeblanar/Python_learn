@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "date": "2025-10-02 13:11:40",
+        "description": "Hamburger",
+        "category": "Food",
+        "amount": 1000.0
+    },
+    {
+        "id": 2,
+        "date": "2025-10-02 13:23:29",
+        "description": "Protein",
+        "category": "GYM",
+        "amount": 2000.0
+    },
+    {
+        "id": 3,
+        "date": "2025-10-02 13:23:32",
+        "description": "Protein",
+        "category": "GYM",
+        "amount": 2000.0
+    },
+    {
+        "id": 4,
+        "date": "2025-10-02 13:23:33",
+        "description": "Protein",
+        "category": "GYM",
+        "amount": 2000.0
+    },
+    {
+        "id": 5,
+        "date": "2025-10-02 13:23:33",
+        "description": "Protein",
+        "category": "GYM",
+        "amount": 2000.0
+    }
+]
