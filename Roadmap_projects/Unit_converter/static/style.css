@@ -1,0 +1,17 @@
+* {
+    background-color: darkcyan;
+}
+
+.container {
+    position: relative;
+    margin: 20px 20px 20px 20px;
+    display: inline-block;
+    padding: 10px 20px 20px 20px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.form-label {
+    font-size: 45px;
+    
+}
