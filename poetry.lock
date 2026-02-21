@@ -1503,6 +1503,17 @@ files = [
 ]
 
 [[package]]
+name = "unit-convert"
+version = "1.2.0"
+description = "Easy way of converting units."
+optional = false
+python-versions = ">=2.5"
+groups = ["main"]
+files = [
+    {file = "unit-convert-1.2.0.tar.gz", hash = "sha256:a9ba2af984a28f0bf55dfcb1f935eb9b6a0d9f94de650cf6b6b623f420802725"},
+]
+
+[[package]]
 name = "urllib3"
 version = "2.4.0"
 description = "HTTP library with thread-safe connection pooling, file post, and more."
@@ -1567,4 +1578,4 @@ watchmedo = ["PyYAML (>=3.10)"]
 [metadata]
 lock-version = "2.1"
 python-versions = ">=3.10"
-content-hash = "16871fddad519885acbbb0d05a4cc4c0031292950577948f6125671486d73e3c"
+content-hash = "b343c07b18418e561128176ffe8bd59a9eb31a703706fb407f6505c45c812a75"
