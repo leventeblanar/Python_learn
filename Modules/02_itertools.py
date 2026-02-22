@@ -1,4 +1,4 @@
-from itertools import product
+from itertools import product, combinations
 
 def feladat1():
     csapatok = ["Fradi", "Újpest", "MTK", "Honvéd"]
@@ -11,4 +11,15 @@ def feladat1():
 
     print(meccsekszama)
 
-feladat1()
+def feladat2():
+    jatekosok = ["Anna", "Béla", "Csilla", "Dani"]
+
+    validcsapat = 0
+
+    for jatekos in combinations(jatekosok, 2):
+        validcsapat += 1
+        print(jatekos)
+
+    print(f"Lehetséges csapat: {validcsapat}")
+
+feladat2()
