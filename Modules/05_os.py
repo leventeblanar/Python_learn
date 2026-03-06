@@ -36,6 +36,20 @@ def feladat2():
         print(fajlok)
 
 
-feladat2()
+def feladat3():
 
+    parent_dir = os.getcwd()
+    new_folder = "project"
 
+    path = os.path.join(parent_dir, new_folder)
+
+    # os.makedirs(path)
+
+    child_folder = ['src', 'tests', 'docs', 'logs']
+
+    for folder in child_folder:
+        child_path = os.path.join(path, folder)
+        # os.makedirs(child_path)
+
+    check_if_exists = [f"{f} ✅" if os.path.exists(os.path.join(path, f)) else f"{f} ❌" for f in child_folder]
+    print(check_if_exists)
