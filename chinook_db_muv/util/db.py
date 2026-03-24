@@ -112,7 +112,7 @@ class DBConnector:
             where_parts.append(f'"{key}" = %s')
             params.append(value)
 
-        sql = f'UPDATE "{table}" SET "{", ".join(set_parts)} WHERE {" AND ".join(where_parts)}'
+        sql = f'UPDATE "{table}" SET {", ".join(set_parts)} WHERE {" AND ".join(where_parts)}'
 
         self.cursor.execute(sql, params)
 
